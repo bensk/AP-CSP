@@ -4,19 +4,23 @@ title: Syllabus
 permalink: /syllabus/
 ---
 
-## Curriculum Requirements
 
-- [ ] Students are provided with opportunities to meet learning objectives connected to the six computational thinking practices as described in the AP Computer Science Principles Course and Exam Description.
-- [ ] Students are provided with opportunities to meet learning objectives within each of the seven big ideas as described in the AP Computer Science Principles Course and Exam Description.
-- [ ] Students are provided the required amount of class time to complete the AP Through-Course Assessment Explore — Impact of Computing Innovations Performance Task.
-- [ ] Students are provided the required amount of class time to complete the AP Through-Course Assessment Create — Applications from Ideas Performance Task.
+
+| Curriculum Requirements                                                                                                                                                                                    | Resource Requirements                                                                                                                                                                                                                                                          |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Students are provided with opportunities to meet learning objectives connected to the six computational thinking practices as described in the AP Computer Science Principles Course and Exam Description. | The school ensures that each student has access to a computer with Internet access to prepare for and to complete the AP Computer Science Principles Performance Tasks in class.                                                                                               |
+| Students are provided with opportunities to meet learning objectives within each of the seven big ideas as described in the AP Computer Science Principles Course and Exam Description.                    | The computer must be able to access the Internet sites necessary for students to be successful in the course and assessment.                                                                                                                                                   |
+| Students are provided the required amount of class time to complete the AP Through-Course Assessment Explore — Impact of Computing Innovations Performance Task.                                           | The school ensures that the computer system(s) available for students contains appropriate software to create and edit programs and other computational artifacts, and to allow students to practice for and to complete the AP Computer Science Principles Performance Tasks. |
+| Students are provided the required amount of class time to complete the AP Through-Course Assessment Create — Applications from Ideas Performance Task.                                                    | The school ensures that each student has access to the AP Computer Science Principles Exam Reference Sheet, and Performance Tasks and Performance Task Rubrics.                                                                                                                |
+|                                                                                                                                                                                                            | The school ensures that each student has a college level text or curricular resources for individual use inside and outside of the classroom.                                                                                                                                  |
+
 
 ## Resource Requirements
-- [ ] The school ensures that each student has access to a computer with Internet access to prepare for and to complete the AP Computer Science Principles Performance Tasks in class.
-- [ ] The computer must be able to access the Internet sites necessary for students to be successful in the course and assessment.
-- [ ] The school ensures that the computer system(s) available for students contains appropriate software to create and edit programs and other computational artifacts, and to allow students to practice for and to complete the AP Computer Science Principles Performance Tasks.
-- [ ] The school ensures that each student has access to the AP Computer Science Principles Exam Reference Sheet, and Performance Tasks and Performance Task Rubrics.
-- [ ] The school ensures that each student has a college level text or curricular resources for individual use inside and outside of the classroom.
+.
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 
 ## Course Overview
 
@@ -95,6 +99,8 @@ AP Explore Performance Task (8 hours)
 - In **Unit 2: Building Apps**, students use an iterative and exploratory development process and multiple levels of abstraction as they create scripts to draw a single tile, a row, and a grid for a game board. `LO 1.1.1 [P2], LO 2.2.2 [P3]`
 
 ### P3: Abstracting
+- In  **Unit 1: Algorithms & Programming**, students analyze how several programs implement algorithms, e.g. discussing how a short algorithm with a loop generates the image of a square; comparing and contrasting various square-drawing algorithms; and predicting what an algorithm does. Students iterate on these algorithms to create programs to draw different shapes based on user input in **Unit 2: Building Apps**. `LO 5.2.1 [P3]`
+- In **Unit 3: Digital Information**, students import data from texts and display the data visually to draw insights and represent information. `LO 2.3.1 [P3], LO 2.3.2 [P3]`
 
 ### P4: Analyzing Problems and Artifacts
 
