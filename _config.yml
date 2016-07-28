@@ -18,3 +18,7 @@ github_username:  bensk
 markdown: kramdown
 repo:              https://github.com/bensk/AP-CSP
 future: true
+gems:
+    # - jemoji
+    - jekyll-archives
+    - jekyll-paginate
