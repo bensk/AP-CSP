@@ -66,7 +66,7 @@ permalink: /syllabus/
 
 **Practice Explore Performance Task:** The Internet & Society
 
-### 💃 Unit 6: Performance Tasks
+### 💃🏾 Unit 6: Performance Tasks
 AP Create Performance Task (12 hours)
 
 AP Explore Performance Task (8 hours)
