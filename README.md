@@ -36,6 +36,46 @@ permalink: /syllabus/
 
 
 ## Units of Study
+### Unit 1: Introduction to Algorithms & Programming
+- Designing algorithms
+- Abstractions
+- Flowcharts & design
+- Conditionals & loops
+- Writing functions
+**Practice Create Performance Task**: Build a Drawing App
+
+### Unit 2: Building Apps
+- User inputs & variables
+- Lists & arrays
+- Boolean logic
+**Practice Create Performance Task:** Todo list
+
+### Unit 3: Digital Information
+- Encoding & decoding images
+- Cyphers
+- Interpreting visual data
+- Creating visual data
+**Practice Explore Performance Task** Infographic
+
+### Unit 4: Big Data & Privacy (🕴 to code.org)
+- Data and commerce
+- "Free" apps
+- Encryption schemes
+- Real world concerns
+**Practice Explore Performance Task:** Advocacy Webpage
+
+### Unit 5: The Interwebz
+- Binary!
+- Encoding and sending numbers and text
+- IP Addresses, packets, redundancy
+- Routing, DNS, Protocols, Abstraction
+ **Practice Explore Performance Task:** The Internet & Society
+
+### Unit 6: Performance Tasks
+AP Create Performance Task (12 hours)
+AP Explore Performance Task (8 hours)
+
+---
 
 ## Example Activities
 
