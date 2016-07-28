@@ -32,7 +32,7 @@ permalink: /syllabus/
 ## Teaching Strategies
 
 ## Assessment
-
+- Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams. 
 
 
 ## Units of Study
