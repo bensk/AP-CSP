@@ -8,6 +8,9 @@ permalink: /syllabus/
 
 ## Texts
 
+<script src="https://gist.github.com/bensk/ea59f1be42ecdbb58f8936573a4c3b96.js"></script>
+
+
 ## Programming Language
 - [p5.js](https://p5js.org/)
 
