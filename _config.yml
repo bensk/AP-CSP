@@ -17,3 +17,4 @@ github_username:  bensk
 # Build settings
 markdown: kramdown
 repo:              https://github.com/bensk/AP-CSP
+future: true
