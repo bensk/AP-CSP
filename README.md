@@ -36,6 +36,7 @@ permalink: /syllabus/
 
 
 ## Units of Study
+
 ### Unit 1: Introduction to Algorithms & Programming
 - Designing algorithms
 - Abstractions
