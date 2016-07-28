@@ -33,14 +33,14 @@ permalink: /syllabus/
 
 **Practice Create Performance Task**: Build a Drawing App
 
-### :hammer: Unit 2: Building Apps
+### 🔨 Unit 2: Building Apps
 - User inputs & variables
 - Lists & arrays
 - Boolean logic
 
 **Practice Create Performance Task:** Todo list
 
-### :information_source: Unit 3: Digital Information
+### 💡 Unit 3: Digital Information
 - Encoding & decoding images
 - Cyphers
 - Interpreting visual data
