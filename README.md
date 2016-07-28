@@ -25,14 +25,14 @@ permalink: /syllabus/
 ## Programming Language
 - [p5.js](https://p5js.org/)
 
-    p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web.
+> p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web.
 
-    Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas, you can think of your whole browser page as your sketch! For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.
+> Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas, you can think of your whole browser page as your sketch! For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.
 
 ## Teaching Strategies
 
 ## Assessment
-- Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams. 
+- Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams.
 
 
 ## Units of Study
