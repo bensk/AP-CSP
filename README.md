@@ -43,12 +43,14 @@ permalink: /syllabus/
 - Flowcharts & design
 - Conditionals & loops
 - Writing functions
+
 **Practice Create Performance Task**: Build a Drawing App
 
 ### Unit 2: Building Apps
 - User inputs & variables
 - Lists & arrays
 - Boolean logic
+
 **Practice Create Performance Task:** Todo list
 
 ### Unit 3: Digital Information
@@ -56,6 +58,7 @@ permalink: /syllabus/
 - Cyphers
 - Interpreting visual data
 - Creating visual data
+
 **Practice Explore Performance Task** Infographic
 
 ### Unit 4: Big Data & Privacy (🕴 to code.org)
@@ -63,6 +66,7 @@ permalink: /syllabus/
 - "Free" apps
 - Encryption schemes
 - Real world concerns
+
 **Practice Explore Performance Task:** Advocacy Webpage
 
 ### Unit 5: The Interwebz
@@ -70,10 +74,12 @@ permalink: /syllabus/
 - Encoding and sending numbers and text
 - IP Addresses, packets, redundancy
 - Routing, DNS, Protocols, Abstraction
- **Practice Explore Performance Task:** The Internet & Society
+
+**Practice Explore Performance Task:** The Internet & Society
 
 ### Unit 6: Performance Tasks
 AP Create Performance Task (12 hours)
+
 AP Explore Performance Task (8 hours)
 
 ---
@@ -81,16 +87,29 @@ AP Explore Performance Task (8 hours)
 ## Example Activities
 
 ### P1: Connecting Computing
+
 ### P2: Creating Computational Artifacts
+
 ### P3: Abstracting
+
 ### P4: Analyzing Problems and Artifacts
+
 ### P5: Communicating
+
 ### P6: Collaborating
 
+## Big Ideas
+
 ### Big Idea 1: Creativity
+
 ### Big Idea 2: Abstraction
+
 ### Big Idea 3: Data
+
 ### Big Idea 4: Algorithms
+
 ### Big Idea 5: Programming
+
 ### Big Idea 6: The Internet
+
 ### Big Idea 7: Global Impacts
