@@ -87,8 +87,12 @@ AP Explore Performance Task (8 hours)
 ## Example Activities
 
 ### P1: Connecting Computing
+- In Unit TK, Internet Security, students learn about common security attacks (bug exploits, viruses, phishing, and DDoS attacks) and learn about security measures that they can take to mitigate their own risk. `LO 6.3.1 [P1]`
+- In Unit TK, Innovating for Social Change, students research and analyze the contextual suitability and effects of a computing innovation. `LO 1.2.5 [P4], LO 7.1.1 [P4], LO 7.3.1 [P4], LO 7.4.1 [P1], LO 7.5.1 [P1], LO 7.5.2 [P5]`
 
 ### P2: Creating Computational Artifacts
+- In **Unit 1: Algorithms & Programming**, students collaborate to develop a program in p5.js to create a simple drawing application. `LO 4.1.1 [P2], LO 4.1.2 [P5], LO 5.1.3 [P6]`
+- In **Unit 2: Building Apps**, students use an iterative and exploratory development process and multiple levels of abstraction as they create scripts to draw a single tile, a row, and a grid for a game board. `LO 1.1.1 [P2], LO 2.2.2 [P3]`
 
 ### P3: Abstracting
 
