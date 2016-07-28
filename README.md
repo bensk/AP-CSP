@@ -50,7 +50,7 @@ permalink: /syllabus/
 
 [^1]: This task will integrate with AP English Language & Literature
 
-### 📡 Unit 4: Big Data & Privacy (🕴 to code.org)
+### 📡 Unit 4: Big Data & Privacy
 - Data and commerce
 - "Free" apps
 - Encryption schemes
@@ -88,12 +88,16 @@ AP Explore Performance Task (8 hours)
 - In **Unit 3: Digital Information**, students import data from texts and display the data visually to draw insights and represent information. `LO 2.3.1 [P3], LO 2.3.2 [P3]`
 
 ### P4: Analyzing Problems and Artifacts
-- In **Unit 1: Algorithms & Programming**, students analyze a script to determine what is likely to go wrong before running it and use this developing understanding to create correct programs to calculate powers of numbers and do a piece of linguistic research, counting the number of vowels in a chunk of text. `LO 5.4.1 [P4], LO 5.1.2 [P2]`
-
+- In **Unit 1: Algorithms & Programming**, students analyze a script to determine what is likely to go wrong before running it and use this developing understanding to create correct programs to calculate powers of numbers and do linguistic research, counting syntactical features of text. `LO 5.4.1 [P4], LO 5.1.2 [P2]`
+- In **Unit 4: Big Data & Privacy** reflecting on their own data and technology, students extend their insights to consider how large data sets of many people’s data affect large-scale communication, interaction, collaboration, and problem-solving. `LO 3.2.2 [P3], LO 7.1.1 [P4], LO 7.1.2 [P4]`
 
 ### P5: Communicating
+- In Unit TK, students learn about IP address hierarchy, IPv4 vs. IPv6, packets and packet switching, reliable data transmission, open standards, the Internet abstraction hierarchy and how these systems interrelate. Students write a simple program to report their IP address by scraping a webpage, explore a simulation of unreliable data transmission, and discuss and write about the abstractions of the Internet including protocols and address hierarchy. `LO 6.1.1 [P3], LO 6.2.1 [P5], LO 6.2.2 [P4]`
+- Unit TK, students create a general graphing program that plots data points on a screen whose dimensions (scale) they have determined themselves. Students interpret and communicate the results of their data-processing by using appropriate visualizations, notations, and precise language. `LO 3.1.3 [P5]`
 
 ### P6: Collaborating
+- In **Unit 2: Building Apps**, students build a basic todo list app and learn that lists can store data and that programs can access and manipulate list contents. Students collaborate to create a computational artifact using lists and list-processing procedures to organize information. `LO 1.2.2 [P2], LO 5.1.3 [P6] `
+- In **Unit 2: Building Apps**, students collaborate to create a new computational artifact using the http procedure together with a weather website and then selecting and communicating specific information to the user. `LO 1.2.2 [P2], LO 1.2.3 [P2], LO 3.1.2 [P6], LO 3.1.3 [P5]`
 
 ---
 
