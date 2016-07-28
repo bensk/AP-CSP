@@ -4,24 +4,6 @@ title: Syllabus
 permalink: /syllabus/
 ---
 
-
-
-| Curriculum Requirements                                                                                                                                                                                    | Resource Requirements                                                                                                                                                                                                                                                          |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Students are provided with opportunities to meet learning objectives connected to the six computational thinking practices as described in the AP Computer Science Principles Course and Exam Description. | The school ensures that each student has access to a computer with Internet access to prepare for and to complete the AP Computer Science Principles Performance Tasks in class.                                                                                               |
-| Students are provided with opportunities to meet learning objectives within each of the seven big ideas as described in the AP Computer Science Principles Course and Exam Description.                    | The computer must be able to access the Internet sites necessary for students to be successful in the course and assessment.                                                                                                                                                   |
-| Students are provided the required amount of class time to complete the AP Through-Course Assessment Explore — Impact of Computing Innovations Performance Task.                                           | The school ensures that the computer system(s) available for students contains appropriate software to create and edit programs and other computational artifacts, and to allow students to practice for and to complete the AP Computer Science Principles Performance Tasks. |
-| Students are provided the required amount of class time to complete the AP Through-Course Assessment Create — Applications from Ideas Performance Task.                                                    | The school ensures that each student has access to the AP Computer Science Principles Exam Reference Sheet, and Performance Tasks and Performance Task Rubrics.                                                                                                                |
-|                                                                                                                                                                                                            | The school ensures that each student has a college level text or curricular resources for individual use inside and outside of the classroom.                                                                                                                                  |
-
-
-## Resource Requirements
-.
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-
 ## Course Overview
 
 ## Texts
@@ -38,6 +20,7 @@ permalink: /syllabus/
 ## Assessment
 - Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams.
 
+---
 
 ## Units of Study
 
@@ -108,6 +91,8 @@ AP Explore Performance Task (8 hours)
 
 ### P6: Collaborating
 
+---
+
 ## Big Ideas
 
 ### Big Idea 1: Creativity
@@ -123,3 +108,13 @@ AP Explore Performance Task (8 hours)
 ### Big Idea 6: The Internet
 
 ### Big Idea 7: Global Impacts
+
+---
+
+| Curriculum Requirements                                                                                                                                                                                    | Resource Requirements                                                                                                                                                                                                                                                          |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Students are provided with opportunities to meet learning objectives connected to the six computational thinking practices as described in the AP Computer Science Principles Course and Exam Description. | The school ensures that each student has access to a computer with Internet access to prepare for and to complete the AP Computer Science Principles Performance Tasks in class.                                                                                               |
+| Students are provided with opportunities to meet learning objectives within each of the seven big ideas as described in the AP Computer Science Principles Course and Exam Description.                    | The computer must be able to access the Internet sites necessary for students to be successful in the course and assessment.                                                                                                                                                   |
+| Students are provided the required amount of class time to complete the AP Through-Course Assessment Explore — Impact of Computing Innovations Performance Task.                                           | The school ensures that the computer system(s) available for students contains appropriate software to create and edit programs and other computational artifacts, and to allow students to practice for and to complete the AP Computer Science Principles Performance Tasks. |
+| Students are provided the required amount of class time to complete the AP Through-Course Assessment Create — Applications from Ideas Performance Task.                                                    | The school ensures that each student has access to the AP Computer Science Principles Exam Reference Sheet, and Performance Tasks and Performance Task Rubrics.                                                                                                                |
+|                                                                                                                                                                                                            | The school ensures that each student has a college level text or curricular resources for individual use inside and outside of the classroom.                                                                                                                                  |
