@@ -6,11 +6,6 @@ permalink: /syllabus/
 
 ## Course Overview
 
-## Texts
-
-<script src="https://gist.github.com/bensk/ea59f1be42ecdbb58f8936573a4c3b96.js"></script>
-
-
 ## Programming Language
 - [p5.js](https://p5js.org/)
 
@@ -129,3 +124,5 @@ AP Explore Performance Task (8 hours)
 | Students are provided the required amount of class time to complete the AP Through-Course Assessment Explore — Impact of Computing Innovations Performance Task. | The school ensures that the computer system(s) available for students contains appropriate software to create and edit programs and other computational artifacts, and to allow students to practice for and to complete the AP Computer Science Principles Performance Tasks. |
 | Students are provided the required amount of class time to complete the AP Through-Course Assessment Create — Applications from Ideas Performance Task.    | The school ensures that each student has access to the AP Computer Science Principles Exam Reference Sheet, and Performance Tasks and Performance Task Rubrics.    |
 || The school ensures that each student has a college level text or curricular resources for individual use inside and outside of the classroom.    |
+
+<script src="https://gist.github.com/bensk/ea59f1be42ecdbb58f8936573a4c3b96.js"></script>
