@@ -144,14 +144,4 @@ AP Explore Performance Task (8 hours)
 - In  **Unit 5: The Interwebz**, students examine free speech and social media, and the implications of collecting user data. `LO 3.3.1 [P4], LO 7.3.1 [P4], LO 7.4.1 [P1]`
 - In **Unit 5: The Interwebz** students look at the digital divide, in the context of their city, their country, and the world. Students investigate the disparities for women and minorities in technology fields. `LO 6.3.1 [P1], LO 7.2.1 [P1], LO 7.4.1 [P1]`
 
----
-
-| Curriculum Requirements| Resource Requirements    |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Students are provided with opportunities to meet learning objectives connected to the six computational thinking practices as described in the AP Computer Science Principles Course and Exam Description. | The school ensures that each student has access to a computer with Internet access to prepare for and to complete the AP Computer Science Principles Performance Tasks in class.     |
-| Students are provided with opportunities to meet learning objectives within each of the seven big ideas as described in the AP Computer Science Principles Course and Exam Description.  | The computer must be able to access the Internet sites necessary for students to be successful in the course and assessment.   |
-| Students are provided the required amount of class time to complete the AP Through-Course Assessment Explore — Impact of Computing Innovations Performance Task. | The school ensures that the computer system(s) available for students contains appropriate software to create and edit programs and other computational artifacts, and to allow students to practice for and to complete the AP Computer Science Principles Performance Tasks. |
-| Students are provided the required amount of class time to complete the AP Through-Course Assessment Create — Applications from Ideas Performance Task.    | The school ensures that each student has access to the AP Computer Science Principles Exam Reference Sheet, and Performance Tasks and Performance Task Rubrics.    |
-|| The school ensures that each student has a college level text or curricular resources for individual use inside and outside of the classroom.    |
-
 <script src="https://gist.github.com/bensk/ea59f1be42ecdbb58f8936573a4c3b96.js"></script>
