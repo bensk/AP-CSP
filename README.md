@@ -5,18 +5,30 @@ permalink: /syllabus/
 ---
 
 ## Course Overview
+This course is designed to address the seven **Big Ideas** of the AP CS Principles Framework, with a primary emphasis on Big Idea #1, **Creativity**.
+
+If a Computer Science class is grounded in creativity, it becomes a place where learners feel welcome to try, fail, and iterate. It becomes a place where diversity of background and experience is a benefit to learners and teachers alike.
+
+A secondary emphasis of this course is on global (and local) **impact** (Big Idea #7). This course is taught in the South Bronx, in one of the poorest neighborhoods in the United States. The class will be 50% female and entirely students of color. Students will leave this course with a knowledge of the disparities and injustices in the outside world, and equipped with the skills and knowledge to begin crafting solutions.
 
 ## Programming Language
-- [p5.js](https://p5js.org/)
+The programming components of this course will be taught using  [p5.js](https://p5js.org/), a JavaScript library designed to turn the entire browser page into a “sketch.” It includes all of the functionality of JavaScript, and has a rich history in creative computing:
 
 > p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web.
 
 > Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas, you can think of your whole browser page as your sketch! For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.
 
 ## Teaching Strategies
+This course is designed to provide students with rigorous and interesting opportunities to engage in computational thinking and programming. Most learning will be done through labs– there will be a minimum of didactic, direct instruction. Readings will be drawn from current, relevant sources that intersect with the Big Ideas of the Framework.
+
+Students will regularly engage in small-group and whole-class discussions. The layout and design of the classroom emphasize collaboration by allowing students to see many screens while working, and through directed activities involving pair programming.
 
 ## Assessment
 - Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams.
+
+**AP  Explore Performance Task** – After completing Unit 5, students complete through-course assessment Explore - Impact of Computing Innovations _(8 hours in class)_.
+
+**AP Create Performance Task** – After completing Unit 5 and before the AP exam, students complete through- course assessment Create - Applications from Ideas _(12 hours in class)_.
 
 ---
 
