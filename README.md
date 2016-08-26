@@ -144,4 +144,18 @@ AP Explore Performance Task (8 hours)
 - In  **Unit 5: The Interwebz**, students examine free speech and social media, and the implications of collecting user data. `LO 3.3.1 [P4], LO 7.3.1 [P4], LO 7.4.1 [P1]`
 - In **Unit 5: The Interwebz** students look at the digital divide, in the context of their city, their country, and the world. Students investigate the disparities for women and minorities in technology fields. `LO 6.3.1 [P1], LO 7.2.1 [P1], LO 7.4.1 [P1]`
 
-<script src="https://gist.github.com/bensk/ea59f1be42ecdbb58f8936573a4c3b96.js"></script>
+**Suggested Readings**
+
+- [“American schools are teaching our kids how to code all wrong”](http://qz.com/691614/american-schools-are-teaching-our-kids-how-to-code-all-wrong/)
+- [“Code and the Quest for Inclusive Software”](http://www.newyorker.com/business/currency/code-and-the-quest-for-inclusive-software)
+- [“Code Literacy: A 21st-Century Requirement”](http://www.edutopia.org/blog/code-literacy-21st-century-requirement-douglas-rushkoff)
+- [“Coding While Black: Hacking The Future Of The Tech Industry”](http://www.npr.org/sections/codeswitch/2016/06/04/480630726/coding-while-black-hacking-the-future-of-the-tech-industry)
+- [“How to Get Girls Into Coding”](http://mobile.nytimes.com/2014/06/01/opinion/sunday/how-to-get-girls-into-coding.html?nytmobile=0&_r=0)
+- [“Is Coding the New Literacy?”](http://www.motherjones.com/media/2014/06/computer-science-programming-code-diversity-sexism-education)
+- [“Learnable Programming”](http://worrydream.com/LearnableProgramming/)
+- [“Now Would Be a Great Time To Get Into Creative JavaScript”](http://motherboard.vice.com/read/this-would-be-a-great-time-to-get-into-creative-javascripting)
+- [“So You Want to Make Things That Do Stuff”](https://medium.com/@MichelleEaster/so-you-want-to-make-things-that-do-stuff-9cd08da0040c#.5fb292gsw)
+- [“To Write Better Code, Read Virginia Woolf”](http://www.nytimes.com/2016/05/22/opinion/sunday/to-write-software-read-novels.html)
+- [“Why Tech Degrees Are Not Putting More Blacks and Hispanics Into Tech Jobs”](http://www.nytimes.com/2016/02/26/upshot/dont-blame-recruiting-pipeline-for-lack-of-diversity-in-tech.html?nytmobile=0)
+- [“What is Code”](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+- [“Will the Push for Coding Lead to ‘Technical Ghettos’?”](http://www.theatlantic.com/education/archive/2016/02/will-the-push-for-coding-lead-to-technical-ghettos/471300/)
