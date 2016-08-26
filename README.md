@@ -9,7 +9,7 @@ This course is designed to address the seven **Big Ideas** of the AP CS Principl
 
 If a Computer Science class is grounded in creativity, it becomes a place where learners feel welcome to try, fail, and iterate. It becomes a place where diversity of background and experience is a benefit to learners and teachers alike.
 
-A secondary emphasis of this course is on global (and local) **impact** (Big Idea #7). This course is taught in the South Bronx, in one of the poorest neighborhoods in the United States. The class will be 50% female and entirely students of color. Students will leave this course with a knowledge of the disparities and injustices in the outside world, and equipped with the skills and knowledge to begin crafting solutions.
+A secondary emphasis of this course is on Big Idea #7, **Global Impact**. This course is taught in the South Bronx, in one of the poorest neighborhoods in the United States. The class will be 50% female and entirely students of color. Students will leave this course with a knowledge of the disparities and injustices in the outside world, and equipped with the skills and knowledge to begin crafting solutions.
 
 <small>This syllabus draws heavily on the [Beauty & Joy of Computing](https://d1b10bmlvqabco.cloudfront.net/attach/in7o0y6h22k74p/i87h6ino25s1jp/inlu1lf1bdxo/BJC_Syllabus_Final_20160422_FinalRevision.pdf) curriculum as well as readings and activities from [code.org](https://uk.code.org/files/CSPSyllabusApril2016.pdf). I'm thankful to both of these organizations for releasing their work and helping to make Computer Science accessible to all.</small>
 
