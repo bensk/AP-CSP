@@ -11,6 +11,8 @@ If a Computer Science class is grounded in creativity, it becomes a place where 
 
 A secondary emphasis of this course is on global (and local) **impact** (Big Idea #7). This course is taught in the South Bronx, in one of the poorest neighborhoods in the United States. The class will be 50% female and entirely students of color. Students will leave this course with a knowledge of the disparities and injustices in the outside world, and equipped with the skills and knowledge to begin crafting solutions.
 
+<small>This syllabus draws heavily on the [Beauty & Joy of Computing](https://d1b10bmlvqabco.cloudfront.net/attach/in7o0y6h22k74p/i87h6ino25s1jp/inlu1lf1bdxo/BJC_Syllabus_Final_20160422_FinalRevision.pdf) curriculum as well as readings and activities from [code.org](https://uk.code.org/files/CSPSyllabusApril2016.pdf). I'm thankful to both of these organizations for releasing their work and helping to make Computer Science accessible to all.</small>
+
 ## Programming Language
 The programming components of this course will be taught using  [p5.js](https://p5js.org/), a JavaScript library designed to turn the entire browser page into a “sketch.” It includes all of the functionality of JavaScript, and has a rich history in creative computing:
 
@@ -25,6 +27,7 @@ Students will regularly engage in small-group and whole-class discussions. The l
 
 ## Assessment
 Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams.
+
 At the end of each unit of study, students will complete a practice Performance Task, aligned to either the _Explore_ or _Create_ tasks they will submit to College Board.
 
 **AP  Explore Performance Task** – After completing Unit 5, students complete through-course assessment Explore - Impact of Computing Innovations _(8 hours in class)_.
