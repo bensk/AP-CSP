@@ -24,7 +24,8 @@ This course is designed to provide students with rigorous and interesting opport
 Students will regularly engage in small-group and whole-class discussions. The layout and design of the classroom emphasize collaboration by allowing students to see many screens while working, and through directed activities involving pair programming.
 
 ## Assessment
-- Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams.
+Every week or so, students will be assessed using multiple choice questions drawn from AP CSP exams, or adapted from AP CSP exams.
+At the end of each unit of study, students will complete a practice Performance Task, aligned to either the _Explore_ or _Create_ tasks they will submit to College Board.
 
 **AP  Explore Performance Task** – After completing Unit 5, students complete through-course assessment Explore - Impact of Computing Innovations _(8 hours in class)_.
 
