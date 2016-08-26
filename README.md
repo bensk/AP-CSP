@@ -103,20 +103,30 @@ AP Explore Performance Task (8 hours)
 
 ### Big Idea 1: Creativity
 - In **Unit 5: The Interwebz** students examine the privileges and biases associated with popular products, inquiring about the representation of women and minorities in technology fields and how engineering choices impact consumer options. `LO 1.2.5 [P4]`
-- In  **Unit 3: Digital Information** students collaboratively create graphical representations of data. `LO 1.2.1 [P2], LO 1.2.4 [P6], LO 1.3.1 [P2]`
+- In  **Unit 1: Introduction to Algorithms & Programming** students collaboratively create a drawing application. `LO 1.2.1 [P2], LO 1.2.4 [P6], LO 1.3.1 [P2]`
 
-### Big Idea 2:
-
+### Big Idea 2: Abstraction
+- In **Unit 2: Building Apps** students work with data abstraction at multiple levels, creating, using and modifying abstract data types. For example, they create procedures to get tasks and due dates and modify lists of data to add, remove, and modify items. `LO 2.2.1 [P2], LO 2.2.2 [P3], LO 2.2.3 [P3]`
+- In **Unit 5: The Interwebz**, Lab 3, _Binary Numbers_, students learn about bits and bit width and representations of digital data, and they translate among three common number bases. LO 2.1.1 [P3], LO 2.1.2 [P5], LO 5.5.1 [P1]
 
 ### Big Idea 3: Data
+- In **Unit 4: Big Data & Privacy**, Lab 2, GPS Data, students collaborate as they process GPS data, find patterns to gain new knowledge, and discover and explain patterns and trends. `LO 3.1.1 [P4], LO 3.1.2 [P6], LO 3.1.3 [P5], LO 3.2.1 [P1], LO 4.1.1 [P2], LO 5.1.1 [P2]`
+- In **Unit 3: Digital Information & Representation**, Lab 2, _Infographics_ students interpret and communicate the results of their data-processing by creating interactive infographics. `LO 3.1.3 [P5]`
 
 ### Big Idea 4: Algorithms
+- In **Unit 1: Algorithms & Programming** students learn the difference between solvable and unsolvable problems and about the existence of undecidable problems through work with the halting problem. `LO 4.2.2 [P1], LO 4.2.3 [P1]`
+- In **Unit 2: Building Apps** students collaboratively build a drawing app, and identify and explain algorithms used within their code. `LO 1.2.1 [P2], LO 2.2.1 [P2], LO 2.2.2 [P3], LO 4.1.1 [P2], LO 4.1.2 [P5], LO 5.1.1 [P2], LO 5.3.1 [P3]`
 
 ### Big Idea 5: Programming
+- Students program throughout the course. In **Unit 1**, students build and debug a drawing application. In **Unit 2** they create a more complicated application that can store an access data using functions and lists. `LO 5.3.1 [P3], LO 5.5.1 [P1]`
 
 ### Big Idea 6: The Internet
+- In  **Unit 5: The Interwebz** students create an advocacy webpage, picking among topics such as Net Neutrality, internet censorship, or government surveillance. `LO 6.1.1[P3], LO 6.2.2[P4], LO 6.3.1 [P1]`
+- Students discuss and answer questions about how the Internet has shaped our world. `LO 6.1.1 [P3], LO 6.2.2 [P4], LO 7.1.1 [P4]`
 
 ### Big Idea 7: Global Impacts
+- In  **Unit 5: The Interwebz**, students examine free speech and social media, and the implications of collecting user data. `LO 3.3.1 [P4], LO 7.3.1 [P4], LO 7.4.1 [P1]`
+- In **Unit 5: The Interwebz** students look at the digital divide, in the context of their city, their country, and the world. Students investigate the disparities for women and minorities in technology fields. `LO 6.3.1 [P1], LO 7.2.1 [P1], LO 7.4.1 [P1]`
 
 ---
 
