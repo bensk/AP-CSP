@@ -144,7 +144,7 @@ AP Explore Performance Task (8 hours)
 - In  **Unit 5: The Interwebz**, students examine free speech and social media, and the implications of collecting user data. `LO 3.3.1 [P4], LO 7.3.1 [P4], LO 7.4.1 [P1]`
 - In **Unit 5: The Interwebz** students look at the digital divide, in the context of their city, their country, and the world. Students investigate the disparities for women and minorities in technology fields. `LO 6.3.1 [P1], LO 7.2.1 [P1], LO 7.4.1 [P1]`
 
-**Suggested Readings**
+**Selected Readings**
 
 - [“American schools are teaching our kids how to code all wrong”](http://qz.com/691614/american-schools-are-teaching-our-kids-how-to-code-all-wrong/)
 - [“Code and the Quest for Inclusive Software”](http://www.newyorker.com/business/currency/code-and-the-quest-for-inclusive-software)
