@@ -4,6 +4,8 @@ title: ✨ Syllabus
 permalink: /syllabus/
 ---
 
+# AP Computer Science Principles Syllabus
+
 ## Course Overview
 This course is designed to address the seven **Big Ideas** of the AP CS Principles Framework, with a primary emphasis on Big Idea #1, **Creativity**.
 
@@ -15,10 +17,11 @@ A secondary emphasis of this course is on Big Idea #7, **Global Impact**. This c
 
 ## Programming Language
 The programming components of this course will be taught using  [p5.js](https://p5js.org/), a JavaScript library designed to turn the entire browser page into a “sketch.” It includes all of the functionality of JavaScript, and has a rich history in creative computing:
-
+<small>
 > p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web.
 
 > Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas, you can think of your whole browser page as your sketch! For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.
+</small>
 
 ## Teaching Strategies
 This course is designed to provide students with rigorous and interesting opportunities to engage in computational thinking and programming. Most learning will be done through labs– there will be a minimum of didactic, direct instruction. Readings will be drawn from current, relevant sources that intersect with the Big Ideas of the Framework.
