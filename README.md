@@ -4,8 +4,6 @@ title: ✨ Syllabus
 permalink: /syllabus/
 ---
 
-# AP Computer Science Principles Syllabus
-
 ## Course Overview
 This course is designed to address the seven **Big Ideas** of the AP CS Principles Framework, with a primary emphasis on Big Idea #1, **Creativity**.
 
