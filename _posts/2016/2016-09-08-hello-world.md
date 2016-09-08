@@ -5,3 +5,17 @@ date: "2016-09-08 11:37"
 ---
 
 Welcome to the first day of AP Computer Science.
+
+👉 **Do Now**: Why will the new iPhone not have a headphone jack?
+
+## Big Ideas
+
+⭐ Creativity    
+⭐ Abstraction    
+⭐ Data    
+⭐ Algorithms    
+⭐ Programming    
+⭐ The internet    
+⭐ Global Impact    
+
+## The Most Dangerous Activity
