@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Hell, O World"
+title: "Hello World"
 date: "2016-09-08 11:37"
 ---
 
