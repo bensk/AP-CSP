@@ -27,14 +27,15 @@
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/AP-CSPpublic/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/AP-CSP/public/favicon.png">
-
+    <!-- p5.js embed -->
+    <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
     <!-- Octicon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">
     <!-- Proxima Nova -->
-<link rel="stylesheet" type="text/css" href="http://bsk.education/Fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="http://bsk.education/Fonts/fonts.css">
 
 
 
@@ -83,8 +84,16 @@
           
         
       
+        
+          
+        
+      
       <h2>Lessons</h2>
       
+          <p class="lead">September 14, 2016<br>
+            <a href="/AP-CSP/2016/09/14/hello.html">Hello 🌎</a>
+
+        
           <p class="lead">September 12, 2016<br>
             <a href="/AP-CSP/2016/09/12/algorithms.html">Algorithms & Language</a>
 
@@ -111,41 +120,86 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/AP-CSP/2016/09/12/algorithms.html">
-        Algorithms & Language
+      <a href="/AP-CSP/2016/09/14/hello.html">
+        Hello 🌎
       </a>
     </h1>
 
-    <span class="post-date">12 Sep 2016</span>
+    <span class="post-date">14 Sep 2016</span>
 
-    <h2 id="learning-targets">Learning Targets</h2>
-<ul>
-  <li>I can define “algorithm” and give examples from daily life.</li>
-  <li>I can define and write <em>pseudocode</em>.</li>
-</ul>
+    <p>Try dragging the <strong>Learning Target</strong>.</p>
 
-<h2 id="activity-0-creating-algorithms-">Activity 0: Creating Algorithms ✈</h2>
-<p>0⃣ Write an algorithm for making a paper
-airplane. <br />
-1⃣ Your partner must follow instructions exactly.</p>
+<script type="text/p5" data-autoplay="" data-preview-width="700">
+var aim = "🎯 Learning Target: I can create a simple p5 sketch.";
+var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
 
-<p>How can you use <code class="highlighter-rouge">if</code> and <code class="highlighter-rouge">else</code> in your instructions? What are <code class="highlighter-rouge">if...else…</code> statements called?</p>
+function setup() {
+	createCanvas(windowWidth, windowHeight);
 
-<p>When can you safely use <code class="highlighter-rouge">repeat</code> in your instructions? What is that called?</p>
+}
 
-<p>Were you instructions as clear as you thought? How did <strong>ambiguity</strong> get in your way?</p>
+function draw() {
+	background('white');
+	textSize(48);
+	textFont("Proxima Nova");
+	textStyle('bold');
+	fill(`#FF4296`);
+	if (mouseIsPressed) {
+		text(aim, mouseX, mouseY, windowWidth);
+		var do_now = "Uh oh...where'd the Do Now go?"
+		textAlign('center')
 
-<h2 id="activity-1-minimum-">Activity 1: Minimum 🎴</h2>
-<p>This activity will help us compose more specific algorithms.</p>
+	} else {
+		text(aim, 10, 50, windowWidth);
+		var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
+	}
+	textSize(18)
+	textStyle('bold')
+	fill('#424242')
+	text(do_now, 10, 150, windowWidth, windowHeight)
+}
 
-<p>The AP CS Principles definition of <strong>algorithm</strong>:</p>
 
-<p><span style="font-size: 30px; line-height: 1.2;">✨Algorithms are precise sequences of instructions for processes that can be executed by a computer and are implemented using programming languages.✨</span></p>
 
-<p><strong>Task:</strong> Write an algorithm to find the card with the lowest value in the row of cards.</p>
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
+}
+</script>
 
-<h2 id="activity-2--language-algorithms">Activity 2: 🤖 Language Algorithms</h2>
-<p>Instead of writing our own commands, what happens if we agree on a set of simple commands?</p>
+<p>This is <strong><span style="color: #ED1F5E">p5</span></strong>. It allows you to create interactive “sketches” using HTML/CSS and JavaScript.</p>
+
+<blockquote>
+  <p><small>p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web. Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas, you can think of your whole browser page as your sketch! For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.</small></p>
+</blockquote>
+
+<p><strong><span style="color: #ED1F5E">p5</span></strong> works on a <code class="highlighter-rouge">canvas</code>.</p>
+
+<p><img src="http://storage.googleapis.com/wzukusers/user-13385976/images/55bd59e37d7aaQu1bsn7/easel_400.png" alt="" /></p>
+
+<p>Everything you “draw” will be drawn on this canvas, <code class="highlighter-rouge">pixels</code> on a screen.</p>
+
+<p>Here’s one for you to play with:</p>
+
+<script type="text/p5" data-autoplay="" data-preview-width="200">
+function setup() {
+  createCanvas(200,200);
+}
+
+function draw() {
+  rect(50,50,80,50);
+}
+
+// What's this!?
+</script>
+
+<h2 id="exit-slip">Exit Slip!</h2>
+
+<ol>
+  <li>What happens if you change the numbers on line 6: <code class="highlighter-rouge">rect(50,50,80,50);</code>?</li>
+  <li>How could you draw a square?</li>
+  <li>What is the <strong>algorithm</strong> that p5 uses to draw rectangles?</li>
+  <li>How do you write a comment in <span style="color: #ED1F5E">p5</span>?</li>
+</ol>
 
   </div>
   
