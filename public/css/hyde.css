@@ -252,11 +252,11 @@ a.sidebar-nav-item:focus {
 }
 
 ::selection {
-  background: #00A6A3; /* WebKit/Blink Browsers */
+  background: #7F1AE5; /* WebKit/Blink Browsers */
   color: white;
 
 }
 ::-moz-selection {
-  background: #00A6A3; /* Gecko Browsers */
+  background: #7F1AE5; /* Gecko Browsers */
   color: white;
 }
