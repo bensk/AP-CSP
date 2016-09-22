@@ -23,7 +23,7 @@ function setup(){
 
 Use the <span style="color: #ED1F5E">p5</span> graph paper to plan your snowman[^1].
 
-## <span class="mega-octicon octicon-light-bulb"></span>Helpful Hint from Ms. Hersh
+## <span class="mega-octicon octicon-light-bulb"></span>Helpful Drawing Hint
 If you add this code to your sketches, you'll be able to see where your mouse is on the screen...very helpful for drawing!
 
 ```javascript

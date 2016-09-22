@@ -45,7 +45,7 @@
   <body class="theme-base-0e">
 
     <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container sidebar">
     <div class="sidebar-about">
       <h1>
         <a href="/AP-CSP">
@@ -88,10 +88,26 @@
           
         
       
+        
+          
+        
+      
+        
+          
+        
+      
       <h2>Lessons</h2>
       
-          <p class="lead">September 14, 2016<br>
-            <a href="/AP-CSP/2016/09/14/hello.html">Hello 🌎</a>
+          <p class="lead">September 20, 2016<br>
+            <a href="/AP-CSP/2016/09/20/do-you-want-to-build-a.html">Do You Want to Build a ⛄</a>
+
+        
+          <p class="lead">September 19, 2016<br>
+            <a href="/AP-CSP/2016/09/19/dice.html">🎲 Dice</a>
+
+        
+          <p class="lead">September 15, 2016<br>
+            <a href="/AP-CSP/2016/09/15/hello.html">Hello 🌎</a>
 
         
           <p class="lead">September 12, 2016<br>
@@ -120,86 +136,62 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/AP-CSP/2016/09/14/hello.html">
-        Hello 🌎
+      <a href="/AP-CSP/2016/09/20/do-you-want-to-build-a.html">
+        Do You Want to Build a ⛄
       </a>
     </h1>
 
-    <span class="post-date">14 Sep 2016</span>
+    <span class="post-date">20 Sep 2016</span>
 
-    <p>Try dragging the <strong>Learning Target</strong>.</p>
+    <h2 id="do-now">Do Now</h2>
+<p>✱ Create a canvas that is <strong>500px</strong> wide and <strong>500px</strong> tall.  <br />
+✱ Draw an <code class="highlighter-rouge">ellipse()</code> inside of another ellipse.  <br />
+✱ Give each <code class="highlighter-rouge">ellipse()</code> a different color.</p>
 
-<script type="text/p5" data-autoplay="" data-preview-width="700">
-var aim = "🎯 Learning Target: I can create a simple p5 sketch.";
-var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
-
-function setup() {
-	createCanvas(windowWidth, windowHeight);
-
-}
-
-function draw() {
-	background('white');
-	textSize(48);
-	textFont("Proxima Nova");
-	textStyle('bold');
-	fill(`#FF4296`);
-	if (mouseIsPressed) {
-		text(aim, mouseX, mouseY, windowWidth);
-		var do_now = "Uh oh...where'd the Do Now go?"
-		textAlign('center')
-
-	} else {
-		text(aim, 10, 50, windowWidth);
-		var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
-	}
-	textSize(18)
-	textStyle('bold')
-	fill('#424242')
-	text(do_now, 10, 150, windowWidth, windowHeight)
-}
-
-
-
-function windowResized() {
-	resizeCanvas(windowWidth, windowHeight);
-}
-</script>
-
-<p>This is <strong><span style="color: #ED1F5E">p5</span></strong>. It allows you to create interactive “sketches” using HTML/CSS and JavaScript.</p>
-
+<div style="text-align: center"><a href="http://bsk.education/SE8_p5js/Code_Examples/Snowman/">☃</a></div>
 <blockquote>
-  <p><small>p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web. Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas, you can think of your whole browser page as your sketch! For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.</small></p>
+  <p><em>Do you wanna build a snowman?</em>  <br />
+<em>It doesn’t have to be a snowman…</em></p>
 </blockquote>
 
-<p><strong><span style="color: #ED1F5E">p5</span></strong> works on a <code class="highlighter-rouge">canvas</code>.</p>
+<hr />
 
-<p><img src="http://storage.googleapis.com/wzukusers/user-13385976/images/55bd59e37d7aaQu1bsn7/easel_400.png" alt="" /></p>
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">setup</span><span class="p">(){</span>
+    <span class="nx">createCanvas</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span><span class="mi">500</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+</div>
 
-<p>Everything you “draw” will be drawn on this canvas, <code class="highlighter-rouge">pixels</code> on a screen.</p>
+<p>Use the <span style="color: #ED1F5E">p5</span> graph paper to plan your snowman<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
 
-<p>Here’s one for you to play with:</p>
+<h2 id="span-classmega-octicon-octicon-light-bulbspanhelpful-hint-from-ms-hersh"><span class="mega-octicon octicon-light-bulb"></span>Helpful Hint from Ms. Hersh</h2>
+<p>If you add this code to your sketches, you’ll be able to see where your mouse is on the screen…very helpful for drawing!</p>
 
-<script type="text/p5" data-autoplay="" data-preview-width="200">
-function setup() {
-  createCanvas(200,200);
-}
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">background</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="nx">textSize</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="nx">text</span><span class="p">(</span><span class="s1">'Mouse X = '</span> <span class="o">+</span> <span class="nx">mouseX</span> <span class="o">+</span> <span class="s2">" | Mouse Y = "</span> <span class="o">+</span> <span class="nx">mouseY</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</code></pre>
+</div>
 
-function draw() {
-  rect(50,50,80,50);
-}
-
-// What's this!?
-</script>
-
-<h2 id="exit-slip">Exit Slip!</h2>
-
+<h2 id="span-classmega-octicon-octicon-checkspan-meeting-standards"><span class="mega-octicon octicon-check"></span> Meeting Standards</h2>
 <ol>
-  <li>What happens if you change the numbers on line 6: <code class="highlighter-rouge">rect(50,50,80,50);</code>?</li>
-  <li>How could you draw a square?</li>
-  <li>What is the <strong>algorithm</strong> that p5 uses to draw rectangles?</li>
-  <li>How do you write a comment in <span style="color: #ED1F5E">p5</span>?</li>
+  <li>At least 3 <code class="highlighter-rouge">ellipse()</code>, correctly layered so that it <em>looks</em> like one is resting on top of the other.</li>
+  <li>At least two <code class="highlighter-rouge">line()</code> for the arms</li>
+  <li>What shape do you think I used to make the nose? Use <a href="https://p5js.org/reference/"><code class="highlighter-rouge">p5✱ Reference</code></a> to figure out how to make this shape.</li>
 </ol>
+
+<h2 id="span-classmega-octicon-octicon-rocketspan-push-yourself-for-a-4"><span class="mega-octicon octicon-rocket"></span> Push yourself for a 4!</h2>
+<ol>
+  <li>Use <code class="highlighter-rouge">fill()</code> and <code class="highlighter-rouge">stroke()</code> to give your snowman some color.</li>
+</ol>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>It doesn’t have to be a snowman. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </div>
   
