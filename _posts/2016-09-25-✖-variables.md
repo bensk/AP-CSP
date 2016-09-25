@@ -44,7 +44,7 @@ Take a closer look at my code. How **big** is my canvas? If you said "it keeps c
 
 It should look something like this:
 
-<script type="text/p5" data-autoplay data-preview-width="" data-preview-height="">
+<script type="text/p5" data-autoplay data-preview-width="720" data-preview-height="">
 function setup() {
   createCanvas(windowWidth,windowHeight)
 }
