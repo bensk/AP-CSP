@@ -5,9 +5,107 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Sep 2016 22:52:33 -0400</pubDate>
-    <lastBuildDate>Wed, 21 Sep 2016 22:52:33 -0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 12:26:59 -0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 12:26:59 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>✖ = Variables </title>
+        <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;What’s a variable?&lt;/p&gt;
+
+&lt;h2 id=&quot;from-the-ap&quot;&gt;From the AP:&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Program instructions may involve variables that are initialized and updated, read, and written  &lt;br /&gt;
+Meaningful names for variables and procedures help people better understand programs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;built-in-variables&quot;&gt;Built-in Variables&lt;/h2&gt;
+
+&lt;h2 id=&quot;user-defined-variables&quot;&gt;User-defined variables&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Steps to make a variable&lt;/strong&gt;
+@ the top of your code:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Declare (ex. &lt;code class=&quot;highlighter-rouge&quot;&gt;var xpos&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Initialize (ex. &lt;code class=&quot;highlighter-rouge&quot;&gt;var xpos = 50&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Use (ex. &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse(xpos, 100, 50, 50);&lt;/code&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;&quot; data-preview-height=&quot;&quot;&gt;
+var xpos = 50
+
+function setup() {
+	createCanvas(windowWidth, windowHeight)
+}
+
+function draw() {
+	background(&#39;#FEF790&#39;)
+	fill(&#39;#7F1AE5&#39;)
+	ellipse(xpos, 50, 50, 50);
+}
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 25 Sep 2016 12:13:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/25/variables.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/25/variables.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>👾 + 👽 + 🤖 = Review</title>
+        <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;You know how to create a circle (&lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;), and you know how to create a rectangle (&lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;). How could you combine these two shapes to draw a &lt;strong&gt;semicircle&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;Like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AP-CSP/images/halfcircle.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;design-your-own-character&quot;&gt;Design your own character&lt;/h2&gt;
+
+&lt;p&gt;Using the &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; graph paper, design your own character– either an alien 👽/👾 or a robot 🤖.&lt;/p&gt;
+
+&lt;h2 id=&quot;span-classmega-octicon-octicon-checkspan-meeting-standards&quot;&gt;&lt;span class=&quot;mega-octicon octicon-check&quot;&gt;&lt;/span&gt; Meeting Standards&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Planning graph paper indicates accurate pixel measurements.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Code corresponds to planning graph paper.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Code each of the following commands:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;✱ &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;  &lt;br /&gt;
+✱ &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt;  &lt;br /&gt;
+✱ &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;  &lt;br /&gt;
+✱ &lt;code class=&quot;highlighter-rouge&quot;&gt;fill()&lt;/code&gt;  &lt;br /&gt;
+✱ &lt;code class=&quot;highlighter-rouge&quot;&gt;stroke()&lt;/code&gt;  &lt;br /&gt;
+✱ &lt;code class=&quot;highlighter-rouge&quot;&gt;strokeWeight()&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;span-classmega-octicon-octicon-rocketspan-push-yourself-for-a-4&quot;&gt;&lt;span class=&quot;mega-octicon octicon-rocket&quot;&gt;&lt;/span&gt; Push yourself for a 4!&lt;/h2&gt;
+&lt;p&gt;Display the &lt;code class=&quot;highlighter-rouge&quot;&gt;mouseX&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;mouseY&lt;/code&gt; on the screen while drawing:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// This goes at the top of your code&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;white&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;textSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Mouse X = &#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mouseX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; | Mouse Y = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mouseY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 23 Sep 2016 13:07:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/23/review.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/23/review.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Do You Want to Build a ⛄</title>
@@ -32,7 +130,7 @@
 
 &lt;p&gt;Use the &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; graph paper to plan your snowman&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;span-classmega-octicon-octicon-light-bulbspanhelpful-hint-from-ms-hersh&quot;&gt;&lt;span class=&quot;mega-octicon octicon-light-bulb&quot;&gt;&lt;/span&gt;Helpful Hint from Ms. Hersh&lt;/h2&gt;
+&lt;h2 id=&quot;span-classmega-octicon-octicon-light-bulbspan-helpful-drawing-hint&quot;&gt;&lt;span class=&quot;mega-octicon octicon-light-bulb&quot;&gt;&lt;/span&gt; Helpful Drawing Hint&lt;/h2&gt;
 &lt;p&gt;If you add this code to your sketches, you’ll be able to see where your mouse is on the screen…very helpful for drawing!&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;white&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -61,9 +159,9 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 20 Sep 2016 13:41:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/20/do-you-want-to-build-a.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/20/do-you-want-to-build-a.html</guid>
+        <pubDate>Thu, 22 Sep 2016 13:41:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/22/do-you-want-to-build-a.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/22/do-you-want-to-build-a.html</guid>
         
         
       </item>

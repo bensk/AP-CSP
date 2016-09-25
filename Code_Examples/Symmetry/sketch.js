@@ -27,3 +27,7 @@ function draw() {
 	// 	ellipse(mouseX, y, 50, 50);
 	// }
 }
+
+function windowResized(){
+	resizeCanvas(windowWidth,windowHeight);
+}
