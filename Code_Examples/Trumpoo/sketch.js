@@ -3,7 +3,7 @@ var x;
 var y;
 var xDirection = 1;
 var yDirection = 1;
-var speed = 5;
+var speed = 10;
 
 function preload() {
 	img = loadImage("images/donald-dump-dribbble.png")
@@ -36,7 +36,7 @@ function draw() {
 		text("You pressed a key!", 20, 20)
 	} else {
 		// ellipse(x, y, 25, 25)
-		image(img, x, y, 50, 50);
+		image(img, x, y, 128, 128);
 	}
 
 	x = x + xDirection * speed
