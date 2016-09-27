@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Conditionals & Variables"
+title: "🔂 Conditionals & Variables"
 date: "2016-09-27 21:48"
 ---
 
