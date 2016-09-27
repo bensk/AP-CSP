@@ -28,7 +28,7 @@ function draw() {
 	rectMode(CENTER)
 
 	if (keyIsPressed) {
-		stroke('#D4171C')
+		stroke('#D4171C');
 		textSize(72);
 		text("💩",x, y)
 		noStroke()
@@ -36,7 +36,7 @@ function draw() {
 		text("You pressed a key!", 20, 20)
 	} else {
 		// ellipse(x, y, 25, 25)
-		image(img, x, y, 128, 128);
+		image(img, x, y, 72, 72);
 	}
 
 	x = x + xDirection * speed
