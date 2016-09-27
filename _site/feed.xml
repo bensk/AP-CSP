@@ -5,13 +5,97 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 12:26:59 -0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 12:26:59 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 22:01:16 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 22:01:16 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
+        <title>Conditionals &amp; Variables</title>
+        <description>&lt;h2 id=&quot;do-now-in-span-stylecolor-ed1f5ep5span&quot;&gt;Do Now (in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a canvas that is the size of the screen&lt;/li&gt;
+  &lt;li&gt;Create a shape (&lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;, etc) that follows your mouse&lt;/li&gt;
+  &lt;li&gt;Write a conditional so that the &lt;code class=&quot;highlighter-rouge&quot;&gt;fill()&lt;/code&gt; of the shape changes if the mouse is on the &lt;strong&gt;left&lt;/strong&gt; or &lt;strong&gt;right&lt;/strong&gt; side of the screen.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Like this:&lt;/p&gt;
+
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/left_right/index.html&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:none&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conditionals--variables&quot;&gt;Conditionals &amp;amp; Variables&lt;/h2&gt;
+
+&lt;p&gt;Our next challenge is to make a sketch where a &lt;del&gt;ball&lt;/del&gt; shape bounces around the screen.&lt;/p&gt;
+
+&lt;p&gt;This is a more complicated than the sketches we’ve done so far, because we will be &lt;strong&gt;defining&lt;/strong&gt; our own variables.&lt;/p&gt;
+
+&lt;p&gt;To figure out what variables we need, think about what needs to &lt;strong&gt;change&lt;/strong&gt; so a shape looks like it’s bouncing. Let’s look at it:&lt;/p&gt;
+
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/Trumpoo&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:solid&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;A ball moves across the screen. What changes?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;x position&lt;/code&gt; of the shape&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;y position&lt;/code&gt; of the shape&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, the ball hits the edge of the screen. What changes?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;x direction&lt;/code&gt; – if the shape hits the left edge, it should go right. If it hits the right edge, it should go left.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;y direction&lt;/code&gt; – if the shape hits the top, it should start moving down. If it hits the bottom, it should start moving up.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Your &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt; must resize to the window.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;User created variables&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Conditionals for the left/right and top/bottom edge of the screen&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Extension&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;✱&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ball bounces using only &lt;strong&gt;2&lt;/strong&gt; conditionals&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total:&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;__ / 5&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 27 Sep 2016 21:48:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/27/conditionals-variables.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/27/conditionals-variables.html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>✖ = Variables </title>
-        <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+        <description>&lt;h1 id=&quot;part-1&quot;&gt;Part 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
 &lt;p&gt;What’s a variable?&lt;/p&gt;
 
 &lt;h2 id=&quot;from-the-ap&quot;&gt;From the AP:&lt;/h2&gt;
@@ -20,9 +104,71 @@
 Meaningful names for variables and procedures help people better understand programs.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;built-in-variables&quot;&gt;Built-in Variables&lt;/h2&gt;
+&lt;h2 id=&quot;built-in-variables-in-span-stylecolor-ed1f5ep5span&quot;&gt;Built-in Variables in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;We’ve actually seen a few variables in p5 already.&lt;/p&gt;
 
-&lt;h2 id=&quot;user-defined-variables&quot;&gt;User-defined variables&lt;/h2&gt;
+&lt;p&gt;Look at the code below:&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;300&quot; data-preview-height=&quot;&quot;&gt;
+// This goes at the top of your code
+function setup(){
+    createCanvas(windowWidth,windowHeight)
+}
+
+function draw(){
+background(&#39;white&#39;)
+textSize(10)
+text(&#39;Mouse X = &#39; + mouseX + &quot; | Mouse Y = &quot; + mouseY, 10, 10)
+}
+&lt;/script&gt;
+
+&lt;p&gt;What are &lt;code class=&quot;highlighter-rouge&quot;&gt;mouseX&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;mouseY&lt;/code&gt; equal to? If you said “it keeps changing!” you’re absolutely right. These are variables.&lt;/p&gt;
+
+&lt;p&gt;Take a closer look at my code. How &lt;strong&gt;big&lt;/strong&gt; is my canvas? If you said “it keeps changing!” you…get the idea. Also variables.&lt;/p&gt;
+
+&lt;h3 id=&quot;exploring-variables&quot;&gt;Exploring variables&lt;/h3&gt;
+&lt;p&gt;✱ Create a canvas that is the width and height of the window.&lt;/p&gt;
+
+&lt;p&gt;✱ Draw a &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt; from the &lt;strong&gt;top middle&lt;/strong&gt; of your screen (just below the camera) to your mouse cursor.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hint: you will need variables to create the canvas. How could use those same variables to find &lt;strong&gt;half&lt;/strong&gt; your screen?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It should look something like this:&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;720&quot; data-preview-height=&quot;&quot;&gt;
+function setup() {
+  createCanvas(windowWidth,windowHeight)
+}
+
+function draw() {
+  background(&#39;white&#39;)
+  line(windowWidth/2,0,mouseX,mouseY)
+}
+&lt;/script&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Extend yourself! Give the line a different &lt;code class=&quot;highlighter-rouge&quot;&gt;stroke&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;strokeWeight&lt;/code&gt;  &lt;br /&gt;
+Are you seeing a whole bunch of lines? How can you draw &lt;em&gt;only one&lt;/em&gt;?  &lt;br /&gt;
+Can you “hang” a rectangle off the end of the line?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;back-to-the-drawing-board-canvas&quot;&gt;Back to the &lt;del&gt;Drawing board&lt;/del&gt; Canvas&lt;/h3&gt;
+&lt;p&gt;Go back to either your snowman or your own drawing, and add variables. But sure to use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;windowWidth&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;windowHeight&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mouseX&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mouseY&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;part-2&quot;&gt;Part 2&lt;/h1&gt;
+
+&lt;h2 id=&quot;user-defined-variables&quot;&gt;🗣 User-defined variables&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Steps to make a variable&lt;/strong&gt;
 @ the top of your code:&lt;/p&gt;
@@ -35,6 +181,7 @@ Meaningful names for variables and procedures help people better understand prog
 
 &lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;&quot; data-preview-height=&quot;&quot;&gt;
 var xpos = 50
+// What happens if you change me?
 
 function setup() {
 	createCanvas(windowWidth, windowHeight)
