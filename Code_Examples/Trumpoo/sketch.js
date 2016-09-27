@@ -29,7 +29,8 @@ function draw() {
 
 	if (keyIsPressed) {
 		stroke('#D4171C')
-		rect(x, y, 25, 25)
+		textSize(50);
+		text("💩",x, y)
 		noStroke()
 		textSize(18)
 		text("You pressed a key!", 20, 20)
