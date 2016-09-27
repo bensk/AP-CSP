@@ -26,12 +26,12 @@ To figure out what variables we need, think about what needs to **change** so a 
 
 <iframe src="{{ site.baseurl }}/Code_Examples/Trumpoo" width="100%" height="200px" style="border:solid"></iframe>
 
-A pile of :poop: moves across the screen. What changes?
+A pile of 💩 moves across the screen. What changes?
 
 1. The `x position` of the shape
 2. The `y position` of the shape
 
-Now, the :poop: hits the edge of the screen. What changes?
+Now, the 💩 hits the edge of the screen. What changes?
 
 3. The `x direction` – if the shape hits the left edge, it should go right. If it hits the right edge, it should go left.
 4. The `y direction` – if the shape hits the top, it should start moving down. If it hits the bottom, it should start moving up.
