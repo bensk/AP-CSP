@@ -29,7 +29,7 @@ function draw() {
 
 	if (keyIsPressed) {
 		stroke('#D4171C')
-		textSize(50);
+		textSize(72);
 		text("💩",x, y)
 		noStroke()
 		textSize(18)
