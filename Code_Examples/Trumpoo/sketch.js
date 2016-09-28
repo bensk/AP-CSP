@@ -43,7 +43,7 @@ function draw() {
 	y = y + yDirection * speed
 	if (x >= width - 50 || x <= 0) {
 		xDirection = xDirection * -1;
-	} else if (y >= height - 50 || y <= 0) {
+	}  if (y >= height - 50 || y <= 0) {
 		yDirection = yDirection * -1;
 	}
 }
