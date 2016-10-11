@@ -6,9 +6,11 @@ var ydir = 1;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noCursor();
+
 }
 
 function draw() {
+  
   noStroke();
 
   background('white');
@@ -35,17 +37,19 @@ function draw() {
   }
 
   if (keyIsPressed === true) {
+
     x = mouseX;
     y = mouseY;
-  }
-    // for (x = mouseX; x <= windowWidth - mouseX; x += 50) {
-    // 	ellipse(x, mouseY, 50, 50)
-    // }
-    // for (y = mouseY; y <= windowHeight - 50; y += 50) {
-    // 	ellipse(mouseX, y, 50, 50);
-    // }
-  }
 
-  function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
   }
+  // for (x = mouseX; x <= windowWidth - mouseX; x += 50) {
+  // 	ellipse(x, mouseY, 50, 50)
+  // }
+  // for (y = mouseY; y <= windowHeight - 50; y += 50) {
+  // 	ellipse(mouseX, y, 50, 50);
+  // }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
