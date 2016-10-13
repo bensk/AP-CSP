@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "🔀 `else` & `else if`"
+title: "🔀 <code>else</code> & <code>else if</code>"
 date: "2016-10-13 11:50"
 ---
 
@@ -8,4 +8,4 @@ date: "2016-10-13 11:50"
 I can use `if`, `else`, and `else if` to create multiple conditions in a p5 sketch.
 
 ## `else if`
-<iframe src="{{ site.baseurl }}/Code_Examples/ElseAndElseIf" width="500px" height="500px" style="border:solid"></iframe>
+<iframe src="{{ site.baseurl }}/Code_Examples/ElseAndElseIf" width="500px" height="500px"></iframe>
