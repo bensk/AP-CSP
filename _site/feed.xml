@@ -5,12 +5,187 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 22:01:16 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 22:01:16 -0400</lastBuildDate>
+    <pubDate>Thu, 13 Oct 2016 11:59:42 -0400</pubDate>
+    <lastBuildDate>Thu, 13 Oct 2016 11:59:42 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
-        <title>Conditionals &amp; Variables</title>
+        <title>🔀 &lt;code&gt;else&lt;/code&gt; &amp; &lt;code&gt;else if&lt;/code&gt;</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+&lt;p&gt;I can use &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;else if&lt;/code&gt; to create multiple conditions in a p5 sketch.&lt;/p&gt;
+
+&lt;h2 id=&quot;else-if&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;else if&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Move your mouse across this sketch:&lt;/p&gt;
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/ElseAndElseIf&quot; width=&quot;500px&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;How many conditionals do I have?&lt;/p&gt;
+
+&lt;p&gt;What’s &lt;strong&gt;wrong&lt;/strong&gt; with this one?&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;300px&quot; data-preview-height=&quot;&quot;&gt;
+var bgColor = &#39;white&#39;
+
+function setup() {
+  createCanvas(windowWidth, windowHeight)
+}
+
+function draw() {
+  background(bgColor)
+    // fill(bgColor);
+    // ellipse(250,250,mouseY,mouseY)
+  if (mouseX &lt; 4 * windowWidth / 5) {
+    bgColor = &#39;#6638F0&#39;;
+  } else if (mouseX &lt; 3 * windowWidth / 5) {
+    bgColor = &#39;#890424&#39;;
+  } else if (mouseX &lt; 2 * windowWidth / 5) {
+    bgColor = &#39;#20C8B6&#39;;
+  } else if (mouseX &lt; windowWidth / 5) {
+    bgColor = &#39;#82BCFB&#39;;
+  } else {
+    bgColor = &#39;#E12874&#39;;
+  }
+}
+&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 13 Oct 2016 11:50:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/13/else-else-if.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/13/else-else-if.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Make More Stuff Move</title>
+        <description>&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (In Google Classroom)&lt;/h2&gt;
+&lt;p&gt;What does it mean to &lt;strong&gt;initialize&lt;/strong&gt; a variable? Why do we need to do that when programming?
+What does it mean to &lt;strong&gt;increment&lt;/strong&gt; a variable? What does it let us do?
+Why should we pick meaningful names for variables in our code?&lt;/p&gt;
+
+&lt;h2 id=&quot;from-the-ap&quot;&gt;From the AP:&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Program instructions may involve variables that are initialized and updated, read, and written  &lt;br /&gt;
+Meaningful names for variables and procedures help people better understand programs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;back-to-bouncing&quot;&gt;Back to Bouncing&lt;/h2&gt;
+
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/ChangeColorBounce&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:solid&quot;&gt;&lt;/iframe&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Your &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt; must resize to the window.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;User created variables for &lt;code class=&quot;highlighter-rouge&quot;&gt;x position&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;y position&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;x direction&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;y direction&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Conditionals for the left/right and top/bottom edge of the screen&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;New Stuff!&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;!!&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Make your ellipse change color when it hits the edge&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Add another shape (&lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;triangle()&lt;/code&gt;) and make it move separately&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Extension&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;✱&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;When a key is pressed either change the &lt;strong&gt;shape&lt;/strong&gt; or the &lt;strong&gt;size of the shape&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ball bounces using only &lt;strong&gt;2&lt;/strong&gt; conditionals&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total:&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;__ / 10&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 11 Oct 2016 17:36:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/11/make-more-stuff-move.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/11/make-more-stuff-move.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>🔍 Explore: Algorithms</title>
+        <description>&lt;h1 id=&quot;ap-learning-targets&quot;&gt;🎯 AP Learning Targets&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;I explain how computing innovations affect communication, interaction, and cognition.&lt;/li&gt;
+  &lt;li&gt;I explain how computing has impacted innovations in other fields.&lt;/li&gt;
+  &lt;li&gt;I explain how programs implement algorithms.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (In Google Classroom)&lt;/h1&gt;
+&lt;p&gt;Look at this image:
+&lt;img src=&quot;https://static01.nyt.com/images/2016/08/01/opinion/01angwin/01angwin-superJumbo.jpg&quot; alt=&quot;&quot; /&gt;
+What do you think it means?&lt;/p&gt;
+
+&lt;h1 id=&quot;ap-explore-task&quot;&gt;AP Explore Task&lt;/h1&gt;
+&lt;p&gt;We’re going to take a bit of a break from coding.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;From the AP:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AP Explore Guidelines&lt;/strong&gt;
+&amp;gt; Computing innovations impact our lives in ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a computing innovation of your choice. Your close examination of this computing innovation will deepen your understanding of computer science principles.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You will be provided with 8 hours of class time to develop, complete, and submit the following:
+1. A computational artifact
+2. Written responses (2a-2e).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This performance task requires you to select and investigate a computational innovation that:
+1. has had or has the potential to have significant beneficial and harmful effects on society, economy, or culture;
+2. consumes, produces, and/or transforms data; and
+3. raises at least one data storage concern, data privacy concern, or data security concern.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;your-task&quot;&gt;Your Task:&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2c. Computing Innovation: Explain at least one beneficial effect and at least one harmful effect the computing innovation has had, or has the potential to have, on society, economy, or culture. (Approximately 250 words)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;🔗 For each online source, include the permanent URL. Identify the author, title, source, the date you retrieved the source, and, if possible, the date the reference was written or posted&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/2016/08/01/opinion/make-algorithms-accountable.html?nytmobile=0&quot;&gt;“Make Algorithms Accountable”&lt;/a&gt; by Julia Angwin, The New York Times Op-Ed&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Oct 2016 10:59:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/06/explore-algorithms.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/06/explore-algorithms.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>🔂 Conditionals &amp; Variables</title>
         <description>&lt;h2 id=&quot;do-now-in-span-stylecolor-ed1f5ep5span&quot;&gt;Do Now (in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;)&lt;/h2&gt;
 
 &lt;ol&gt;
@@ -35,14 +210,14 @@
 
 &lt;iframe src=&quot;/AP-CSP/Code_Examples/Trumpoo&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:solid&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;A ball moves across the screen. What changes?&lt;/p&gt;
+&lt;p&gt;A pile of 💩 moves across the screen. What changes?&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;x position&lt;/code&gt; of the shape&lt;/li&gt;
   &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;y position&lt;/code&gt; of the shape&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Now, the ball hits the edge of the screen. What changes?&lt;/p&gt;
+&lt;p&gt;Now, the 💩 hits the edge of the screen. What changes?&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;x direction&lt;/code&gt; – if the shape hits the left edge, it should go right. If it hits the right edge, it should go left.&lt;/li&gt;
@@ -565,31 +740,6 @@ airplane. &lt;br /&gt;
         <pubDate>Mon, 12 Sep 2016 21:46:58 -0400</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/12/algorithms.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/12/algorithms.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hello World</title>
-        <description>&lt;p&gt;Welcome to the first day of AP Computer Science.&lt;/p&gt;
-
-&lt;p&gt;👉 &lt;strong&gt;Do Now&lt;/strong&gt;: Why will the new iPhone not have a headphone jack?&lt;/p&gt;
-
-&lt;h2 id=&quot;big-ideas&quot;&gt;Big Ideas&lt;/h2&gt;
-
-&lt;p&gt;⭐ Creativity  &lt;br /&gt;
-⭐ Abstraction  &lt;br /&gt;
-⭐ Data  &lt;br /&gt;
-⭐ Algorithms  &lt;br /&gt;
-⭐ Programming  &lt;br /&gt;
-⭐ The internet  &lt;br /&gt;
-⭐ Global Impact&lt;/p&gt;
-
-&lt;h2 id=&quot;the-most-dangerous-activity&quot;&gt;The Most Dangerous Activity&lt;/h2&gt;
-</description>
-        <pubDate>Thu, 08 Sep 2016 11:37:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/08/hello-world.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/08/hello-world.html</guid>
         
         
       </item>
