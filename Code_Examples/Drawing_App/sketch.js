@@ -38,8 +38,11 @@ function keyTyped() {
 		strokeColor = '#7E2BE1';
 		weight = 5;
 	} else if (key === 'e') {
-
 		strokeColor = 'white';
 		weight = 50;
+	} else if (key === '+') {
+		weight = weight + 10;
+	} else if (key === '=') {
+		weight = weight - 10;
 	}
 }
