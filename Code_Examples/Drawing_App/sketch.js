@@ -5,9 +5,20 @@ weight = 5;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
+	textStyle('italic')
+	textSize(12)
+	text("b for black⚫", 10, 12)
+	text("p for pink 💟", 10, 24)
+	text("r for maroon 🖍", 10, 36)
+	text("u for purple 💜", 10, 48)
+	text("e for eraser ➖", 10, 60)
+	textStyle('bold');
+	textSize(36);
+	text("Drawing App v1.0",windowWidth-310,36)
 }
 
 function draw() {
+
 
 	if (mouseIsPressed) {
 		strokeWeight(weight)
@@ -20,6 +31,7 @@ function draw() {
 
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
+	setup();
 }
 
 
