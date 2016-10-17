@@ -15,7 +15,7 @@ if (mouseIsPressed)
 
 What happened? Why do you think that's happening?
 
-## Conditionals
+## Conditionals with interaction
 > if...then...
 
 In <span style="color: #ED1F5E">p5</span>, conditionals look a lot like JavaScript:
