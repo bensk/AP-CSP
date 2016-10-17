@@ -4,12 +4,6 @@ title: "🖌 Create: Drawing App"
 date: "2016-10-17 12:59"
 ---
 
----
-title: Build a Drawing App
-date: 2016-05-19 17:51:00 Z
-layout: post
----
-
 ## Do Now (in <span style="color: #ED1F5E">p5</span>)
 
 1. Make an `ellipse()` that follows your mouse.
