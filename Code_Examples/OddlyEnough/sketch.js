@@ -1,12 +1,11 @@
-var input, button, greeting;
+var input
 
 function setup() {
 	createCanvas(windowWidth, windowHeight)
 
 	input = createInput()
 	input.position(10, 80)
-		// button = createButton('pluralize');
-		// button.position(150, 70);
+
 }
 
 function draw() {
@@ -20,11 +19,11 @@ function draw() {
 	text("⏬⏬⏬", 10, 70)
 	var numbers = input.value();
 	var number_array = numbers.split(" ");
-	for (var i = 0; i < number_array.length; i++){
-			if ((number_array[i] % 2) == 0){
-				number_array.splice(i, 1);
-        i = i-1;
-			}
+	for (var i = 0; i < number_array.length; i++) {
+		if ((number_array[i] % 2) == 0) {
+			number_array.splice(i, 1);
+			i = i - 1;
+		}
 	}
 	textSize(72)
 	text(number_array, 10, 200);
