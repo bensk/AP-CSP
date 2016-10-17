@@ -65,9 +65,13 @@ This is called _initializing_ a variable– giving it an _initial_ or starting v
 
 
 
-## <span class="mega-octicon octicon-rocket"></span> Push yourself for a 4!
+## <span class="mega-octicon octicon-rocket"></span> Push yourself to HIGH!
 
 🎂 Draw me a birthday card!     
-🌈 Let the user choose colors using the keyboard. For example, if they press `b`, they start drawing in <span style="color: blue; font-weight: bold">blue</span>.     
+
+🌈 Let the user choose colors using the keyboard. For example, if they press `b`, they start drawing in <span style="color: blue; font-weight: bold">blue</span>. This could be where you:
+
+> integrates two or more commonly used or new algorithms, and integrates mathematical and/or logical concepts to create a new algorithm.
+
 ⌫ Let the user erase part of their drawing. There are a lot of ways to do this!     
 💃🏼 Have fun!     
