@@ -14,7 +14,7 @@ function setup() {
 	text("e for eraser ➖", 10, 60)
 	textStyle('bold');
 	textSize(36);
-	text("Drawing App v1.0",windowWidth-310,36)
+	text("Drawing App v1.0", windowWidth - 310, 36)
 }
 
 function draw() {
