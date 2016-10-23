@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: AP Computer Science Principles
+title: AP Computer Science
 email: bsk@ms223.org
-description: > # this means to ignore newlines until "baseurl:"
+# description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/AP-CSP" # the subpath of your site, e.g. /blog
 url: "http://bsk.education/AP-CSP" # the base hostname & protocol for your site
 twitter_username: bensk

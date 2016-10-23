@@ -1,13 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AP Computer Science Principles</title>
+    <title>AP Computer Science</title>
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Oct 2016 11:59:42 -0400</pubDate>
-    <lastBuildDate>Thu, 13 Oct 2016 11:59:42 -0400</lastBuildDate>
+    <pubDate>Sun, 23 Oct 2016 09:02:50 -0400</pubDate>
+    <lastBuildDate>Sun, 23 Oct 2016 09:02:50 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>🖌 Create: Drawing App</title>
+        <description>&lt;h2 id=&quot;do-now-in-span-stylecolor-ed1f5ep5span&quot;&gt;Do Now (in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make an &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; that follows your mouse.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Before&lt;/strong&gt; your &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;, add this line:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mouseIsPressed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;What happened? Why do you think that’s happening?&lt;/p&gt;
+
+&lt;h2 id=&quot;conditionals-with-interaction&quot;&gt;Conditionals with interaction&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;if…then…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;, conditionals look a lot like JavaScript:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mouseIsPressed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pmouseX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pmouseY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mouseX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mouseY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Check:&lt;/strong&gt; What do you think &lt;code class=&quot;highlighter-rouge&quot;&gt;pmouseX&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;pmouseY&lt;/code&gt; are?&lt;/p&gt;
+
+&lt;h2 id=&quot;drawing-in-multiple-colors&quot;&gt;Drawing in Multiple Colors&lt;/h2&gt;
+
+&lt;p&gt;To use the keyboard to interact with my sketch, I need to add a new function. So far, we’ve seen &lt;code class=&quot;highlighter-rouge&quot;&gt;function setup()&lt;/code&gt; which is called when the program starts, and &lt;code class=&quot;highlighter-rouge&quot;&gt;function draw()&lt;/code&gt; which runs on loop, forever.&lt;/p&gt;
+
+&lt;p&gt;Now, we need &lt;code class=&quot;highlighter-rouge&quot;&gt;function keyTyped()&lt;/code&gt;, which is called every time a key is pressed.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;keyTyped&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;strokeColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;black&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;p&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;strokeColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;#E32173&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;weight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The variable &lt;code class=&quot;highlighter-rouge&quot;&gt;strokeColor&lt;/code&gt; is used inside my &lt;code class=&quot;highlighter-rouge&quot;&gt;function keyTyped()&lt;/code&gt;, and I am also going to use it inside my &lt;code class=&quot;highlighter-rouge&quot;&gt;function Draw()&lt;/code&gt;. that means I need to define it &lt;strong&gt;outside&lt;/strong&gt; of &lt;strong&gt;both&lt;/strong&gt; of those function. I can do this at the &lt;strong&gt;top&lt;/strong&gt; of my code:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;weight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;strokeColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;black&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is called &lt;em&gt;initializing&lt;/em&gt; a variable– giving it an &lt;em&gt;initial&lt;/em&gt; or starting value, which we will then change.&lt;/p&gt;
+
+&lt;h2 id=&quot;drawing-app&quot;&gt;Drawing App&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Your &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt; must resize to the window.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Draw with a &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt; &lt;em&gt;in 🌈multiple colors🌈&lt;/em&gt;.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Must be able to start &lt;strong&gt;and&lt;/strong&gt; stop drawing (“pen up” and “pen down”)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total:&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;__ / 3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;span-classmega-octicon-octicon-rocketspan-push-yourself-to-high&quot;&gt;&lt;span class=&quot;mega-octicon octicon-rocket&quot;&gt;&lt;/span&gt; Push yourself to HIGH!&lt;/h2&gt;
+
+&lt;p&gt;🎂 Draw me a birthday card!&lt;/p&gt;
+
+&lt;p&gt;🌈 Let the user choose colors using the keyboard. For example, if they press &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, they start drawing in &lt;span style=&quot;color: blue; font-weight: bold&quot;&gt;blue&lt;/span&gt;. This could be where you:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;integrates two or more commonly used or new algorithms, and integrates mathematical and/or logical concepts to create a new algorithm.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;⌫ Let the user erase part of their drawing. There are a lot of ways to do this!   &lt;br /&gt;
+💃🏼 Have fun!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Oct 2016 12:59:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/17/create-drawing-app.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/17/create-drawing-app.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>🚦Stop &amp; Go &amp; Review</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I can use Boolean conditions to determine which of  parts of an algorithm is used.&lt;/li&gt;
+  &lt;li&gt;I can repeat of part of an algorithm until a condition is met or for a specified number of times.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (in Google Classroom)&lt;/h2&gt;
+&lt;p&gt;Why isn’t the ellipse bouncing off the right edge of the screen? Can you fix it?&lt;/p&gt;
+
+&lt;p&gt;Can you make the stroke weight change as the ellipse moves?&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;400&quot; data-preview-height=&quot;&quot;&gt;
+var x;
+var y;
+var xDirection = 1;
+var yDirection = 1;
+var speed = 10;
+
+function setup() {
+  createCanvas(windowWidth, windowHeight)
+  x = random(0, width)
+  y = random(0, height)
+}
+
+function draw() {
+
+  background(&#39;#29BEEA&#39;)
+  strokeWeight(3)
+  stroke(&#39;#FFF400&#39;)
+  // strokeWeight(5)
+  fill(&#39;#FF4396&#39;)
+  ellipse(x, y, 25, 25)
+
+  x = x + xDirection * speed
+  y = y + yDirection * speed
+  if (x &gt;= width + 250 || x &lt;= 0) {
+    xDirection = -xDirection
+  } else if (y &gt;= height || y &lt;= 0) {
+    yDirection = -yDirection
+  }
+}
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;traffic-light&quot;&gt;Traffic Light&lt;/h2&gt;
+
+&lt;p&gt;Create this “traffic light” in p5:&lt;/p&gt;
+
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/TrafficLight&quot; width=&quot;100%&quot; height=&quot;400px&quot; style=&quot;border:solid 1px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Rubric&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3 ellipses, each light up different colors&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;It must be able to “light” up in three different colors &lt;strong&gt;one at a time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Only one light should be lit at a time&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Lights are &lt;strong&gt;conditionally&lt;/strong&gt; activated&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;It’s your choice how to activate the lights. Mine are based off &lt;code class=&quot;highlighter-rouge&quot;&gt;mouseY&lt;/code&gt;. You could use a click, &lt;code class=&quot;highlighter-rouge&quot;&gt;mouseX&lt;/code&gt;, your keyboard…whatever you want. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 14 Oct 2016 21:28:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/14/stop-go-review.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/14/stop-go-review.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>🔀 &lt;code&gt;else&lt;/code&gt; &amp; &lt;code&gt;else if&lt;/code&gt;</title>
@@ -541,205 +747,6 @@ function draw() {
         <pubDate>Mon, 19 Sep 2016 18:51:00 -0400</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/19/dice.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/19/dice.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hello 🌎</title>
-        <description>&lt;p&gt;Try dragging the &lt;strong&gt;Learning Target&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;700&quot;&gt;
-var aim = &quot;🎯 Learning Target: I can create a simple p5 sketch.&quot;;
-var do_now = &quot;Do Now: How many programming languages have you learned? Which is your favorite, and why?&quot;
-
-function setup() {
-	createCanvas(windowWidth, windowHeight);
-
-}
-
-function draw() {
-	background(&#39;white&#39;);
-	textSize(48);
-	textFont(&quot;Proxima Nova&quot;);
-	textStyle(&#39;bold&#39;);
-	fill(`#7f1ae5`);
-	if (mouseIsPressed) {
-		text(aim, mouseX, mouseY, windowWidth);
-		var do_now = &quot;Uh oh...where&#39;d the Do Now go?&quot;
-		textAlign(&#39;center&#39;)
-
-	} else {
-		text(aim, 10, 50, windowWidth);
-		var do_now = &quot;Do Now: How many programming languages have you learned? Which is your favorite, and why?&quot;
-	}
-	textSize(18)
-	textStyle(&#39;bold&#39;)
-	fill(&#39;#424242&#39;)
-	text(do_now, 10, 150, windowWidth, windowHeight)
-}
-
-
-
-function windowResized() {
-	resizeCanvas(windowWidth, windowHeight);
-}
-&lt;/script&gt;
-
-&lt;p&gt;This is &lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt;. It allows you to create interactive “sketches” using HTML/CSS and JavaScript.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;small&gt;p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web. Using the original metaphor of a software sketchbook, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas, you can think of your whole browser page as your sketch! For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt; works on a &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://storage.googleapis.com/wzukusers/user-13385976/images/55bd59e37d7aaQu1bsn7/easel_400.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Everything you “draw” will be drawn on this canvas, &lt;code class=&quot;highlighter-rouge&quot;&gt;pixels&lt;/code&gt; on a screen.&lt;/p&gt;
-
-&lt;p&gt;Here’s one for you to play with:&lt;/p&gt;
-
-&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;200&quot;&gt;
-function setup() {
-  createCanvas(200,200);
-}
-
-function draw() {
-  rect(50,50,80,50);
-}
-
-// What&#39;s this!?
-&lt;/script&gt;
-
-&lt;h2 id=&quot;ide&quot;&gt;IDE&lt;/h2&gt;
-&lt;p&gt;We’re going to use an online IDE (Integrated Development Environment). We used &lt;strong&gt;PyCharm&lt;/strong&gt; for &lt;strong&gt;Python&lt;/strong&gt;, and we will use &lt;strong&gt;&lt;a href=&quot;https://alpha.editor.p5js.org/&quot;&gt;p5 Web Editor&lt;/a&gt;&lt;/strong&gt; for, well…&lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;fun-with-shapes&quot;&gt;Fun With Shapes&lt;/h2&gt;
-
-&lt;p&gt;Today, we’re going to learn how to draw three shapes: &lt;code class=&quot;highlighter-rouge&quot;&gt;line&lt;/code&gt;s, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect&lt;/code&gt;angles, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse&lt;/code&gt;s.&lt;/p&gt;
-
-&lt;p&gt;(Also, &lt;code class=&quot;highlighter-rouge&quot;&gt;point&lt;/code&gt;, but that one’s kind boring.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Go ahead and try it. Turn on a single pixel:&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;line&quot;&gt;| &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;A line is defined by &lt;strong&gt;two points&lt;/strong&gt;:  A and B
-In &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;:  &lt;code class=&quot;highlighter-rouge&quot;&gt;line(x1, y1, x2, y2);&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;✱ lower case ‘line’  &lt;br /&gt;
-✱ four &lt;strong&gt;parameters&lt;/strong&gt; in parenthesis, separated by commas  &lt;br /&gt;
-✱ lines end with semicolon &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt;, just like JavaScript.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Try to draw a line at an angle that &lt;em&gt;isn’t&lt;/em&gt; 90° or 180° (not vertical or horizontal).&lt;/p&gt;
-
-&lt;h3 id=&quot;rect&quot;&gt;▭ &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;In &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;, rectangles are defined by the &lt;strong&gt;top left corner&lt;/strong&gt;, followed by a &lt;strong&gt;width&lt;/strong&gt; and a &lt;strong&gt;height&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;✱ lower case ‘rect’  &lt;br /&gt;
-✱ four ‘parameters’ in parenthesis  &lt;br /&gt;
-✱ lines end with semicolon &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt;, just like JavaScript.&lt;/p&gt;
-
-&lt;p&gt;You can also define them using &lt;strong&gt;corners&lt;/strong&gt;: the &lt;em&gt;top left&lt;/em&gt; and &lt;em&gt;bottom right&lt;/em&gt; point.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;rectMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CORNERS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// What happens if you put rectMode(CORNERS) on line 2?&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Two&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lines&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;ellipse&quot;&gt;⬭ &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;An &lt;strong&gt;ellipse&lt;/strong&gt; is an oval. For the purposes of this class (before you’ve studied &lt;a href=&quot;https://www.google.com/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#q=conic%20sections&quot; title=&quot;Google it!&quot;&gt;conic sections&lt;/a&gt;), all we need to know is that a circle is actually a special kind of ellipse, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; is the command that will let us draw &lt;strong&gt;round&lt;/strong&gt; shapes.&lt;/p&gt;
-
-&lt;p&gt;In &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;, ellipses are defined by a &lt;strong&gt;center&lt;/strong&gt; coordinate, a &lt;strong&gt;width&lt;/strong&gt;, a &lt;strong&gt;height&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;ellipse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Use this to make a circle. In a comment (&lt;code class=&quot;highlighter-rouge&quot;&gt;//&lt;/code&gt;), what do you notice about the &lt;code class=&quot;highlighter-rouge&quot;&gt;width&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt; that make a circle?&lt;/p&gt;
-
-&lt;h2 id=&quot;drawing-time&quot;&gt;Drawing time!&lt;/h2&gt;
-
-&lt;p&gt;What if I combine &lt;code class=&quot;highlighter-rouge&quot;&gt;line&lt;/code&gt;s, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect&lt;/code&gt;angles, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse&lt;/code&gt;s? What can I make?&lt;/p&gt;
-
-&lt;script type=&quot;text/p5&quot; data-preview-width=&quot;200&quot; data-preview-height=&quot;200&quot;&gt;
-function setup() {
-	createCanvas(200, 200)
-}
-
-function draw() {
-	line(78, 5, 78, 200)
-	line(82, 5, 82, 200)
-	rect(5, 5, 150, 75);
-	rect(50, 40, 60, 30);
-	ellipse(80, 80, 30, 15);
-}
-&lt;/script&gt;
-
-&lt;p&gt;OK, I’m not a great artist. But we’re getting somewhere.&lt;/p&gt;
-
-&lt;p&gt;Go draw something better!&lt;/p&gt;
-
-&lt;h2 id=&quot;exit-slip&quot;&gt;Exit Slip!&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What happens if you change the numbers on line 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;rect(50,50,80,50);&lt;/code&gt;?&lt;/li&gt;
-  &lt;li&gt;How could you draw a square?&lt;/li&gt;
-  &lt;li&gt;What is the &lt;strong&gt;algorithm&lt;/strong&gt; that p5 uses to draw rectangles?&lt;/li&gt;
-  &lt;li&gt;How do you write a comment in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;?&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 15 Sep 2016 21:31:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/15/hello.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/15/hello.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Algorithms &amp; Language</title>
-        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;I can define “algorithm” and give examples from daily life.&lt;/li&gt;
-  &lt;li&gt;I can define and write &lt;em&gt;pseudocode&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;activity-0-creating-algorithms-&quot;&gt;Activity 0: Creating Algorithms ✈&lt;/h2&gt;
-&lt;p&gt;0⃣ Write an algorithm for making a paper
-airplane. &lt;br /&gt;
-1⃣ Your partner must follow instructions exactly.&lt;/p&gt;
-
-&lt;p&gt;How can you use &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt; in your instructions? What are &lt;code class=&quot;highlighter-rouge&quot;&gt;if...else…&lt;/code&gt; statements called?&lt;/p&gt;
-
-&lt;p&gt;When can you safely use &lt;code class=&quot;highlighter-rouge&quot;&gt;repeat&lt;/code&gt; in your instructions? What is that called?&lt;/p&gt;
-
-&lt;p&gt;Were you instructions as clear as you thought? How did &lt;strong&gt;ambiguity&lt;/strong&gt; get in your way?&lt;/p&gt;
-
-&lt;h2 id=&quot;activity-1-minimum-&quot;&gt;Activity 1: Minimum 🎴&lt;/h2&gt;
-&lt;p&gt;This activity will help us compose more specific algorithms.&lt;/p&gt;
-
-&lt;p&gt;The AP CS Principles definition of &lt;strong&gt;algorithm&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size: 30px; line-height: 1.2;&quot;&gt;✨Algorithms are precise sequences of instructions for processes that can be executed by a computer and are implemented using programming languages.✨&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Task:&lt;/strong&gt; Write an algorithm to find the card with the lowest value in the row of cards.&lt;/p&gt;
-
-&lt;h2 id=&quot;activity-2--language-algorithms&quot;&gt;Activity 2: 🤖 Language Algorithms&lt;/h2&gt;
-&lt;p&gt;Instead of writing our own commands, what happens if we agree on a set of simple commands?&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Sep 2016 21:46:58 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/12/algorithms.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/12/algorithms.html</guid>
         
         
       </item>
