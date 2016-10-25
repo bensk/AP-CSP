@@ -2,7 +2,7 @@
 layout: "post"
 title: "🌅 Poster, Child"
 date: "2016-10-23 13:48"
-category: "Unit 1: Algorithms & p5"
+category: "Unit 1"
 ---
 
 If you've finished your [AP Create](http://bsk.education/AP-CSP/2016/10/17/create-drawing-app.html) responses, use this time to review your p5 skills and create a poster about one of the seven **Big Ideas**  in AP Computer Science:

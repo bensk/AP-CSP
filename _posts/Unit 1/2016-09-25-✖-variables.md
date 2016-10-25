@@ -2,7 +2,7 @@
 layout: "post"
 title: "✖ = Variables "
 date: "2016-09-25 12:13"
-category: "Unit 1: Algorithms & p5"
+category: "Unit 1"
 ---
 
 # Part 1

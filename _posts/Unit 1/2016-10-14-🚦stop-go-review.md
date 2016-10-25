@@ -2,7 +2,7 @@
 layout: "post"
 title: "🚦Stop & Go & Review"
 date: "2016-10-14 21:28"
-category: "Unit 1: Algorithms & p5"
+category: "Unit 1"
 ---
 
 ## Learning Targets
