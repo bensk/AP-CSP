@@ -2,7 +2,7 @@
 layout: "post"
 title: "🔂 Conditionals & Variables"
 date: "2016-09-27 21:48"
-category: "Unit 1: Algorithms and p5"
+category: "Unit 1⃣ Algorithms and p5"
 ---
 
 ## Do Now (in <span style="color: #ED1F5E">p5</span>)

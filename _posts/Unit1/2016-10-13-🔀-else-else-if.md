@@ -2,7 +2,7 @@
 layout: "post"
 title: "🔀 <code>else</code> & <code>else if</code>"
 date: "2016-10-13 11:50"
-category: "Unit 1: Algorithms and p5"
+category: "Unit 1⃣ Algorithms and p5"
 ---
 
 ## Learning Targets
