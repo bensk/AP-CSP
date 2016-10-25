@@ -2,7 +2,7 @@
 layout: "post"
 title: "Do You Want to Build a ⛄"
 date: "2016-09-22 13:41"
-category: "Unit 1: Algorithms & p5"
+category: "Unit 1: Algorithms and p5"
 ---
 
 ## Do Now

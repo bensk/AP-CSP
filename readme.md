@@ -42,7 +42,7 @@ At the end of each unit of study, students will complete a practice Performance 
 
 ## Units of Study
 
-### 🔢 Unit 1: Algorithms & p5: Introduction to Algorithms & Programming
+### 🔢 Unit 1: Algorithms and p5: Introduction to Algorithms & Programming
 
 - Designing algorithms
 - Abstractions
@@ -103,15 +103,15 @@ AP Explore Performance Task (8 hours)
 - In **Unit 5: The Interwebz** PT (Innovating for Social Change), students research and analyze the contextual suitability and effects of a computing innovation. `LO 1.2.5 [P4], LO 7.1.1 [P4], LO 7.3.1 [P4], LO 7.4.1 [P1], LO 7.5.1 [P1], LO 7.5.2 [P5]`
 
 ### P2: Creating Computational Artifacts
-- In **Unit 1: Algorithms & p5: Algorithms & Programming**, students collaborate to develop a program in p5.js to create a simple drawing application. `LO 4.1.1 [P2], LO 4.1.2 [P5], LO 5.1.3 [P6]`
+- In **Unit 1: Algorithms and p5: Algorithms & Programming**, students collaborate to develop a program in p5.js to create a simple drawing application. `LO 4.1.1 [P2], LO 4.1.2 [P5], LO 5.1.3 [P6]`
 - In **Unit 2: Building Apps**, students use an iterative and exploratory development process and multiple levels of abstraction as they create scripts to draw a single tile, a row, and a grid for a game board. `LO 1.1.1 [P2], LO 2.2.2 [P3]`
 
 ### P3: Abstracting
-- In  **Unit 1: Algorithms & p5: Algorithms & Programming**, students analyze how several programs implement algorithms, e.g. discussing how a short algorithm with a loop generates the image of a square; comparing and contrasting various square-drawing algorithms; and predicting what an algorithm does. Students iterate on these algorithms to create programs to draw different shapes based on user input in **Unit 2: Building Apps**. `LO 5.2.1 [P3]`
+- In  **Unit 1: Algorithms and p5: Algorithms & Programming**, students analyze how several programs implement algorithms, e.g. discussing how a short algorithm with a loop generates the image of a square; comparing and contrasting various square-drawing algorithms; and predicting what an algorithm does. Students iterate on these algorithms to create programs to draw different shapes based on user input in **Unit 2: Building Apps**. `LO 5.2.1 [P3]`
 - In **Unit 3: Digital Information**, students import data from texts and display the data visually to draw insights and represent information. `LO 2.3.1 [P3], LO 2.3.2 [P3]`
 
 ### P4: Analyzing Problems and Artifacts
-- In **Unit 1: Algorithms & p5: Algorithms & Programming**, students analyze a script to determine what is likely to go wrong before running it and use this developing understanding to create correct programs to calculate powers of numbers and do linguistic research, counting syntactical features of text. `LO 5.4.1 [P4], LO 5.1.2 [P2]`
+- In **Unit 1: Algorithms and p5: Algorithms & Programming**, students analyze a script to determine what is likely to go wrong before running it and use this developing understanding to create correct programs to calculate powers of numbers and do linguistic research, counting syntactical features of text. `LO 5.4.1 [P4], LO 5.1.2 [P2]`
 - In **Unit 4: Big Data & Privacy** reflecting on their own data and technology, students extend their insights to consider how large data sets of many people’s data affect large-scale communication, interaction, collaboration, and problem-solving. `LO 3.2.2 [P3], LO 7.1.1 [P4], LO 7.1.2 [P4]`
 
 ### P5: Communicating
@@ -128,7 +128,7 @@ AP Explore Performance Task (8 hours)
 
 ### Big Idea 1: Creativity
 - In **Unit 5: The Interwebz** students examine the privileges and biases associated with popular products, inquiring about the representation of women and minorities in technology fields and how engineering choices impact consumer options. `LO 1.2.5 [P4]`
-- In  **Unit 1: Algorithms & p5: Introduction to Algorithms & Programming** students collaboratively create a drawing application. `LO 1.2.1 [P2], LO 1.2.4 [P6], LO 1.3.1 [P2]`
+- In  **Unit 1: Algorithms and p5: Introduction to Algorithms & Programming** students collaboratively create a drawing application. `LO 1.2.1 [P2], LO 1.2.4 [P6], LO 1.3.1 [P2]`
 
 ### Big Idea 2: Abstraction
 - In **Unit 2: Building Apps** students work with data abstraction at multiple levels, creating, using and modifying abstract data types. For example, they create procedures to get tasks and due dates and modify lists of data to add, remove, and modify items. `LO 2.2.1 [P2], LO 2.2.2 [P3], LO 2.2.3 [P3]`
@@ -139,11 +139,11 @@ AP Explore Performance Task (8 hours)
 - In **Unit 3: Digital Information & Representation**, Lab 2, _Infographics_ students interpret and communicate the results of their data-processing by creating interactive infographics. `LO 3.1.3 [P5]`
 
 ### Big Idea 4: Algorithms
-- In **Unit 1: Algorithms & p5: Algorithms & Programming** students learn the difference between solvable and unsolvable problems and about the existence of undecidable problems through work with the halting problem. `LO 4.2.2 [P1], LO 4.2.3 [P1]`
+- In **Unit 1: Algorithms and p5: Algorithms & Programming** students learn the difference between solvable and unsolvable problems and about the existence of undecidable problems through work with the halting problem. `LO 4.2.2 [P1], LO 4.2.3 [P1]`
 - In **Unit 2: Building Apps** students collaboratively build a drawing app, and identify and explain algorithms used within their code. `LO 1.2.1 [P2], LO 2.2.1 [P2], LO 2.2.2 [P3], LO 4.1.1 [P2], LO 4.1.2 [P5], LO 5.1.1 [P2], LO 5.3.1 [P3]`
 
 ### Big Idea 5: Programming
-- Students program throughout the course. In **Unit 1: Algorithms & p5**, students build and debug a drawing application. In **Unit 2** they create a more complicated application that can store an access data using functions and lists. `LO 5.3.1 [P3], LO 5.5.1 [P1]`
+- Students program throughout the course. In **Unit 1: Algorithms and p5**, students build and debug a drawing application. In **Unit 2** they create a more complicated application that can store an access data using functions and lists. `LO 5.3.1 [P3], LO 5.5.1 [P1]`
 
 ### Big Idea 6: The Internet
 - In  **Unit 5: The Interwebz** students create an advocacy webpage, picking among topics such as Net Neutrality, internet censorship, or government surveillance. `LO 6.1.1[P3], LO 6.2.2[P4], LO 6.3.1 [P1]`
