@@ -5,9 +5,45 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Oct 2016 09:02:50 -0400</pubDate>
-    <lastBuildDate>Sun, 23 Oct 2016 09:02:50 -0400</lastBuildDate>
+    <pubDate>Mon, 24 Oct 2016 21:17:49 -0400</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2016 21:17:49 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>🌐 Hello, internet!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://static01.nyt.com/images/2016/05/25/us/25xp-internet/25xp-internet-superJumbo-v4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Oct 2016 21:09:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202/2016/10/24/hello-internet.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202/2016/10/24/hello-internet.html</guid>
+        
+        
+        <category>Unit 2</category>
+        
+      </item>
+    
+      <item>
+        <title>🌅 Poster, Child</title>
+        <description>&lt;p&gt;If you’ve finished your &lt;a href=&quot;http://bsk.education/AP-CSP/2016/10/17/create-drawing-app.html&quot;&gt;AP Create&lt;/a&gt; responses, use this time to review your p5 skills and create a poster about one of the seven &lt;strong&gt;Big Ideas&lt;/strong&gt;  in AP Computer Science:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Creativity&lt;/li&gt;
+  &lt;li&gt;Abstraction&lt;/li&gt;
+  &lt;li&gt;Data&lt;/li&gt;
+  &lt;li&gt;Algorithms&lt;/li&gt;
+  &lt;li&gt;Programming&lt;/li&gt;
+  &lt;li&gt;The Internet&lt;/li&gt;
+  &lt;li&gt;Global Impact&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1DFM-CFQSqz75Z2fEFI4TV6YZoPAK9ihD2cHkxtkIexQ/edit#slide=id.g1686c26918_1_5&quot;&gt;Examples&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Oct 2016 13:48:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/23/poster-child.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/23/poster-child.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>🖌 Create: Drawing App</title>
@@ -108,9 +144,11 @@
 💃🏼 Have fun!&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Oct 2016 12:59:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/17/create-drawing-app.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/17/create-drawing-app.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/17/create-drawing-app.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/17/create-drawing-app.html</guid>
         
+        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
@@ -209,9 +247,11 @@ function draw() {
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 14 Oct 2016 21:28:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/14/stop-go-review.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/14/stop-go-review.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/14/stop-go-review.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/14/stop-go-review.html</guid>
         
+        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
@@ -255,9 +295,11 @@ function draw() {
 
 </description>
         <pubDate>Thu, 13 Oct 2016 11:50:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/13/else-else-if.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/13/else-else-if.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/13/else-else-if.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/13/else-else-if.html</guid>
         
+        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
@@ -332,9 +374,11 @@ Meaningful names for variables and procedures help people better understand prog
 &lt;/table&gt;
 </description>
         <pubDate>Tue, 11 Oct 2016 17:36:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/11/make-more-stuff-move.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/11/make-more-stuff-move.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/11/make-more-stuff-move.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/11/make-more-stuff-move.html</guid>
         
+        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
@@ -384,9 +428,11 @@ What do you think it means?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/2016/08/01/opinion/make-algorithms-accountable.html?nytmobile=0&quot;&gt;“Make Algorithms Accountable”&lt;/a&gt; by Julia Angwin, The New York Times Op-Ed&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Oct 2016 10:59:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/10/06/explore-algorithms.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/10/06/explore-algorithms.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/06/explore-algorithms.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/10/06/explore-algorithms.html</guid>
         
+        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
@@ -466,9 +512,11 @@ What do you think it means?&lt;/p&gt;
 &lt;/table&gt;
 </description>
         <pubDate>Tue, 27 Sep 2016 21:48:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/27/conditionals-variables.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/27/conditionals-variables.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/09/27/conditionals-variables.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/09/27/conditionals-variables.html</guid>
         
+        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
@@ -577,9 +625,11 @@ function draw() {
 
 </description>
         <pubDate>Sun, 25 Sep 2016 12:13:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/25/variables.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/25/variables.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/09/25/variables.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/09/25/variables.html</guid>
         
+        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
@@ -629,125 +679,11 @@ function draw() {
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 23 Sep 2016 13:07:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/23/review.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/23/review.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/09/23/review.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201:%20algorithms%20&%20p5/2016/09/23/review.html</guid>
         
         
-      </item>
-    
-      <item>
-        <title>Do You Want to Build a ⛄</title>
-        <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;✱ Create a canvas that is &lt;strong&gt;500px&lt;/strong&gt; wide and &lt;strong&gt;500px&lt;/strong&gt; tall.  &lt;br /&gt;
-✱ Draw an &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; inside of another ellipse.  &lt;br /&gt;
-✱ Give each &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; a different color.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://bsk.education/SE8_p5js/Code_Examples/Snowman/&quot;&gt;☃&lt;/a&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Do you wanna build a snowman?&lt;/em&gt;  &lt;br /&gt;
-&lt;em&gt;It doesn’t have to be a snowman…&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Use the &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; graph paper to plan your snowman&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;span-classmega-octicon-octicon-light-bulbspan-helpful-drawing-hint&quot;&gt;&lt;span class=&quot;mega-octicon octicon-light-bulb&quot;&gt;&lt;/span&gt; Helpful Drawing Hint&lt;/h2&gt;
-&lt;p&gt;If you add this code to your sketches, you’ll be able to see where your mouse is on the screen…very helpful for drawing!&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;white&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;textSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Mouse X = &#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mouseX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; | Mouse Y = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mouseY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;span-classmega-octicon-octicon-checkspan-meeting-standards&quot;&gt;&lt;span class=&quot;mega-octicon octicon-check&quot;&gt;&lt;/span&gt; Meeting Standards&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;At least 3 &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;, correctly layered so that it &lt;em&gt;looks&lt;/em&gt; like one is resting on top of the other.&lt;/li&gt;
-  &lt;li&gt;At least two &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt; for the arms&lt;/li&gt;
-  &lt;li&gt;What shape do you think I used to make the nose? Use &lt;a href=&quot;https://p5js.org/reference/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;p5✱ Reference&lt;/code&gt;&lt;/a&gt; to figure out how to make this shape.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;span-classmega-octicon-octicon-rocketspan-push-yourself-for-a-4&quot;&gt;&lt;span class=&quot;mega-octicon octicon-rocket&quot;&gt;&lt;/span&gt; Push yourself for a 4!&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;fill()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;stroke()&lt;/code&gt; to give your snowman some color.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;It doesn’t have to be a snowman. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Thu, 22 Sep 2016 13:41:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/22/do-you-want-to-build-a.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/22/do-you-want-to-build-a.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>🎲 Dice</title>
-        <description>&lt;p&gt;Let’s say we throw two dice on the ground. What number did we roll?&lt;/p&gt;
-
-&lt;p&gt;Press &lt;span style=&quot;color: #ED1F5E&quot;&gt;▶ Play&lt;/span&gt; below.&lt;/p&gt;
-
-&lt;script type=&quot;text/p5&quot; data-height=&quot;490&quot; data-preview-width=&quot;470&quot;&gt;
-function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(&#39;#ED245E&#39;);
-}
-
-function draw() {
-	strokeWeight(3);
-	stroke(&#39;black&#39;);
-	fill(255);
-	rect(20, 20, 200, 200);
-	fill(&#39;blue&#39;);
-	ellipse(120, 120, 50, 50);
-	fill(255);
-	rect(250, 20, 200, 200);
-	fill(&#39;blue&#39;);
-	ellipse(300, 70, 50, 50);
-	ellipse(350, 120, 50, 50);
-	ellipse(400, 170, 50, 50);
-}
-&lt;/script&gt;
-
-&lt;p&gt;Now it’s your turn. We need 6’s to win! Modify the code to make each dice always show a 6.&lt;/p&gt;
-
-&lt;h2 id=&quot;roll-the-die&quot;&gt;Roll the Die&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Change the color of your die&lt;/li&gt;
-  &lt;li&gt;Change the color of the background&lt;/li&gt;
-  &lt;li&gt;Move the die around the screen&lt;/li&gt;
-  &lt;li&gt;Add another die&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;span-classmega-octicon-octicon-tagspan-tag-it-for-a-55&quot;&gt;&lt;span class=&quot;mega-octicon octicon-tag&quot;&gt;&lt;/span&gt; Tag it for a 5&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-&lt;p&gt;Write your name on your sketch, using the shapes you know so far.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;I’m grading you out of 5, like the AP will. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 19 Sep 2016 18:51:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/09/19/dice.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/09/19/dice.html</guid>
-        
+        <category>Unit 1: Algorithms &amp; p5</category>
         
       </item>
     
