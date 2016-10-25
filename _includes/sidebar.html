@@ -29,21 +29,7 @@
 
       <a href="http://bsk.education/AP-CSP/Code_Examples/">⚠️ Code Examples</a><br>
       <a href="http://alpha.editor.p5js.org/"><span class="octicon octicon-terminal"></span> <code>p5✱js Web Editor</code></a><br>
-      <hr>
-      <!-- <h2 style = "color: white">Lessons</h2> -->
-
-      {% for category in site.categories %}
-  <b><a name="{{ category | first }}">{{ category | first }}</a></b>
-
-    {% for posts in category %}
-      {% for post in posts %}
-        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-      {% endfor %}
-    {% endfor %}
-
-
-{% endfor %}
-
+      <h2>Lessons</h2>
       {% for post in site.posts %}
           <p class="lead">{{ post.date | date: '%B %d, %Y' }}<br>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
