@@ -8,7 +8,7 @@ category: "Unit 2 – The internet"
 ![](https://static01.nyt.com/images/2016/05/25/us/25xp-internet/25xp-internet-superJumbo-v4.jpg)
 
 ## Do Now
-How much does the internet weigh?
+AP Practice Question in Classroom.
 
 ## Watch
 <video width="320" height="240" controls>
