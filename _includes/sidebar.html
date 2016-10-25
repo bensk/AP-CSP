@@ -33,23 +33,22 @@
       <!-- <h2 style = "color: white">Lessons</h2> -->
 
       {% for category in site.categories %}
-  <b class = "lead">{{ category | first }}</b>
-<!-- <b><a name="{{ category | first }}">{{ category | first }}</a></b> -->
+  <b><a name="{{ category | first }}">{{ category | first }}</a></b>
+
     {% for posts in category %}
       {% for post in posts %}
-      {{ post.date | date: '%-m/%-d' }}
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
+        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
       {% endfor %}
     {% endfor %}
 
 
 {% endfor %}
 
-      <!-- {% for post in site.posts %}
+      {% for post in site.posts %}
           <p class="lead">{{ post.date | date: '%B %d, %Y' }}<br>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 
-        {% endfor %} -->
+        {% endfor %}
       </p>
       <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
       <!-- <a href="http://alpha.editor.p5js.org/"><span class="octicon octicon-terminal"></span>
