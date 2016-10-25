@@ -2,7 +2,7 @@
 layout: "post"
 title: "🔍 Explore: Algorithms"
 date: "2016-10-06 10:59"
-category: "Unit 1⃣ Algorithms and p5"
+category: "Unit 1 – Algorithms and p5"
 ---
 
 # 🎯 AP Learning Targets

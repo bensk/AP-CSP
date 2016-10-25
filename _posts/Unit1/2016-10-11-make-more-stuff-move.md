@@ -2,7 +2,7 @@
 layout: "post"
 title: "Make More Stuff Move"
 date: "2016-10-11 17:36"
-category: "Unit 1⃣ Algorithms and p5"
+category: "Unit 1 – Algorithms and p5"
 ---
 
 ## Do Now (In Google Classroom)

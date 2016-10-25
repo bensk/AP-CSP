@@ -2,7 +2,7 @@
 layout: post
 title: "Algorithms & Language"
 date: "2016-09-12 21:46:58 -0400"
-category: "Unit 1⃣ Algorithms and p5"
+category: "Unit 1 – Algorithms and p5"
 ---
 
 ## Learning Targets
