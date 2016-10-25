@@ -21,5 +21,5 @@ repo:              https://github.com/bensk/AP-CSP
 future: true
 gems:
     # - jemoji
-    - jekyll-archives
+    # - jekyll-archives
     - jekyll-paginate
