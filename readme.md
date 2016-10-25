@@ -43,6 +43,7 @@ At the end of each unit of study, students will complete a practice Performance 
 ## Units of Study
 
 ### 🔢 Unit 1: Introduction to Algorithms & Programming
+
 - Designing algorithms
 - Abstractions
 - Flowcharts & design
@@ -51,14 +52,25 @@ At the end of each unit of study, students will complete a practice Performance 
 
 **Practice Create Performance Task**: Build a Drawing App
 
-### 🔨 Unit 2: Building Apps
+### 🌐 Unit 2: The Interwebz
+
+- Binary!
+- Encoding and sending numbers and text
+- IP Addresses, packets, redundancy
+- Routing, DNS, Protocols, Abstraction
+
+**Practice Explore Performance Task:** The Internet & Society
+
+### 🔨 Unit 3: Building Apps
+
 - User inputs & variables
 - Lists & arrays
 - Boolean logic
 
 **Practice Create Performance Task:** Todo list
 
-### 💡 Unit 3: Digital Information & Representation
+### 💡 Unit 4: Digital Information & Representation
+
 - Encoding & decoding images
 - Cyphers
 - Interpreting visual data
@@ -68,7 +80,8 @@ At the end of each unit of study, students will complete a practice Performance 
 
 [^1]: This task will integrate with AP English Language & Literature
 
-### 📡 Unit 4: Big Data & Privacy
+### 📡 Unit 5: Big Data & Privacy
+
 - Data and commerce
 - "Free" apps
 - Encryption schemes
@@ -76,17 +89,9 @@ At the end of each unit of study, students will complete a practice Performance 
 
 **Practice Explore Performance Task:** Advocacy Webpage
 
-### 🌐 Unit 5: The Interwebz
-- Binary!
-- Encoding and sending numbers and text
-- IP Addresses, packets, redundancy
-- Routing, DNS, Protocols, Abstraction
-
-**Practice Explore Performance Task:** The Internet & Society
-
 ### 💃🏾 Unit 6: Performance Tasks
-AP Create Performance Task (12 hours)
 
+AP Create Performance Task (12 hours)
 AP Explore Performance Task (8 hours)
 
 ---
