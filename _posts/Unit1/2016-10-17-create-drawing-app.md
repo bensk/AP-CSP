@@ -2,7 +2,7 @@
 layout: "post"
 title: "🖌 Create: Drawing App"
 date: "2016-10-17 12:59"
-category: "Unit 1"
+category: "Unit 1: Algorithms & p5"
 ---
 
 ## Do Now (in <span style="color: #ED1F5E">p5</span>)
