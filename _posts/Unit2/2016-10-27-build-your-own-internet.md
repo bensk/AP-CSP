@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "🎚 Build your own internet"
+title: "ℹ Communicating Information"
 date: "2016-10-27 11:00"
 ---
 
