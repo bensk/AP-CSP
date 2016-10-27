@@ -2,6 +2,7 @@
 layout: "post"
 title: "ℹ Communicating Information"
 date: "2016-10-27 11:00"
+category: "Unit 2 – The internet"
 ---
 
 ## Do Now (In Classroom)
