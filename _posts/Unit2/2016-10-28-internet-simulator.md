@@ -7,7 +7,7 @@ category: "Unit 2 – The internet"
 
 ## Do Now (In Classroom)
 
-Create a code.org account using your school email.
+Open the `code.org` invitation and join our group. 
 
 ## Signals & Protocols
 
