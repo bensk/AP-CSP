@@ -5,14 +5,14 @@ date: "2016-10-31 13:48"
 category: "Unit 2 – The internet"
 ---
 
-If you've finished your [AP Create](http://bsk.education/AP-CSP/2016/10/17/create-drawing-app.html) responses, use this time to review your p5 skills and create a poster about one of the seven **Big Ideas**  in AP Computer Science:
+Review your p5 skills and create a poster explaining binary communication.
 
-1. Creativity
-2. Abstraction
-3. Data
-4. Algorithms
-5. Programming
-6. The Internet
-7. Global Impact
+| Specification                       | Point |
+|-------------------------------------|:-------:|
+| Depicts wires in a binary state | 1     |
+| Uses `text` command                 |    1   |
+| Displays two states using mouse or keyboard interaction.                                    |     1  |
 
-[Examples](https://docs.google.com/presentation/d/1DFM-CFQSqz75Z2fEFI4TV6YZoPAK9ihD2cHkxtkIexQ/edit#slide=id.g1686c26918_1_5)
+[SK Example](http://bsk.education/AP-CSP/Code_Examples/InternetSimulator/)
+
+[Example Posters from other AP classes](https://docs.google.com/presentation/d/1DFM-CFQSqz75Z2fEFI4TV6YZoPAK9ihD2cHkxtkIexQ/edit#slide=id.g1686c26918_1_5)
