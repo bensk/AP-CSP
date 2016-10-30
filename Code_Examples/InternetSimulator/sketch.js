@@ -1,4 +1,4 @@
-var signal = 'red'
+var signal = '#FF4296'
 var message = ""
 var state
 
@@ -24,11 +24,11 @@ function draw() {
 	text("Node 2", windowWidth / 2 - 17, windowHeight / 2 - 15, 40, 40);
 	// Change the wire color!
 	if (mouseIsPressed) {
-		signal = 'green'
+		signal = '#85D1DE'
 		state = 1
 
 	} else {
-		signal = 'red'
+		signal = '#FF4296'
 		state = 0
 
 	}
