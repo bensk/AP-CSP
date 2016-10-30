@@ -23,7 +23,7 @@ function draw() {
 	ellipse(windowWidth / 2, windowHeight / 2, 50, 50);
 	text("Node 2", windowWidth / 2 - 17, windowHeight / 2 - 15, 40, 40);
 	// Change the wire color!
-	if (mouseIsPressed) {
+	if (mouseIsPressed || touchIsDown) {
 		signal = '#85D1DE'
 		state = 1
 
@@ -32,6 +32,8 @@ function draw() {
 		state = 0
 
 	}
+	
+	
 	textSize(100)
 textFont('monospace')
 	text("State=" +state, windowWidth / 2, 200)
