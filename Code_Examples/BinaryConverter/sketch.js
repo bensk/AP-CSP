@@ -14,9 +14,9 @@ function draw() {
 
 	if (num >= 0) {
 		textFont('sans-serif')
-		text('In decimal ' + number + ' is', windowWidth-10, 50);
+		text('In decimal ' + number + ' is', windowWidth - 10, 50);
 		textFont('courier');
-		text(num.toString(2), windowWidth-10, 80);
+		text(num.toString(2), windowWidth - 10, 80);
 	}
 }
 
