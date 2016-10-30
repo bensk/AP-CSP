@@ -25,11 +25,11 @@ function draw() {
 	// Change the wire color!
 	if (mouseIsPressed) {
 		signal = 'green'
-		state = 0
+		state = 1
 
 	} else {
 		signal = 'red'
-		state = 1
+		state = 0
 
 	}
 	textSize(100)
