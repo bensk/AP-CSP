@@ -8,7 +8,7 @@ function setup() {
 function draw() {
 	background('white')
 	textSize(14)
-	text(mouseX + " | " + mouseY, 40, 12);
+	// text(mouseX + " | " + mouseY, 40, 12);
 	stroke(signal)
 	strokeWeight(10)
 	noCursor()
