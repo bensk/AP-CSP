@@ -5,7 +5,7 @@ date: "2016-11-03 20:10"
 category: "Unit 2 – The internet"
 ---
 
-# Do Now
+# Do Now (in Classroom)
 The letter `A` is represented by `65` in **ASCII**, the protocol used by most computers for text encoding.
 
 > American Standard Code for Information Interchange, a set of digital codes representing letters, numerals, and other symbols, widely used as a standard format in the transfer of text between computers.
