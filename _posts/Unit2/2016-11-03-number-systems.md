@@ -71,7 +71,7 @@ Where have we seen **hex** before?
 
 > <span style = "color: #E32173">#E32173</span>
 
-That's my favorite pink, <span style = "color: #E32173">Razzmatazz</span>. Colors can be represented by mixing red, green, and blue. How much RGB is Razzmatazz?
+That's my favorite pink, <span style = "color: #E32173">Razzmatazz</span>. Colors can be represented by mixing red, green, and blue. How much RGB is  <span style = "color: #E32173">Razzmatazz</span>?
 
 It's 227 red, 33 g, and 115 blue. How do I know that?
 
