@@ -66,3 +66,16 @@ Wait, what?
 | 64 | 32 | 16 | 1 |
 |:--:|:--:|:--:|:--:|
 |  |  | 1 | 0 |
+
+Where have we seen **hex** before?
+
+> <span style = "color: #E32173">#E32173</span>
+
+That's my favorite pink, <span style = "color: #E32173">Razzmatazz</span>. Colors can be represented by mixing red, green, and blue. How much RGB is Razzmatazz?
+
+It's 227 red, 33 g, and 115 blue. How do I know that?
+
+| <span style = "color: #E32173">Razzmatazz</span>  | R  | G  |  B |
+|---|:---:|:---:|:---:|
+| Hex  | E3  | 21  | 73  |
+| Decimal  | 227  | 33  | 115  |
