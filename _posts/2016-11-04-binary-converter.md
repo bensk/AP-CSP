@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "💱Binary converter"
+title: "🔀 Binary converter"
 date: "2016-11-04 11:47"
 category: "Unit 2 – The internet"
 ---
