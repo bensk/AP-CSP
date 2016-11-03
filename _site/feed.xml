@@ -5,45 +5,341 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Oct 2016 10:49:55 -0400</pubDate>
-    <lastBuildDate>Fri, 28 Oct 2016 10:49:55 -0400</lastBuildDate>
+    <pubDate>Thu, 03 Nov 2016 11:53:58 -0400</pubDate>
+    <lastBuildDate>Thu, 03 Nov 2016 11:53:58 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Binary converter</title>
+        <description>&lt;p&gt;Converting between decimal, binary, and hex is a pain in the 🍑. Maybe we should make a computer do it?&lt;/p&gt;
+
+&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/Bkip2COeg&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 04 Nov 2016 11:47:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/11/04/binary-converter.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/11/04/binary-converter.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>🔢 Number Systems</title>
+        <description>&lt;h1 id=&quot;do-now&quot;&gt;Do Now&lt;/h1&gt;
+&lt;p&gt;The letter &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; is represented by &lt;code class=&quot;highlighter-rouge&quot;&gt;65&lt;/code&gt; in &lt;strong&gt;ASCII&lt;/strong&gt;, the protocol used by most computers for text encoding.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;American Standard Code for Information Interchange, a set of digital codes representing letters, numerals, and other symbols, widely used as a standard format in the transfer of text between computers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Deep inside your computer, that &lt;code class=&quot;highlighter-rouge&quot;&gt;65&lt;/code&gt; is sent in binary. What is &lt;code class=&quot;highlighter-rouge&quot;&gt;65&lt;/code&gt; in binary?&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;p&gt;I can use number bases, including binary, decimal, and hexadecimal,  to represent and investigate digital data.&lt;/p&gt;
+
+&lt;p&gt;I can explain why hexadecimal is used to represent digital data.&lt;/p&gt;
+
+&lt;h2 id=&quot;review-decimal--binary&quot;&gt;Review decimal &amp;amp; binary&lt;/h2&gt;
+
+&lt;p&gt;Let’s write 15:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decimal:&lt;/strong&gt; &lt;br /&gt;
+In &lt;strong&gt;decimal&lt;/strong&gt;, we have 10 symbols: &lt;code class=&quot;highlighter-rouge&quot;&gt;0, 1, 2, 3, 4, 5, 6, 7, 8, 9&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;15 in decimal:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1000&lt;/th&gt;
+      &lt;th&gt;100&lt;/th&gt;
+      &lt;th&gt;10&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Binary&lt;/strong&gt;  &lt;br /&gt;
+In &lt;strong&gt;binary&lt;/strong&gt;, we have 2 symbols: &lt;code class=&quot;highlighter-rouge&quot;&gt;0, 1&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;15 in binary:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;8&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;4&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Binary numbers start to get very long, very quickly.&lt;/p&gt;
+
+&lt;h2 id=&quot;hexawhatnow&quot;&gt;Hexawhatnow?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Hexadecimal&lt;/strong&gt; - base 16&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Hexadecimal&lt;/strong&gt;
+In &lt;strong&gt;hexadecimal&lt;/strong&gt;, we have 16 symbols: &lt;code class=&quot;highlighter-rouge&quot;&gt;0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b ,c, d, e, f&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Wait, what?&lt;/p&gt;
+
+&lt;p&gt;15 in hexadecimal is &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;64&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;32&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;16&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;f&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;notice&quot;&gt;Notice!&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;How many &lt;code class=&quot;highlighter-rouge&quot;&gt;bits&lt;/code&gt; does it take to write 15 in decimal, binary, and hexadecimal?&lt;/li&gt;
+  &lt;li&gt;Hex looks just like decimal…until we try to write &lt;strong&gt;16&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Hexadecimal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;64&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;32&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;16&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Where have we seen &lt;strong&gt;hex&lt;/strong&gt; before?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color: #E32173&quot;&gt;#E32173&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s my favorite pink, &lt;span style=&quot;color: #E32173&quot;&gt;Razzmatazz&lt;/span&gt;. Colors can be represented by mixing red, green, and blue. How much RGB is  &lt;span style=&quot;color: #E32173&quot;&gt;Razzmatazz&lt;/span&gt;?&lt;/p&gt;
+
+&lt;p&gt;It’s 227 red, 33 g, and 115 blue. How do I know that?&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;span style=&quot;color: #E32173&quot;&gt;Razzmatazz&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;R&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;G&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;B&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hex&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;E3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;73&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Decimal&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;227&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;33&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;115&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Thu, 03 Nov 2016 20:10:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/03/number-systems.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/03/number-systems.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
+    
+      <item>
+        <title>💡Binary</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+&lt;p&gt;I can explain how binary sequences are used to represent digital data.
+I can convert between binary and decimal.&lt;/p&gt;
+
+&lt;h2 id=&quot;count-to-3&quot;&gt;Count to 3…&lt;/h2&gt;
+&lt;p&gt;We are used to counting in &lt;strong&gt;decimal&lt;/strong&gt; because we have 10 fingers. We work with &lt;em&gt;place values&lt;/em&gt; that go up in &lt;strong&gt;powers of 10&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1000&lt;/th&gt;
+      &lt;th&gt;100&lt;/th&gt;
+      &lt;th&gt;10&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;count-to-11&quot;&gt;Count to 11…&lt;/h2&gt;
+&lt;p&gt;Binary works the same way, but the &lt;em&gt;place values&lt;/em&gt; go up in &lt;strong&gt;powers of 2&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;8&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;4&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;free-computer&quot;&gt;Free Computer!&lt;/h2&gt;
+&lt;p&gt;We’re going to make a binary computer. fill yours in like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U1L5-FlippyDo-Instructions.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Nov 2016 11:14:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/01/binary.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/01/binary.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
+    
+      <item>
+        <title>🌅 Poster, Child</title>
+        <description>&lt;p&gt;Review your p5 skills and create a poster explaining binary communication.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Specification&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Point&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Depicts wires in a binary state&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Uses &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt; command&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Displays two states using mouse or keyboard interaction.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bsk.education/AP-CSP/Code_Examples/InternetSimulator/&quot;&gt;SK Example&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1DFM-CFQSqz75Z2fEFI4TV6YZoPAK9ihD2cHkxtkIexQ/edit#slide=id.g1686c26918_1_5&quot;&gt;Example Posters from other AP classes&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Oct 2016 13:48:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/31/poster-child.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/31/poster-child.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
     
       <item>
         <title>🌐 Internet Simulator</title>
         <description>&lt;h2 id=&quot;do-now-in-classroom&quot;&gt;Do Now (In Classroom)&lt;/h2&gt;
 
-&lt;p&gt;What is your personal definition of “information?”
-What do you think “binary information” is?&lt;/p&gt;
+&lt;p&gt;Open the &lt;code class=&quot;highlighter-rouge&quot;&gt;code.org&lt;/code&gt; invitation and join our group.&lt;/p&gt;
 
-&lt;h2 id=&quot;develop-a-binary-question&quot;&gt;Develop a binary question&lt;/h2&gt;
-&lt;p&gt;The question should have &lt;strong&gt;two&lt;/strong&gt; answers. The response could be “yes/no,” but it could also be choosing between two (or later, more) things.&lt;/p&gt;
+&lt;h2 id=&quot;signals--protocols&quot;&gt;Signals &amp;amp; Protocols&lt;/h2&gt;
 
-&lt;h2 id=&quot;develop-a-device&quot;&gt;Develop a device&lt;/h2&gt;
-&lt;p&gt;Using only materials in the room, you will build a device capable of transmitting a binary message across the room or around a corner.&lt;/p&gt;
+&lt;p&gt;Yesterday you made a device a set of rules. What you were developing is called a &lt;strong&gt;protocol&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Rules&lt;/strong&gt;    &lt;br /&gt;
-- No talking, no writing, no language.
-- No throwing stuff
-- Your device must work &lt;strong&gt;at a distance&lt;/strong&gt;. You &lt;del&gt;might&lt;/del&gt; will not be next to your partner.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Protocol&lt;/strong&gt; - A set of rules governing the exchange or transmission of data between devices.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;🔄 Swap devices with another group and learn their rules. Can you communicate with your partner?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Bit&lt;/strong&gt; - a single &lt;code class=&quot;highlighter-rouge&quot;&gt;binary digit&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;more-answers&quot;&gt;More Answers…&lt;/h2&gt;
-&lt;p&gt;Let’s go from &lt;code class=&quot;highlighter-rouge&quot;&gt;On&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;off&lt;/code&gt; to &lt;strong&gt;sequences&lt;/strong&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;on&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;off&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We’re going to use the &lt;a href=&quot;https://studio.code.org/s/netsim/stage/2/puzzle/1&quot;&gt;Internet Simulator&lt;/a&gt; to send 2-bit messages.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;(5 min)&lt;/strong&gt;
-Can you invent new rules for your device to answer a question with &lt;strong&gt;four&lt;/strong&gt; answers?&lt;/p&gt;
+&lt;p&gt;Login and see what you can figure out. Click all the buttons, try typing, see what happens.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;(5min)&lt;/strong&gt;
-Can you iterate and invent new rules for your device to answer a question with &lt;strong&gt;eight&lt;/strong&gt; answers?&lt;/p&gt;
+&lt;h2 id=&quot;internet-simulator&quot;&gt;Internet Simulator&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;SHARED&lt;/strong&gt; wire between the two people.&lt;/li&gt;
+  &lt;li&gt;The wire can hold &lt;strong&gt;only&lt;/strong&gt; a single state - &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; - and it can be set by either person at any time.&lt;/li&gt;
+  &lt;li&gt;At any time either person can read the wire to see which state it’s in&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;span style=&quot;font-size: 2em&quot;&gt;Ok, now how about 1,000,000,000,000 possible answers?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Neither partner is “sending” or receiving anything. You can always set or see the state of the wire.&lt;/p&gt;
 
-&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
-&lt;p&gt;Could you use another group’s device to send your set of messages? Why or why not? What would you need to know from the other groups?&lt;/p&gt;
+&lt;p&gt;Challenge: figure out a protocol to send messages back and forth. Your goal should be to develop a protocl that sends messages &lt;em&gt;as quickly as possible&lt;/em&gt;. This is what’s called a &lt;strong&gt;bitrate&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Based on what you’ve seen in today’s activity what do you think are the limitations on the kinds of information we can send with binary messages?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Bitrate&lt;/strong&gt; - the number of bits that are conveyed or processed per unit of time. e.g. 8 bits/sec.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;assessment&quot;&gt;Assessment&lt;/h2&gt;
+&lt;p&gt;A binary message consisting of four bits was sent to you by a friend. The message was supposed to be &lt;code class=&quot;highlighter-rouge&quot;&gt;ABAB&lt;/code&gt;. Unfortunately, your friend set the bit on the wire &lt;em&gt;once every 2 seconds&lt;/em&gt;, but you read the wire &lt;em&gt;once every second&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Assuming that the first bit was sent and read at the same time, what message did you receive instead?&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Oct 2016 11:00:00 -0400</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/28/internet-simulator.html</link>
@@ -125,31 +421,6 @@ Can you iterate and invent new rules for your device to answer a question with &
         
         
         <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>🌅 Poster, Child</title>
-        <description>&lt;p&gt;If you’ve finished your &lt;a href=&quot;http://bsk.education/AP-CSP/2016/10/17/create-drawing-app.html&quot;&gt;AP Create&lt;/a&gt; responses, use this time to review your p5 skills and create a poster about one of the seven &lt;strong&gt;Big Ideas&lt;/strong&gt;  in AP Computer Science:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Creativity&lt;/li&gt;
-  &lt;li&gt;Abstraction&lt;/li&gt;
-  &lt;li&gt;Data&lt;/li&gt;
-  &lt;li&gt;Algorithms&lt;/li&gt;
-  &lt;li&gt;Programming&lt;/li&gt;
-  &lt;li&gt;The Internet&lt;/li&gt;
-  &lt;li&gt;Global Impact&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1DFM-CFQSqz75Z2fEFI4TV6YZoPAK9ihD2cHkxtkIexQ/edit#slide=id.g1686c26918_1_5&quot;&gt;Examples&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Oct 2016 13:48:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/23/poster-child.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/23/poster-child.html</guid>
-        
-        
-        <category>Unit 1 – Algorithms and p5</category>
         
       </item>
     
@@ -405,223 +676,6 @@ function draw() {
         <pubDate>Thu, 13 Oct 2016 11:50:00 -0400</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/13/else-else-if.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/13/else-else-if.html</guid>
-        
-        
-        <category>Unit 1 – Algorithms and p5</category>
-        
-      </item>
-    
-      <item>
-        <title>Make More Stuff Move</title>
-        <description>&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (In Google Classroom)&lt;/h2&gt;
-&lt;p&gt;What does it mean to &lt;strong&gt;initialize&lt;/strong&gt; a variable? Why do we need to do that when programming?
-What does it mean to &lt;strong&gt;increment&lt;/strong&gt; a variable? What does it let us do?
-Why should we pick meaningful names for variables in our code?&lt;/p&gt;
-
-&lt;h2 id=&quot;from-the-ap&quot;&gt;From the AP:&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Program instructions may involve variables that are initialized and updated, read, and written  &lt;br /&gt;
-Meaningful names for variables and procedures help people better understand programs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;back-to-bouncing&quot;&gt;Back to Bouncing&lt;/h2&gt;
-
-&lt;iframe src=&quot;/AP-CSP/Code_Examples/ChangeColorBounce&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:solid&quot;&gt;&lt;/iframe&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Your &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt; must resize to the window.&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;User created variables for &lt;code class=&quot;highlighter-rouge&quot;&gt;x position&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;y position&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;x direction&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;y direction&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Conditionals for the left/right and top/bottom edge of the screen&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;New Stuff!&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;!!&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Make your ellipse change color when it hits the edge&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Add another shape (&lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;triangle()&lt;/code&gt;) and make it move separately&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Extension&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;✱&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;When a key is pressed either change the &lt;strong&gt;shape&lt;/strong&gt; or the &lt;strong&gt;size of the shape&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Ball bounces using only &lt;strong&gt;2&lt;/strong&gt; conditionals&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total:&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;__ / 10&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 11 Oct 2016 17:36:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/11/make-more-stuff-move.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/11/make-more-stuff-move.html</guid>
-        
-        
-        <category>Unit 1 – Algorithms and p5</category>
-        
-      </item>
-    
-      <item>
-        <title>🔍 Explore: Algorithms</title>
-        <description>&lt;h1 id=&quot;ap-learning-targets&quot;&gt;🎯 AP Learning Targets&lt;/h1&gt;
-&lt;ol&gt;
-  &lt;li&gt;I explain how computing innovations affect communication, interaction, and cognition.&lt;/li&gt;
-  &lt;li&gt;I explain how computing has impacted innovations in other fields.&lt;/li&gt;
-  &lt;li&gt;I explain how programs implement algorithms.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (In Google Classroom)&lt;/h1&gt;
-&lt;p&gt;Look at this image:
-&lt;img src=&quot;https://static01.nyt.com/images/2016/08/01/opinion/01angwin/01angwin-superJumbo.jpg&quot; alt=&quot;&quot; /&gt;
-What do you think it means?&lt;/p&gt;
-
-&lt;h1 id=&quot;ap-explore-task&quot;&gt;AP Explore Task&lt;/h1&gt;
-&lt;p&gt;We’re going to take a bit of a break from coding.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;From the AP:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;AP Explore Guidelines&lt;/strong&gt;
-&amp;gt; Computing innovations impact our lives in ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a computing innovation of your choice. Your close examination of this computing innovation will deepen your understanding of computer science principles.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You will be provided with 8 hours of class time to develop, complete, and submit the following:
-1. A computational artifact
-2. Written responses (2a-2e).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This performance task requires you to select and investigate a computational innovation that:
-1. has had or has the potential to have significant beneficial and harmful effects on society, economy, or culture;
-2. consumes, produces, and/or transforms data; and
-3. raises at least one data storage concern, data privacy concern, or data security concern.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;your-task&quot;&gt;Your Task:&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;2c. Computing Innovation: Explain at least one beneficial effect and at least one harmful effect the computing innovation has had, or has the potential to have, on society, economy, or culture. (Approximately 250 words)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;🔗 For each online source, include the permanent URL. Identify the author, title, source, the date you retrieved the source, and, if possible, the date the reference was written or posted&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/2016/08/01/opinion/make-algorithms-accountable.html?nytmobile=0&quot;&gt;“Make Algorithms Accountable”&lt;/a&gt; by Julia Angwin, The New York Times Op-Ed&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Oct 2016 10:59:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/06/explore-algorithms.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/10/06/explore-algorithms.html</guid>
-        
-        
-        <category>Unit 1 – Algorithms and p5</category>
-        
-      </item>
-    
-      <item>
-        <title>🔂 Conditionals &amp; Variables</title>
-        <description>&lt;h2 id=&quot;do-now-in-span-stylecolor-ed1f5ep5span&quot;&gt;Do Now (in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;)&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Create a canvas that is the size of the screen&lt;/li&gt;
-  &lt;li&gt;Create a shape (&lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;, etc) that follows your mouse&lt;/li&gt;
-  &lt;li&gt;Write a conditional so that the &lt;code class=&quot;highlighter-rouge&quot;&gt;fill()&lt;/code&gt; of the shape changes if the mouse is on the &lt;strong&gt;left&lt;/strong&gt; or &lt;strong&gt;right&lt;/strong&gt; side of the screen.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Like this:&lt;/p&gt;
-
-&lt;iframe src=&quot;/AP-CSP/Code_Examples/left_right/index.html&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:none&quot;&gt;&lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;conditionals--variables&quot;&gt;Conditionals &amp;amp; Variables&lt;/h2&gt;
-
-&lt;p&gt;Our next challenge is to make a sketch where a &lt;del&gt;ball&lt;/del&gt; shape bounces around the screen.&lt;/p&gt;
-
-&lt;p&gt;This is a more complicated than the sketches we’ve done so far, because we will be &lt;strong&gt;defining&lt;/strong&gt; our own variables.&lt;/p&gt;
-
-&lt;p&gt;To figure out what variables we need, think about what needs to &lt;strong&gt;change&lt;/strong&gt; so a shape looks like it’s bouncing. Let’s look at it:&lt;/p&gt;
-
-&lt;iframe src=&quot;/AP-CSP/Code_Examples/Trumpoo&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:solid&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;A pile of 💩 moves across the screen. What changes?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;x position&lt;/code&gt; of the shape&lt;/li&gt;
-  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;y position&lt;/code&gt; of the shape&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Now, the 💩 hits the edge of the screen. What changes?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;x direction&lt;/code&gt; – if the shape hits the left edge, it should go right. If it hits the right edge, it should go left.&lt;/li&gt;
-  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;y direction&lt;/code&gt; – if the shape hits the top, it should start moving down. If it hits the bottom, it should start moving up.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Your &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt; must resize to the window.&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;User created variables&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Conditionals for the left/right and top/bottom edge of the screen&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Extension&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;✱&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Ball bounces using only &lt;strong&gt;2&lt;/strong&gt; conditionals&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total:&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;__ / 5&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 27 Sep 2016 21:48:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/09/27/conditionals-variables.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%201%20%E2%80%93%20algorithms%20and%20p5/2016/09/27/conditionals-variables.html</guid>
         
         
         <category>Unit 1 – Algorithms and p5</category>
