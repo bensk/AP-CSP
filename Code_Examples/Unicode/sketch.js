@@ -11,7 +11,7 @@ function draw() {
 
 	textFont('sans-serif')
 	textSize(36)
-	text('Unicode Converter',10,72);
+	text('✨Unicode Converter✨',10,72);
 	
 	
 var binary = input.value();
