@@ -29,7 +29,7 @@ textFont('monospace')
 text("Binary", windowWidth/4, 180)
 text(output,10,200, windowWidth/2)
 text("Hexadecimal", 3*windowWidth/4, 180)
-text(hex, windowWidth/2+10, 200, (windowWidth/2-5))
+text(hex, windowWidth/2+10, 200, (windowWidth/2-10))
 }
 
 function windowResized() {
