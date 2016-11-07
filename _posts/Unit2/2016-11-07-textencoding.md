@@ -36,7 +36,7 @@ See any problems?
 
 ## Unicode (UTF-9)
 
-<iframe src="{{ site.baseurl }}/Code_Examples/Unicode" width="100%" height="400px" style="border:solid 1px"></iframe>
+<iframe src="{{ site.baseurl }}/Code_Examples/Unicode" width="100%" height="400px" style="border:0px"></iframe>
 
 - How could you send _emoji_ in _binary_?
 - How could you _read_ this?
