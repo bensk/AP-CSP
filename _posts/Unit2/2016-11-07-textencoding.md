@@ -25,7 +25,7 @@ How many bits does it take to write `hello` in your system?
 
 How could we sent a message with fewer bits?
 
-## ASCII
+##  American Standard Code for Information Interchange
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ASCII-Table-wide.svg/2000px-ASCII-Table-wide.svg.png)
 
 Using the ASCII table, translate your first name from letters to numbers using the ASCII table.
