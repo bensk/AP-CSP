@@ -34,7 +34,7 @@ Write your name as: `Name!` (capital first letter, exclamation point at the end)
 
 See any problems?
 
-## Unicode (UTF-9)
+## Unicode ([UTF-8](http://www.unicode.org/versions/Unicode9.0.0/))
 
 <iframe src="{{ site.baseurl }}/Code_Examples/Unicode" width="100%" height="400px" style="border:0px"></iframe>
 
