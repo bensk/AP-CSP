@@ -36,6 +36,8 @@ See any problems?
 
 ## Unicode ([UTF-8](http://www.unicode.org/versions/Unicode9.0.0/))
 
+Express every character as an `8-bit` sequence. 
+
 <iframe src="{{ site.baseurl }}/Code_Examples/Unicode" width="100%" height="400px" style="border:0px"></iframe>
 
 - How could you send _emoji_ in _binary_?
