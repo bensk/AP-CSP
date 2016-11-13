@@ -32,11 +32,11 @@ function draw() {
 		state = 0
 
 	}
-	
-	
+
+
 	textSize(100)
 textFont('monospace')
-	text("State=" +state, windowWidth / 2, 200)
+	text("State=" +state, windowWidth / 2, 100)
 }
 
 function windowResized(){
