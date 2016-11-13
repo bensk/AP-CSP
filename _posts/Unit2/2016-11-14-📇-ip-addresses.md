@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "📇 Something we need to address..."
-date: "2016-11-13 14:41"
+date: "2016-11-14 14:41"
 category: "Unit 2 – The internet"
 ---
 
@@ -51,8 +51,9 @@ While developing your protocol here are some questions and suggestions to think 
 [^hex]: Hexadecimal!
 
 
-
 ## IP Addresses
+
+
 
 Go to: `216.58.217.174`
 
