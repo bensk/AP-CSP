@@ -5,6 +5,12 @@ date: "2016-11-14 14:41"
 category: "Unit 2 – The internet"
 ---
 
+## 🎯 Learning Targets
+`AP` I can explain the abstractions in the Internet and how the Internet functions.     
+`AP` I can explain characteristics of the Internet and the systems built on it.    
+I can develop and explain the need for a protocol with origin, destination, and message content.    
+I can explain the difference between IPv4 and IPv6 with regard to bits and available addresses.    
+
 So far, we have communicated messages between two people. Our "internet" looks like this:
 
 <iframe src="{{ site.baseurl }}/Code_Examples/BinaryCommunication" width="100%" height="400px" style="border:0px"></iframe>
