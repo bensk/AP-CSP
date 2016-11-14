@@ -53,6 +53,27 @@ While developing your protocol here are some questions and suggestions to think 
 
 ## IP Addresses
 
+A number assigned to any item that is connected to the Internet.
+
+**Packets** - Small chunks of information that have been carefully formed from larger chunks of information.
+
+**Protocol** - A set of rules governing the exchange or transmission of data between devices.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5o8CwafCxnU" frameborder="0" allowfullscreen></iframe>
+
+## IPv4
+
+👉 How could [the internet run out of room](https://www.wired.com/2011/02/internet-addresses/)?
+
+4,300,000,000 addresses, 5,000,000,000 mobile devices...
+
+### IPv6
+👉  [340,282,366,920,938,463,463,374,607,431,768,211,456 addresses](https://googleblog.blogspot.com/2012/06/world-ipv6-launch-keeping-internet.html)
+
+> Three hundred and forty undecillion, two hundred and eighty-two decillion, three hundred and sixty-six nonillion, nine hundred and twenty octillion, nine hundred and thirty-eight septillion, four hundred and sixty-three sextillion, four hundred and sixty-three quintillion, three hundred and seventy-four quadrillion, six hundred and seven trillion, four hundred and thirty-one billion, seven hundred and sixty-eight million, two hundred and eleven thousand, four hundred and fifty-six.
+
+Every single computer connected to the internet has an IP address.
+
 
 
 Go to: `216.58.217.174`
