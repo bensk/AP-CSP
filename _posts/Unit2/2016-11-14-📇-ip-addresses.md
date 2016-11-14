@@ -13,7 +13,7 @@ But the actual **internet** looks more like this:
 
 ![](https://46qasb3uw5yn639ko4bz2ptr8u-wpengine.netdna-ssl.com/files/2015/11/internet-map-FB.jpg)
 
-Yikes.
+[Yikes]({{ site.baseurl }}/images/IMG_0855.jpg).
 
 Our "simple" 1:1 protocols will break down. To get a sense of how the inventors of the internet designed a solution, let's play a game of Battleship.
 
@@ -55,6 +55,8 @@ While developing your protocol here are some questions and suggestions to think 
 
 A number assigned to any item that is connected to the Internet.
 
+Go to: `216.58.217.174`
+
 **Packets** - Small chunks of information that have been carefully formed from larger chunks of information.
 
 **Protocol** - A set of rules governing the exchange or transmission of data between devices.
@@ -76,6 +78,6 @@ Every single computer connected to the internet has an IP address.
 
 
 
-Go to: `216.58.217.174`
+
 
 `ipconfig getifaddr en0`
