@@ -5,13 +5,146 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Nov 2016 13:26:07 -0500</pubDate>
-    <lastBuildDate>Mon, 14 Nov 2016 13:26:07 -0500</lastBuildDate>
+    <pubDate>Sun, 20 Nov 2016 21:13:32 -0500</pubDate>
+    <lastBuildDate>Sun, 20 Nov 2016 21:13:32 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
+        <title>📛 DNS</title>
+        <description>&lt;h2 id=&quot;ap-learning-targets&quot;&gt;🎯 AP Learning Targets&lt;/h2&gt;
+&lt;p&gt;I can explain how…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The domain name system (DNS) translates domain names to IP addresses.&lt;/li&gt;
+  &lt;li&gt;Hierarchy in the DNS helps that system scale.&lt;/li&gt;
+  &lt;li&gt;The domain name system (DNS) was not designed to be completely secure.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;build-our-own-dns&quot;&gt;Build our own DNS&lt;/h2&gt;
+
+&lt;p&gt;For the next 3 minutes, you will attempt to complete an accurate list matching &lt;del&gt;domain&lt;/del&gt; names with IP addresses.&lt;/p&gt;
+
+&lt;p&gt;You may only talk to one person at a time.&lt;/p&gt;
+
+&lt;h2 id=&quot;discuss&quot;&gt;Discuss&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Why did I keep taking away your IP addresses?&lt;/li&gt;
+  &lt;li&gt;What might be a better system for collecting IP addresses?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dns-domain-name-serice&quot;&gt;DNS (Domain Name Serice)&lt;/h2&gt;
+&lt;p&gt;The service that translates URLs to IP addresses.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Especially in the world of mobile devices it is very common for a device to lose an IP address and need to re-acquire one - entering a tunnel, flying on a plane, even moving from one WiFi hotspot to the next.&lt;/p&gt;
+
+  &lt;p&gt;It is true that at this point in time it’s less likely that a web site with a registered domain name (like Code.org, google.com, or facebook.com) would rapidly change IP addresses, but the great thing about DNS is that even if they did, that change would be transparent to the public and you won’t have to worry about it. Even so huge operations like Facebook, Twitter, etc. actually serve their sites on many hundreds (or thousands) of computers, all with different IP addresses - DNS helps manage that too, so you can just type Microsoft.com and it direct you to the right place.&lt;/p&gt;
+
+  &lt;p&gt;As an analogy, think about a time when a friend or family member changed their phone number. That affects everyone who needs to know that number and causes some annoying problems. If we had a system like DNS for phone numbers, you’d never have to concern yourself with anything but remembering the person’s name. Of course, every person on earth would have to have a unique name for this to work, so it’s a bit impractical.&lt;/p&gt;
+
+  &lt;p&gt;– code.org&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 20 Nov 2016 20:58:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/20/dns.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/20/dns.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
+    
+      <item>
+        <title>📦 Packets</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I can develop a packet-switching protocol.&lt;/li&gt;
+  &lt;li&gt;I can explain how the internet is a packet-switched system.&lt;/li&gt;
+  &lt;li&gt;I can explain the importance of standards for packets and routing include transmission control protocol/Internet protocol (TCP/IP).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;AP Practice question in Classroom!&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;🐮&lt;/h3&gt;
+
+&lt;p&gt;When we began this unit, we simulated the internet at a high level of &lt;strong&gt;abstraction&lt;/strong&gt;, &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/27/build-your-own-internet.html&quot;&gt;sending simple messages back and forth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;01000010 01110101 01101100 01101100 &lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Then we went down another level of abstraction to expressing those messages &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/01/binary.html&quot;&gt;using binary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then, we went 🆙 a level of abstraction to express those messages &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/07/textencoding.html&quot;&gt;using hex&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last time, we talked about how all of these abstractions are flawed, because they only depict 1:1 communication. Then we &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/14/ip-addresses.html&quot;&gt;played Battleship&lt;/a&gt; and you developed your own protocol for simultaneous communication using bits.&lt;/p&gt;
+
+&lt;p&gt;Guess what?&lt;/p&gt;
+
+&lt;p&gt;Even the IP is a level of abstraction for what actually happens…&lt;/p&gt;
+
+&lt;h2 id=&quot;routing&quot;&gt;Routing&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;router&lt;/strong&gt; is a computer designed to receive and redirect packets of information based upon the  IP address contained in the packet.&lt;/p&gt;
+
+&lt;p&gt;Routers will either deliver a packet to its final destination or forward it to one of several other routers it is connected to.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.yougetsignal.com/tools/visual-tracert/&quot;&gt;Let’s trace this route&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This picture is hilariously old looking, but it works:&lt;/em&gt;
+&lt;img src=&quot;http://2.bp.blogspot.com/-09ej1toZCGI/Tgi-o1WkVVI/AAAAAAAAA0M/RwaiW7L_Ekc/s1600/traceroute.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;packet-switch-relay-race&quot;&gt;Packet Switch Relay Race&lt;/h2&gt;
+&lt;p&gt;We’re going to do a simplified packet-switching system. We have packets of information that need to travel across our “network” – this classroom.&lt;/p&gt;
+
+&lt;p&gt;Seven of you will be requesting data from the internet. The rest of you will be routers. Your router name is your initials, in ASCII. Mine would be:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;42 53 4b&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use the Unicode Converter to find yours:&lt;/p&gt;
+
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/Unicode&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:0px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As we switch packets, be sure to write your router ID on the ~packet~ envelope.&lt;/p&gt;
+
+&lt;h2 id=&quot;packets&quot;&gt;Packets&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;TCP&lt;/code&gt; Transfer Control…guess!&lt;/p&gt;
+
+&lt;p&gt;I’ll let Vint and Lynn explain:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AYdF7b3nMto&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Last time, we developed a protocol that included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sender&lt;/li&gt;
+  &lt;li&gt;Receiver&lt;/li&gt;
+  &lt;li&gt;Message&lt;/li&gt;
+  &lt;li&gt;Success/failure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assess&quot;&gt;Assess!&lt;/h2&gt;
+&lt;p&gt;Explain how &lt;code class=&quot;highlighter-rouge&quot;&gt;IP/TCP&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DNS&lt;/code&gt; are an example of &lt;strong&gt;abstraction&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;AP Practice questions in &lt;strong&gt;Classroom&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Nov 2016 16:08:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/16/packets.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/16/packets.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
+    
+      <item>
         <title>📇 Something we need to address...</title>
-        <description>&lt;p&gt;So far, we have communicated messages between two people. Our “internet” looks like this:&lt;/p&gt;
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can explain the abstractions in the Internet and how the Internet functions.   &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can explain characteristics of the Internet and the systems built on it.  &lt;br /&gt;
+I can develop and explain the need for a protocol with origin, destination, and message content.  &lt;br /&gt;
+I can explain the difference between IPv4 and IPv6 with regard to bits and available addresses.&lt;/p&gt;
+
+&lt;p&gt;So far, we have communicated messages between two people. Our “internet” looks like this:&lt;/p&gt;
 
 &lt;iframe src=&quot;/AP-CSP/Code_Examples/BinaryCommunication&quot; width=&quot;100%&quot; height=&quot;400px&quot; style=&quot;border:0px&quot;&gt;&lt;/iframe&gt;
 
@@ -593,80 +726,6 @@ I can convert between binary and decimal.&lt;/p&gt;
         <pubDate>Fri, 28 Oct 2016 11:00:00 -0400</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/28/internet-simulator.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/28/internet-simulator.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>ℹ Communicating Information</title>
-        <description>&lt;h2 id=&quot;do-now-in-classroom&quot;&gt;Do Now (In Classroom)&lt;/h2&gt;
-
-&lt;p&gt;What is your personal definition of “information?”
-What do you think “binary information” is?&lt;/p&gt;
-
-&lt;h2 id=&quot;develop-a-binary-question&quot;&gt;Develop a binary question&lt;/h2&gt;
-&lt;p&gt;The question should have &lt;strong&gt;two&lt;/strong&gt; answers. The response could be “yes/no,” but it could also be choosing between two (or later, more) things.&lt;/p&gt;
-
-&lt;h2 id=&quot;develop-a-device&quot;&gt;Develop a device&lt;/h2&gt;
-&lt;p&gt;Using only materials in the room, you will build a device capable of transmitting a binary message across the room or around a corner.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rules&lt;/strong&gt;    &lt;br /&gt;
-- No talking, no writing, no language.
-- No throwing stuff
-- Your device must work &lt;strong&gt;at a distance&lt;/strong&gt;. You &lt;del&gt;might&lt;/del&gt; will not be next to your partner.&lt;/p&gt;
-
-&lt;p&gt;🔄 Swap devices with another group and learn their rules. Can you communicate with your partner?&lt;/p&gt;
-
-&lt;h2 id=&quot;more-answers&quot;&gt;More Answers…&lt;/h2&gt;
-&lt;p&gt;Let’s go from &lt;code class=&quot;highlighter-rouge&quot;&gt;On&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;off&lt;/code&gt; to &lt;strong&gt;sequences&lt;/strong&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;on&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;off&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;(5 min)&lt;/strong&gt;
-Can you invent new rules for your device to answer a question with &lt;strong&gt;four&lt;/strong&gt; answers?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;(5min)&lt;/strong&gt;
-Can you iterate and invent new rules for your device to answer a question with &lt;strong&gt;eight&lt;/strong&gt; answers?&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size: 2em&quot;&gt;Ok, now how about 1,000,000,000,000 possible answers?&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
-&lt;p&gt;Could you use another group’s device to send your set of messages? Why or why not? What would you need to know from the other groups?&lt;/p&gt;
-
-&lt;p&gt;Based on what you’ve seen in today’s activity what do you think are the limitations on the kinds of information we can send with binary messages?&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Oct 2016 11:00:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/27/build-your-own-internet.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/27/build-your-own-internet.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>🌐 Hello, internet!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://static01.nyt.com/images/2016/05/25/us/25xp-internet/25xp-internet-superJumbo-v4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;AP Practice Question in Classroom.&lt;/p&gt;
-
-&lt;h2 id=&quot;watch&quot;&gt;Watch&lt;/h2&gt;
-&lt;video width=&quot;320&quot; height=&quot;240&quot; controls=&quot;&quot;&gt;
-  &lt;source src=&quot;https://www.dropbox.com/s/mmcxrum1foybxi0/How%20Much%20Does%20The%20Internet%20Weigh%3F.mp4?dl=1#&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;
-
-&lt;p&gt;If the internet is so massive, how can it get taken down by a fridge?&lt;/p&gt;
-
-&lt;h2 id=&quot;read&quot;&gt;Read&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/2016/10/23/us/politics/a-new-era-of-internet-attacks-powered-by-everyday-devices.html?_r=0&quot;&gt;A New Era of Internet Attacks Powered by Everyday Devices&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;watch-1&quot;&gt;Watch&lt;/h2&gt;
-&lt;iframe src=&quot;https://embed.ted.com/talks/catherine_bracy_why_good_hackers_make_good_citizens&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Mon, 24 Oct 2016 21:09:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/24/hello-internet.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/24/hello-internet.html</guid>
         
         
         <category>Unit 2 – The internet</category>
