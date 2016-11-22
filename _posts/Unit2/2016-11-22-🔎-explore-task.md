@@ -19,10 +19,21 @@ In Classroom, go to the **AP CSP Student Packet** in the "about" section of our 
 > 1. A computational artifact
 > 2. Written responses
 
-## Computational Whatnow?
+### Computational Whatnow?
 > Your creation could solve a problem, show creative expression, or provide the viewer with new insight or knowledge.
 
 
 ### Effective artifacts include:
 - Visual, graphical, and/or audio content to help a reader understand the purpose of a computing innovation; and
 - The use of communications media, such as animations, comic strips, **infographics**, and/or public service announcements, to illustrate the purpose of a computing innovation.
+
+### Practice Explore Task
+We are going to finish our internet unit by doing a practice Explore Task. I will be giving you four hours (instead of 8) and limiting your innovations to those relating to the internet.
+
+For today, we're going to try out _one_ of the effective artifact suggestions: the **[infographic](https://magic.piktochart.com/templates)**.
+
+You will be creating an infographic to depict the layers of abstraction that make the internet possible, and explaining how we simulated each in class.
+
+An ugly, incomplete version would include this:
+
+![](https://code.org/curriculum/docs/csp/U2L11-ProtocolStack-wDNS-up-and-down.png)
