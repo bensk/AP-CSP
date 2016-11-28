@@ -1,16 +1,16 @@
 ---
 layout: "post"
-title: "🔎 Explore Task: Artifact"
+title: "🔎 Explore Task: Innovation"
 date: "2016-11-22 11:28"
 category: "Unit 2 – The internet"
 ---
 
 ## 🎯 Learning Targets
-- `AP` I can create a computational artifact using computing tools and techniques to solve a problem.
-- `AP` I can create a computational artifact for creative expression.
+- I can research how computing innovations influence and are influenced by the economic, social, and cultural contexts in which they are designed and used.
+-
 
 ## Do Now
-In Classroom, go to the **AP CSP Student Packet** in the "about" section of our class.
+In Classroom, open the AP Explore Submission. What do you think is the difference (for the AP) between a **"Computational Artifact"** and a **"Computing Innovation"**.
 
 ## Explore Performance Task
 > Computing innovations impact our lives in ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a computing innovation of your choice. Your close examination of this computing innovation will deepen your understanding of computer science principles.
