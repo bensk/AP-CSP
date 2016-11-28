@@ -6,8 +6,9 @@ category: "Unit 2 – The internet"
 ---
 
 ## 🎯 Learning Targets
+
 - I can research how computing innovations influence and are influenced by the economic, social, and cultural contexts in which they are designed and used.
--
+- I can explain how computing enables innovation in nearly every field.
 
 ## Do Now
 In Classroom, open the AP Explore Submission. What do you think is the difference (for the AP) between a **"Computational Artifact"** and a **"Computing Innovation"**.
