@@ -29,7 +29,7 @@ layout: page
 [LoopGrowth](Code_Examples/LoopGrowth)    
 [Lossy](Code_Examples/Lossy)    
 [MakeStuffMove](Code_Examples/MakeStuffMove)    
-[Mexico](Code_Examples/Mexico)    
+[🇲🇽 Mexico](Code_Examples/Mexico)    
 [Objects](Code_Examples/Objects)    
 [OddlyEnough](Code_Examples/OddlyEnough)    
 [🌏 Orbit](Code_Examples/Orbit)    
