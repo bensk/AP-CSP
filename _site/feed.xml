@@ -5,9 +5,112 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Nov 2016 21:13:32 -0500</pubDate>
-    <lastBuildDate>Sun, 20 Nov 2016 21:13:32 -0500</lastBuildDate>
+    <pubDate>Wed, 30 Nov 2016 11:02:44 -0500</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2016 11:02:44 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>🔎 Explore Task: Innovation</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I can research how computing innovations influence and are influenced by the economic, social, and cultural contexts in which they are designed and used.&lt;/li&gt;
+  &lt;li&gt;I can explain how computing enables innovation in nearly every field.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;In Classroom, open the AP Explore Submission. What do you think is the difference (for the AP) between a &lt;strong&gt;“Computational Artifact”&lt;/strong&gt; and a &lt;strong&gt;“Computing Innovation”&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;explore-performance-task&quot;&gt;Explore Performance Task&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Computing innovations impact our lives in ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a computing innovation of your choice. Your close examination of this computing innovation will deepen your understanding of computer science principles.
+Please note that once this performance task has been assigned as an assessment (rather than as practice), you are expected to complete the task with minimal assistance from anyone. For more clarification see the Guidelines for Completing the Through-Course Assessment section.
+You will be provided with 8 hours of class time to develop, complete, and submit the following:
+1. A computational artifact
+2. Written responses&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;computational-whatnow&quot;&gt;Computational Whatnow?&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Your creation could solve a problem, show creative expression, or provide the viewer with new insight or knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;effective-artifacts-include&quot;&gt;Effective artifacts include:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Visual, graphical, and/or audio content to help a reader understand the purpose of a computing innovation; and&lt;/li&gt;
+  &lt;li&gt;The use of communications media, such as animations, comic strips, &lt;strong&gt;infographics&lt;/strong&gt;, and/or public service announcements, to illustrate the purpose of a computing innovation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;practice-explore-task&quot;&gt;Practice Explore Task&lt;/h3&gt;
+&lt;p&gt;We are going to finish our internet unit by doing a practice Explore Task. I will be giving you four hours (instead of 8) and limiting your innovations to those relating to the internet.&lt;/p&gt;
+
+&lt;p&gt;For today, we’re going to try out &lt;em&gt;one&lt;/em&gt; of the effective artifact suggestions: the &lt;strong&gt;&lt;a href=&quot;https://magic.piktochart.com/templates&quot;&gt;infographic&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You will be creating an infographic to depict the layers of abstraction that make the internet possible, and explaining how we simulated each in class.&lt;/p&gt;
+
+&lt;p&gt;An ugly, incomplete version would include this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U2L11-ProtocolStack-wDNS-up-and-down.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Nov 2016 11:28:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/28/explore-task.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/28/explore-task.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
+    
+      <item>
+        <title>🔎 Explore Task: Artifact</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can create a computational artifact using computing tools and techniques to solve a problem.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can create a computational artifact for creative expression.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;In Classroom, go to the &lt;strong&gt;AP CSP Student Packet&lt;/strong&gt; in the “about” section of our class.&lt;/p&gt;
+
+&lt;h2 id=&quot;explore-performance-task&quot;&gt;Explore Performance Task&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Computing innovations impact our lives in ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a computing innovation of your choice. Your close examination of this computing innovation will deepen your understanding of computer science principles.
+Please note that once this performance task has been assigned as an assessment (rather than as practice), you are expected to complete the task with minimal assistance from anyone. For more clarification see the Guidelines for Completing the Through-Course Assessment section.
+You will be provided with 8 hours of class time to develop, complete, and submit the following:
+1. A computational artifact
+2. Written responses&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;computational-whatnow&quot;&gt;Computational Whatnow?&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Your creation could solve a problem, show creative expression, or provide the viewer with new insight or knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;effective-artifacts-include&quot;&gt;Effective artifacts include:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Visual, graphical, and/or audio content to help a reader understand the purpose of a computing innovation; and&lt;/li&gt;
+  &lt;li&gt;The use of communications media, such as animations, comic strips, &lt;strong&gt;infographics&lt;/strong&gt;, and/or public service announcements, to illustrate the purpose of a computing innovation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;practice-explore-task&quot;&gt;Practice Explore Task&lt;/h3&gt;
+&lt;p&gt;We are going to finish our internet unit by doing a practice Explore Task. I will be giving you four hours (instead of 8) and limiting your innovations to those relating to the internet.&lt;/p&gt;
+
+&lt;p&gt;For today, we’re going to try out &lt;em&gt;one&lt;/em&gt; of the effective artifact suggestions: the &lt;strong&gt;&lt;a href=&quot;https://magic.piktochart.com/templates&quot;&gt;infographic&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You will be creating an infographic to depict the layers of abstraction that make the internet possible, and explaining how we simulated each in class.&lt;/p&gt;
+
+&lt;p&gt;An ugly, incomplete version would include this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U2L11-ProtocolStack-wDNS-up-and-down.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Nov 2016 11:28:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/22/explore-task.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/22/explore-task.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
     
       <item>
         <title>📛 DNS</title>
@@ -44,10 +147,111 @@
 
   &lt;p&gt;– code.org&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h2 id=&quot;assessment&quot;&gt;Assessment&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Questions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1⃣ A single central register of IP addresses and names (i.e. a DNS-style system) is an efficient means of translating human-readable names to IP addresses. Which of the following is NOT solved by DNS?&lt;/p&gt;
+
+&lt;p&gt;a) It’s inefficient to have everyone on the Internet maintain their own list of IP addresses.&lt;/p&gt;
+
+&lt;p&gt;b) There are too few IP addresses to meet the current demand.&lt;/p&gt;
+
+&lt;p&gt;c) When someone new joins the Internet, they need to inform everyone of their IP address.&lt;/p&gt;
+
+&lt;p&gt;d) When an IP address changes, it is impossible to locate a computer until the owner announces the change.&lt;/p&gt;
+
+&lt;p&gt;2⃣ Why do computers need to periodically check the DNS for websites you have already visited?&lt;/p&gt;
+
+&lt;p&gt;3⃣ Why don’t we need to know the IP addresses for our favorite sites?&lt;/p&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.information-age.com/growing-threat-ddos-attacks-dns-123459033/&quot;&gt;“The growing threat of DDoS attacks on DNS”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.pcworld.com/article/2889392/like-google-in-vietnam-lenovo-tripped-up-by-a-dns-attack.html&quot;&gt;Lenovo, Google websites hijacked by DNS attacks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://thehackernews.com/2014/06/dns-flood-ddos-attack-hit-video-gaming.html&quot;&gt;DNS Flood DDoS Attack Hit Video Gaming Industry with 90 Million Requests per Second&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wired.com/2016/10/internet-outage-ddos-dns-dyn/&quot;&gt;What We Know About Friday’s Massive East Coast Internet Outage&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 20 Nov 2016 20:58:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/20/dns.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/20/dns.html</guid>
+        <pubDate>Mon, 21 Nov 2016 20:58:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/dns.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/dns.html</guid>
+        
+        
+        <category>Unit 2 – The internet</category>
+        
+      </item>
+    
+      <item>
+        <title>🔒 HTTP</title>
+        <description>&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; The Internet is a network of autonomous systems.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; Explain the abstractions in the Internet and how the Internet functions.&lt;/li&gt;
+  &lt;li&gt;I can identify standards such as hypertext transfer protocol (HTTP), IP, and simple mail transfer protocol (SMTP).&lt;/li&gt;
+  &lt;li&gt;I can explain how the different protocols of the internet interact for reliability and scalability.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The internet works in layers.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What do you think this means?&lt;/p&gt;
+
+&lt;h2 id=&quot;protocols&quot;&gt;Protocols&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;DNS&lt;/strong&gt; - The service that translates URLs to IP addresses.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;HTTP&lt;/strong&gt; - HyperText Transfer Protocol - the protocol used for transmitting web pages over the Internet&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;IP Address&lt;/strong&gt; - A number assigned to any item that is connected to the Internet.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TCP&lt;/strong&gt; - Transmission Control Protocol - provides reliable, ordered, and error-checked delivery of a stream of packets on the internet. TCP is tightly linked with IP and usually seen as TCP/IP in writing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt; - An easy-to-remember address for calling a web page (like www.code.org).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-internet-protocol-stack&quot;&gt;The internet protocol “stack”&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U2L11-ProtocolStack-wDNS-up-and-down.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The system was constructed with layers of abstraction where each layer only needs to concern itself with its specific job, and then hands it off to another layer. This makes the very complicated task of digital network communication possible.
+At the top layer, for example, DNS just thinks is “speaking DNS” to some other computer - the DNS protocol does not even need to know how the other layers work It just relies on them doing their jobs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;http&quot;&gt;HTTP&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kBXQZMmiA4s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;http-in-action&quot;&gt;HTTP in action&lt;/h2&gt;
+&lt;p&gt;You will use your browser’s developer tools to discover what kind of HTTP traffic is associated with visiting different types of websites. You and your partner are going to look at least 5 different types of websites:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;http://bsk.education – a very simple web page.  Use this first to investigate developer tools.&lt;/li&gt;
+  &lt;li&gt;A “static” website like: Wikipedia&lt;/li&gt;
+  &lt;li&gt;A news website like: ESPN.com, BuzzFeed, the New York Times, etc.&lt;/li&gt;
+  &lt;li&gt;A streaming site like: YouTube, or Spotify&lt;/li&gt;
+  &lt;li&gt;A site that accepts user input like: twitter, Facebook, email, google docs.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;For each type of website below, follow these steps:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Monitor the HTTP traffic generated by loading the page.&lt;/li&gt;
+  &lt;li&gt;Once the page has loaded, poke around with the other information the developer tools let you see about the data coming in.  What about the protocols can you see?&lt;/li&gt;
+  &lt;li&gt;Interact with the website by clicking links or using other functionality on the site, noting how this affects the HTTP traffic.&lt;/li&gt;
+  &lt;li&gt;Observe other things like:
+    &lt;ul&gt;
+      &lt;li&gt;Total amount of data received&lt;/li&gt;
+      &lt;li&gt;Number of HTTP requests actually generated by loading one page&lt;/li&gt;
+      &lt;li&gt;Total time to load the page.&lt;/li&gt;
+      &lt;li&gt;Types of data received through HTTP (it’s more than just HTML)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 21 Nov 2016 11:23:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/http.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/http.html</guid>
         
         
         <category>Unit 2 – The internet</category>
@@ -571,161 +775,6 @@ In &lt;strong&gt;hexadecimal&lt;/strong&gt;, we have 16 symbols: &lt;code class=
         <pubDate>Thu, 03 Nov 2016 20:10:00 -0400</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/03/number-systems.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/03/number-systems.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>💡Binary</title>
-        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
-&lt;p&gt;I can explain how binary sequences are used to represent digital data.
-I can convert between binary and decimal.&lt;/p&gt;
-
-&lt;h2 id=&quot;count-to-3&quot;&gt;Count to 3…&lt;/h2&gt;
-&lt;p&gt;We are used to counting in &lt;strong&gt;decimal&lt;/strong&gt; because we have 10 fingers. We work with &lt;em&gt;place values&lt;/em&gt; that go up in &lt;strong&gt;powers of 10&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1000&lt;/th&gt;
-      &lt;th&gt;100&lt;/th&gt;
-      &lt;th&gt;10&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;count-to-11&quot;&gt;Count to 11…&lt;/h2&gt;
-&lt;p&gt;Binary works the same way, but the &lt;em&gt;place values&lt;/em&gt; go up in &lt;strong&gt;powers of 2&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;8&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;4&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;free-computer&quot;&gt;Free Computer!&lt;/h2&gt;
-&lt;p&gt;We’re going to make a binary computer. fill yours in like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U1L5-FlippyDo-Instructions.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Nov 2016 11:14:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/01/binary.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/01/binary.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>🌅 Poster, Child</title>
-        <description>&lt;p&gt;Review your p5 skills and create a poster explaining binary communication.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Specification&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Point&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Depicts wires in a binary state&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Uses &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt; command&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Displays two states using mouse or keyboard interaction.&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bsk.education/AP-CSP/Code_Examples/InternetSimulator/&quot;&gt;SK Example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1DFM-CFQSqz75Z2fEFI4TV6YZoPAK9ihD2cHkxtkIexQ/edit#slide=id.g1686c26918_1_5&quot;&gt;Example Posters from other AP classes&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 31 Oct 2016 13:48:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/31/poster-child.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/31/poster-child.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>🌐 Internet Simulator</title>
-        <description>&lt;h2 id=&quot;do-now-in-classroom&quot;&gt;Do Now (In Classroom)&lt;/h2&gt;
-
-&lt;p&gt;Open the &lt;code class=&quot;highlighter-rouge&quot;&gt;code.org&lt;/code&gt; invitation and join our group.&lt;/p&gt;
-
-&lt;h2 id=&quot;signals--protocols&quot;&gt;Signals &amp;amp; Protocols&lt;/h2&gt;
-
-&lt;p&gt;Yesterday you made a device a set of rules. What you were developing is called a &lt;strong&gt;protocol&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Protocol&lt;/strong&gt; - A set of rules governing the exchange or transmission of data between devices.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Bit&lt;/strong&gt; - a single &lt;code class=&quot;highlighter-rouge&quot;&gt;binary digit&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We’re going to use the &lt;a href=&quot;https://studio.code.org/s/netsim/stage/2/puzzle/1&quot;&gt;Internet Simulator&lt;/a&gt; to send 2-bit messages.&lt;/p&gt;
-
-&lt;p&gt;Login and see what you can figure out. Click all the buttons, try typing, see what happens.&lt;/p&gt;
-
-&lt;h2 id=&quot;internet-simulator&quot;&gt;Internet Simulator&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;SHARED&lt;/strong&gt; wire between the two people.&lt;/li&gt;
-  &lt;li&gt;The wire can hold &lt;strong&gt;only&lt;/strong&gt; a single state - &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; - and it can be set by either person at any time.&lt;/li&gt;
-  &lt;li&gt;At any time either person can read the wire to see which state it’s in&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Neither partner is “sending” or receiving anything. You can always set or see the state of the wire.&lt;/p&gt;
-
-&lt;p&gt;Challenge: figure out a protocol to send messages back and forth. Your goal should be to develop a protocl that sends messages &lt;em&gt;as quickly as possible&lt;/em&gt;. This is what’s called a &lt;strong&gt;bitrate&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Bitrate&lt;/strong&gt; - the number of bits that are conveyed or processed per unit of time. e.g. 8 bits/sec.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;assessment&quot;&gt;Assessment&lt;/h2&gt;
-&lt;p&gt;A binary message consisting of four bits was sent to you by a friend. The message was supposed to be &lt;code class=&quot;highlighter-rouge&quot;&gt;ABAB&lt;/code&gt;. Unfortunately, your friend set the bit on the wire &lt;em&gt;once every 2 seconds&lt;/em&gt;, but you read the wire &lt;em&gt;once every second&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Assuming that the first bit was sent and read at the same time, what message did you receive instead?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Oct 2016 11:00:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/28/internet-simulator.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/28/internet-simulator.html</guid>
         
         
         <category>Unit 2 – The internet</category>
