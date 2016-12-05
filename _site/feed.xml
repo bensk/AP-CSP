@@ -5,9 +5,22 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Dec 2016 08:31:28 -0500</pubDate>
-    <lastBuildDate>Thu, 01 Dec 2016 08:31:28 -0500</lastBuildDate>
+    <pubDate>Mon, 05 Dec 2016 11:19:32 -0500</pubDate>
+    <lastBuildDate>Mon, 05 Dec 2016 11:19:32 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>🔁 Loops</title>
+        <description>
+</description>
+        <pubDate>Tue, 06 Dec 2016 11:28:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/06/loops.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/06/loops.html</guid>
+        
+        
+        <category>Unit 3 – loops</category>
+        
+      </item>
     
       <item>
         <title>🔎 Explore Task: Innovation</title>
@@ -602,179 +615,6 @@ The internet is for everyone so…&lt;/p&gt;
         <pubDate>Fri, 04 Nov 2016 11:47:00 -0400</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/04/binary-converter.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/04/binary-converter.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>🔢 Number Systems</title>
-        <description>&lt;h1 id=&quot;do-now-in-classroom&quot;&gt;Do Now (in Classroom)&lt;/h1&gt;
-&lt;p&gt;The letter &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; is represented by &lt;code class=&quot;highlighter-rouge&quot;&gt;65&lt;/code&gt; in &lt;strong&gt;ASCII&lt;/strong&gt;, the protocol used by most computers for text encoding.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;American Standard Code for Information Interchange, a set of digital codes representing letters, numerals, and other symbols, widely used as a standard format in the transfer of text between computers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Deep inside your computer, that &lt;code class=&quot;highlighter-rouge&quot;&gt;65&lt;/code&gt; is sent in binary. What is &lt;code class=&quot;highlighter-rouge&quot;&gt;65&lt;/code&gt; in binary?&lt;/p&gt;
-
-&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
-&lt;p&gt;I can use number bases, including binary, decimal, and hexadecimal,  to represent and investigate digital data.&lt;/p&gt;
-
-&lt;p&gt;I can explain why hexadecimal is used to represent digital data.&lt;/p&gt;
-
-&lt;h2 id=&quot;review-decimal--binary&quot;&gt;Review decimal &amp;amp; binary&lt;/h2&gt;
-
-&lt;p&gt;Let’s write 15:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Decimal:&lt;/strong&gt; &lt;br /&gt;
-In &lt;strong&gt;decimal&lt;/strong&gt;, we have 10 symbols: &lt;code class=&quot;highlighter-rouge&quot;&gt;0, 1, 2, 3, 4, 5, 6, 7, 8, 9&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;15 in decimal:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1000&lt;/th&gt;
-      &lt;th&gt;100&lt;/th&gt;
-      &lt;th&gt;10&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Binary&lt;/strong&gt;  &lt;br /&gt;
-In &lt;strong&gt;binary&lt;/strong&gt;, we have 2 symbols: &lt;code class=&quot;highlighter-rouge&quot;&gt;0, 1&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;15 in binary:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;8&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;4&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Binary numbers start to get very long, very quickly.&lt;/p&gt;
-
-&lt;h2 id=&quot;hexawhatnow&quot;&gt;Hexawhatnow?&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hexadecimal&lt;/strong&gt; - base 16&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Hexadecimal&lt;/strong&gt;
-In &lt;strong&gt;hexadecimal&lt;/strong&gt;, we have 16 symbols: &lt;code class=&quot;highlighter-rouge&quot;&gt;0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b ,c, d, e, f&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Wait, what?&lt;/p&gt;
-
-&lt;p&gt;15 in hexadecimal is &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt;.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;4096&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;256&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;16&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;f&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;notice&quot;&gt;Notice!&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;How many &lt;code class=&quot;highlighter-rouge&quot;&gt;bits&lt;/code&gt; does it take to write 15 in decimal, binary, and hexadecimal?&lt;/li&gt;
-  &lt;li&gt;Hex looks just like decimal…until we try to write &lt;strong&gt;16&lt;/strong&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Hexadecimal&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;4096&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;256&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;16&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Where have we seen &lt;strong&gt;hex&lt;/strong&gt; before?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;span style=&quot;color: #E32173&quot;&gt;#E32173&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That’s my favorite pink, &lt;span style=&quot;color: #E32173&quot;&gt;Razzmatazz&lt;/span&gt;. Colors can be represented by mixing red, green, and blue. How much RGB is  &lt;span style=&quot;color: #E32173&quot;&gt;Razzmatazz&lt;/span&gt;?&lt;/p&gt;
-
-&lt;p&gt;It’s 227 red, 33 g, and 115 blue. How do I know that?&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;span style=&quot;color: #E32173&quot;&gt;Razzmatazz&lt;/span&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;R&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;G&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;B&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Hex&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;E3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;21&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;73&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Decimal&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;227&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;33&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;115&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Thu, 03 Nov 2016 20:10:00 -0400</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/03/number-systems.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/03/number-systems.html</guid>
         
         
         <category>Unit 2 – The internet</category>
