@@ -5,20 +5,130 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Dec 2016 11:43:18 -0500</pubDate>
-    <lastBuildDate>Tue, 13 Dec 2016 11:43:18 -0500</lastBuildDate>
+    <pubDate>Mon, 19 Dec 2016 11:07:40 -0500</pubDate>
+    <lastBuildDate>Mon, 19 Dec 2016 11:07:40 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>👆 Button</title>
+        <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;We created inputs with &lt;code class=&quot;highlighter-rouge&quot;&gt;createInput()&lt;/code&gt; and sliders with &lt;code class=&quot;highlighter-rouge&quot;&gt;createSlider()&lt;/code&gt;.
+How do you think we can create a button?&lt;/p&gt;
+
+&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+
+&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/SJeGmKHVl&quot; width=&quot;400&quot; height=&quot;300&quot; style=&quot;border:none&quot;&gt;&lt;/iframe&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;createButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ok that was easy. But a button is different than a slider or an input box. You don’t get a value (string or integer). What do you get?&lt;/p&gt;
+
+&lt;p&gt;A click, or not a click. In terms of JavaScript, we call that an &lt;strong&gt;event&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;events&quot;&gt;🗓 Events&lt;/h1&gt;
+&lt;p&gt;Hey, nice, a button! But clicking the button doesn’t &lt;strong&gt;do&lt;/strong&gt; anything. To connect &lt;strong&gt;clicking&lt;/strong&gt; a button to &lt;strong&gt;doing&lt;/strong&gt; something, we need to define a function that contains the code that we want to run when the user clicks the button, and then attach an “event listener” to the object, to tell p5.js to call that particular function when the user takes a particular action. Luckily, half that work is done for us:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;createButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Click me!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mousePressed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;randomRectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;noStroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;randomRectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The following code uses the .mousePressed() method of the button object to call a function when the user clicks a button.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Dec 2016 10:53:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/19/button.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/19/button.html</guid>
+        
+        
+        <category>Unit 3 – loops</category>
+        
+      </item>
     
       <item>
         <title>🎚 The Electric Slider</title>
         <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
 &lt;p&gt;Add a &lt;code class=&quot;highlighter-rouge&quot;&gt;slider&lt;/code&gt; to your sketch and show the value of the slider when it is dragged, like this:&lt;/p&gt;
 
-&lt;iframe src=&quot;/AP-CSP/Code_Examples/SliderValue&quot; width=&quot;100%&quot; height=&quot;20px&quot; style=&quot;border:none&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/SliderValue&quot; width=&quot;100%&quot; height=&quot;40px&quot; style=&quot;border:none&quot;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&quot;slider-dance&quot;&gt;Slider Dance&lt;/h2&gt;
+&lt;h2 id=&quot;slider-motion&quot;&gt;Slider Motion&lt;/h2&gt;
+&lt;p&gt;You’re going to build something like this:&lt;/p&gt;
 
 &lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/S1nkhc6Xg&quot; width=&quot;100%&quot; height=&quot;120px&quot; style=&quot;border:none&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Now, add conditionals so that the robot (or emoji of your choice) follows a path around the screen, like this:&lt;/p&gt;
+
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/PathAlongEdges&quot; width=&quot;100%&quot; height=&quot;400px&quot; style=&quot;border:solid 1px; border-color: #ED1F5E&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AP-CSP/images/pathAroundEdges.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;checklist&quot;&gt;Checklist&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;An emoji, with a &lt;code class=&quot;highlighter-rouge&quot;&gt;textSize&lt;/code&gt; of at least 24px&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;At least 4 conditionals&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Emoji follows path around screen&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Code functions correctly if window size changes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;__/4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Extensions&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Speed is adjustable&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Use slider to adjust speed&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         <pubDate>Tue, 13 Dec 2016 10:57:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/13/slider.html</link>
@@ -542,110 +652,6 @@ At the top layer, for example, DNS just thinks is “speaking DNS” to some oth
         <pubDate>Wed, 16 Nov 2016 16:08:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/16/packets.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/16/packets.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>📇 Something we need to address...</title>
-        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can explain the abstractions in the Internet and how the Internet functions.   &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can explain characteristics of the Internet and the systems built on it.  &lt;br /&gt;
-I can develop and explain the need for a protocol with origin, destination, and message content.  &lt;br /&gt;
-I can explain the difference between IPv4 and IPv6 with regard to bits and available addresses.&lt;/p&gt;
-
-&lt;p&gt;So far, we have communicated messages between two people. Our “internet” looks like this:&lt;/p&gt;
-
-&lt;iframe src=&quot;/AP-CSP/Code_Examples/BinaryCommunication&quot; width=&quot;100%&quot; height=&quot;400px&quot; style=&quot;border:0px&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;But the actual &lt;strong&gt;internet&lt;/strong&gt; looks more like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://46qasb3uw5yn639ko4bz2ptr8u-wpengine.netdna-ssl.com/files/2015/11/internet-map-FB.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/AP-CSP/images/IMG_0855.jpg&quot;&gt;Yikes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Our “simple” 1:1 protocols will break down. To get a sense of how the inventors of the internet designed a solution, let’s play a game of Battleship.&lt;/p&gt;
-
-&lt;h2 id=&quot;battle-round-1&quot;&gt;Battle🛳 Round 1&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;The object of Battleship is to try and sink another player’s ship before they sink yours.&lt;/li&gt;
-  &lt;li&gt;The other player’s ship is somewhere on his/her board&lt;/li&gt;
-  &lt;li&gt;Each turn, you try to guess your opponent’s ship location by calling out a coordinate on the grid, like &lt;code class=&quot;highlighter-rouge&quot;&gt;A2&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;The other player also tries to hit your ship by calling out coordinates.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1oKi5_35xB-6Np5stnbGq7MCKnRZVC5qCVUQmAJByrTI/edit&quot;&gt;Example Board&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;You maintain and mark two grids:&lt;/strong&gt;
-- Your &lt;em&gt;Ship Boards&lt;/em&gt; - where you record shots fired against you.
-- Your &lt;em&gt;Target Boards&lt;/em&gt; - where you record the shots you fired against others.&lt;/p&gt;
-
-&lt;h3 id=&quot;starting-a-new-game&quot;&gt;Starting a New Game&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Each player places a ship on their board - one ship for each opponent&lt;/li&gt;
-  &lt;li&gt;A ship occupies two contiguous squares on the grid - vertically or horizontally. NO Diagonal placement.&lt;/li&gt;
-  &lt;li&gt;Once the guessing begins, the players may not move the ships.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;battle-round-10&quot;&gt;Battle🛳 Round 10&lt;/h2&gt;
-&lt;p&gt;Now, how could that information be transmitted using bits?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;List all the information that you needed to play Battleship.&lt;/li&gt;
-  &lt;li&gt;Diagram your protocol.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;While developing your protocol here are some questions and suggestions to think about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Remember that ultimately you are making a communication protocol for a computer to read, so if it’s hard for a human to decipher, but would be easy to describe for a computer, that’s fine.&lt;/li&gt;
-  &lt;li&gt;A message you send over the Internet is just a string of 0s and 1s – so your protocol should indicate how the bits work (i.e. what is the binary representation?)&lt;/li&gt;
-  &lt;li&gt;Think about using numeric addresses rather than people’s names.&lt;/li&gt;
-  &lt;li&gt;Think about what else you can communicate with binary to reduce the total number of bits.&lt;sup id=&quot;fnref:hex&quot;&gt;&lt;a href=&quot;#fn:hex&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; How “efficient” can you make your message?  How small can you make the size of a message?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ip-addresses&quot;&gt;IP Addresses&lt;/h2&gt;
-
-&lt;p&gt;A number assigned to any item that is connected to the Internet.&lt;/p&gt;
-
-&lt;p&gt;Go to: &lt;code class=&quot;highlighter-rouge&quot;&gt;216.58.217.174&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Packets&lt;/strong&gt; - Small chunks of information that have been carefully formed from larger chunks of information.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Protocol&lt;/strong&gt; - A set of rules governing the exchange or transmission of data between devices.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5o8CwafCxnU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;ipv4&quot;&gt;IPv4&lt;/h2&gt;
-
-&lt;p&gt;👉 How could &lt;a href=&quot;https://www.wired.com/2011/02/internet-addresses/&quot;&gt;the internet run out of room&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;4,300,000,000 addresses, 5,000,000,000 mobile devices…&lt;/p&gt;
-
-&lt;h3 id=&quot;ipv6&quot;&gt;IPv6&lt;/h3&gt;
-&lt;p&gt;👉  &lt;a href=&quot;https://googleblog.blogspot.com/2012/06/world-ipv6-launch-keeping-internet.html&quot;&gt;340,282,366,920,938,463,463,374,607,431,768,211,456 addresses&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Three hundred and forty undecillion, two hundred and eighty-two decillion, three hundred and sixty-six nonillion, nine hundred and twenty octillion, nine hundred and thirty-eight septillion, four hundred and sixty-three sextillion, four hundred and sixty-three quintillion, three hundred and seventy-four quadrillion, six hundred and seven trillion, four hundred and thirty-one billion, seven hundred and sixty-eight million, two hundred and eleven thousand, four hundred and fifty-six.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Every single computer connected to the internet has an IP address.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ipconfig getifaddr en0&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:hex&quot;&gt;
-      &lt;p&gt;Hexadecimal! &lt;a href=&quot;#fnref:hex&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 14 Nov 2016 14:41:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/14/ip-addresses.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/14/ip-addresses.html</guid>
         
         
         <category>Unit 2 – The internet</category>
