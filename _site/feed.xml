@@ -5,15 +5,50 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Dec 2016 11:07:40 -0500</pubDate>
-    <lastBuildDate>Mon, 19 Dec 2016 11:07:40 -0500</lastBuildDate>
+    <pubDate>Wed, 21 Dec 2016 16:59:53 -0500</pubDate>
+    <lastBuildDate>Wed, 21 Dec 2016 16:59:53 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
+        <title>🎉🎊🎅🏿🕎Review</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;#&lt;/h1&gt;
+</description>
+        <pubDate>Thu, 22 Dec 2016 16:13:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/2016/12/22/review.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/12/22/review.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>MadLibs</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;At least 5 &lt;code class=&quot;highlighter-rouge&quot;&gt;inputs&lt;/code&gt; for parts of speech&lt;/li&gt;
+  &lt;li&gt;MadLibs &lt;code class=&quot;highlighter-rouge&quot;&gt;button&lt;/code&gt; that launches a &lt;strong&gt;function&lt;/strong&gt; to create a new sentence.&lt;/li&gt;
+  &lt;li&gt;Code comments show evidence of iteration.&lt;/li&gt;
+  &lt;li&gt;Code comments reference previous approaches, and bugs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/r1apMdu4e&quot; height=&quot;200px&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;push-yourself&quot;&gt;Push Yourself&lt;/h2&gt;
+&lt;p&gt;We haven’t explored it in this class, but each of your p5 projects has a &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; file just waiting for you to make it look good.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Dec 2016 16:13:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/22/madlibs.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/22/madlibs.html</guid>
+        
+        
+        <category>Unit 3 – loops</category>
+        
+      </item>
+    
+      <item>
         <title>👆 Button</title>
-        <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;We created inputs with &lt;code class=&quot;highlighter-rouge&quot;&gt;createInput()&lt;/code&gt; and sliders with &lt;code class=&quot;highlighter-rouge&quot;&gt;createSlider()&lt;/code&gt;.
-How do you think we can create a button?&lt;/p&gt;
+        <description>&lt;h2 id=&quot;try-it&quot;&gt;Try it&lt;/h2&gt;
+&lt;p&gt;We created inputs with &lt;code class=&quot;highlighter-rouge&quot;&gt;createInput()&lt;/code&gt; and sliders with &lt;code class=&quot;highlighter-rouge&quot;&gt;createSlider()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;How do you think we can create a button?&lt;/p&gt;
 
 &lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
 
@@ -36,7 +71,7 @@ How do you think we can create a button?&lt;/p&gt;
 &lt;p&gt;A click, or not a click. In terms of JavaScript, we call that an &lt;strong&gt;event&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;events&quot;&gt;🗓 Events&lt;/h1&gt;
-&lt;p&gt;Hey, nice, a button! But clicking the button doesn’t &lt;strong&gt;do&lt;/strong&gt; anything. To connect &lt;strong&gt;clicking&lt;/strong&gt; a button to &lt;strong&gt;doing&lt;/strong&gt; something, we need to define a function that contains the code that we want to run when the user clicks the button, and then attach an “event listener” to the object, to tell p5.js to call that particular function when the user takes a particular action. Luckily, half that work is done for us:&lt;/p&gt;
+&lt;p&gt;Whoa! We made a button. But clicking the button doesn’t &lt;strong&gt;do&lt;/strong&gt; anything. To connect &lt;strong&gt;clicking&lt;/strong&gt; a button to &lt;strong&gt;doing&lt;/strong&gt; something, we need to define a function that contains the code that we want to run when the user clicks the button, and then attach an “event listener” to the object, to tell p5.js to call that particular function when the user takes a particular action. Luckily, half that work is done for us:&lt;/p&gt;
 
 &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -46,9 +81,21 @@ How do you think we can create a button?&lt;/p&gt;
   &lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;noStroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;randomRectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This code uses the &lt;code class=&quot;highlighter-rouge&quot;&gt;.mousePressed()&lt;/code&gt; event of the button object to call the function &lt;code class=&quot;highlighter-rouge&quot;&gt;randomRectangle()&lt;/code&gt; when the user clicks a button.&lt;/p&gt;
+
+&lt;p&gt;Have you ever heard of the &lt;code class=&quot;highlighter-rouge&quot;&gt;randomRectangle()&lt;/code&gt; function?&lt;/p&gt;
+
+&lt;h2 id=&quot;byof&quot;&gt;BYOF&lt;/h2&gt;
+
+&lt;p&gt;You haven’t heard of it, because it’s never existed before!&lt;/p&gt;
+
+&lt;p&gt;In p5, we have two built-in functions: &lt;code class=&quot;highlighter-rouge&quot;&gt;setup()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;draw()&lt;/code&gt;. So far, that’s been enough. Not anymore!&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;randomRectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
       &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
@@ -56,7 +103,26 @@ How do you think we can create a button?&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;The following code uses the .mousePressed() method of the button object to call a function when the user clicks a button.&lt;/p&gt;
+&lt;p&gt;What’s the name of this function? What does it do? When is it called?&lt;/p&gt;
+
+&lt;h2 id=&quot;clicker-game&quot;&gt;Clicker Game&lt;/h2&gt;
+&lt;p&gt;You’re going to make a terrible game, where every time the user click on a button, the button moves.&lt;/p&gt;
+
+&lt;p&gt;Create a canvas with a button located &lt;em&gt;somewhere&lt;/em&gt; to start. Then, define a function called &lt;code class=&quot;highlighter-rouge&quot;&gt;randomLocation()&lt;/code&gt;  that will move the button around the screen when clicked.&lt;/p&gt;
+
+&lt;h2 id=&quot;pseudocode-checklist&quot;&gt;Pseudocode Checklist&lt;/h2&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;How many variables do we need?&lt;/strong&gt;  &lt;br /&gt;
+- What’s changing? Declare each of those at the top of your code.&lt;/p&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;Create a button&lt;/strong&gt;  &lt;br /&gt;
+- &lt;code class=&quot;highlighter-rouge&quot;&gt;button= createButton(&quot;Click or something...&quot;)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;Add an event to the button&lt;/strong&gt;  &lt;br /&gt;
+- &lt;code class=&quot;highlighter-rouge&quot;&gt;button.mousePressed(randomLocation)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;Create the &lt;code class=&quot;highlighter-rouge&quot;&gt;randomLocation()&lt;/code&gt; function&lt;/strong&gt;  &lt;br /&gt;
+- Which of your variables should change to give a random location.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Dec 2016 10:53:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/19/button.html</link>
@@ -496,162 +562,6 @@ You will be provided with 8 hours of class time to develop, complete, and submit
         <pubDate>Mon, 21 Nov 2016 20:58:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/dns.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/dns.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>🔒 HTTP</title>
-        <description>&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; The Internet is a network of autonomous systems.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; Explain the abstractions in the Internet and how the Internet functions.&lt;/li&gt;
-  &lt;li&gt;I can identify standards such as hypertext transfer protocol (HTTP), IP, and simple mail transfer protocol (SMTP).&lt;/li&gt;
-  &lt;li&gt;I can explain how the different protocols of the internet interact for reliability and scalability.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The internet works in layers.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What do you think this means?&lt;/p&gt;
-
-&lt;h2 id=&quot;protocols&quot;&gt;Protocols&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;DNS&lt;/strong&gt; - The service that translates URLs to IP addresses.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;HTTP&lt;/strong&gt; - HyperText Transfer Protocol - the protocol used for transmitting web pages over the Internet&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;IP Address&lt;/strong&gt; - A number assigned to any item that is connected to the Internet.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TCP&lt;/strong&gt; - Transmission Control Protocol - provides reliable, ordered, and error-checked delivery of a stream of packets on the internet. TCP is tightly linked with IP and usually seen as TCP/IP in writing.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt; - An easy-to-remember address for calling a web page (like www.code.org).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-internet-protocol-stack&quot;&gt;The internet protocol “stack”&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U2L11-ProtocolStack-wDNS-up-and-down.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The system was constructed with layers of abstraction where each layer only needs to concern itself with its specific job, and then hands it off to another layer. This makes the very complicated task of digital network communication possible.
-At the top layer, for example, DNS just thinks is “speaking DNS” to some other computer - the DNS protocol does not even need to know how the other layers work It just relies on them doing their jobs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;http&quot;&gt;HTTP&lt;/h2&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kBXQZMmiA4s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;http-in-action&quot;&gt;HTTP in action&lt;/h2&gt;
-&lt;p&gt;You will use your browser’s developer tools to discover what kind of HTTP traffic is associated with visiting different types of websites. You and your partner are going to look at least 5 different types of websites:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;http://bsk.education – a very simple web page.  Use this first to investigate developer tools.&lt;/li&gt;
-  &lt;li&gt;A “static” website like: Wikipedia&lt;/li&gt;
-  &lt;li&gt;A news website like: ESPN.com, BuzzFeed, the New York Times, etc.&lt;/li&gt;
-  &lt;li&gt;A streaming site like: YouTube, or Spotify&lt;/li&gt;
-  &lt;li&gt;A site that accepts user input like: twitter, Facebook, email, google docs.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;For each type of website below, follow these steps:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Monitor the HTTP traffic generated by loading the page.&lt;/li&gt;
-  &lt;li&gt;Once the page has loaded, poke around with the other information the developer tools let you see about the data coming in.  What about the protocols can you see?&lt;/li&gt;
-  &lt;li&gt;Interact with the website by clicking links or using other functionality on the site, noting how this affects the HTTP traffic.&lt;/li&gt;
-  &lt;li&gt;Observe other things like:
-    &lt;ul&gt;
-      &lt;li&gt;Total amount of data received&lt;/li&gt;
-      &lt;li&gt;Number of HTTP requests actually generated by loading one page&lt;/li&gt;
-      &lt;li&gt;Total time to load the page.&lt;/li&gt;
-      &lt;li&gt;Types of data received through HTTP (it’s more than just HTML)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Mon, 21 Nov 2016 11:23:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/http.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/http.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>📦 Packets</title>
-        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I can develop a packet-switching protocol.&lt;/li&gt;
-  &lt;li&gt;I can explain how the internet is a packet-switched system.&lt;/li&gt;
-  &lt;li&gt;I can explain the importance of standards for packets and routing include transmission control protocol/Internet protocol (TCP/IP).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;AP Practice question in Classroom!&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;🐮&lt;/h3&gt;
-
-&lt;p&gt;When we began this unit, we simulated the internet at a high level of &lt;strong&gt;abstraction&lt;/strong&gt;, &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/10/27/build-your-own-internet.html&quot;&gt;sending simple messages back and forth&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;01000010 01110101 01101100 01101100 &lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Then we went down another level of abstraction to expressing those messages &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/01/binary.html&quot;&gt;using binary&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Then, we went 🆙 a level of abstraction to express those messages &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/07/textencoding.html&quot;&gt;using hex&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Last time, we talked about how all of these abstractions are flawed, because they only depict 1:1 communication. Then we &lt;a href=&quot;http://bsk.education/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/14/ip-addresses.html&quot;&gt;played Battleship&lt;/a&gt; and you developed your own protocol for simultaneous communication using bits.&lt;/p&gt;
-
-&lt;p&gt;Guess what?&lt;/p&gt;
-
-&lt;p&gt;Even the IP is a level of abstraction for what actually happens…&lt;/p&gt;
-
-&lt;h2 id=&quot;routing&quot;&gt;Routing&lt;/h2&gt;
-&lt;p&gt;A &lt;strong&gt;router&lt;/strong&gt; is a computer designed to receive and redirect packets of information based upon the  IP address contained in the packet.&lt;/p&gt;
-
-&lt;p&gt;Routers will either deliver a packet to its final destination or forward it to one of several other routers it is connected to.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.yougetsignal.com/tools/visual-tracert/&quot;&gt;Let’s trace this route&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This picture is hilariously old looking, but it works:&lt;/em&gt;
-&lt;img src=&quot;http://2.bp.blogspot.com/-09ej1toZCGI/Tgi-o1WkVVI/AAAAAAAAA0M/RwaiW7L_Ekc/s1600/traceroute.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;packet-switch-relay-race&quot;&gt;Packet Switch Relay Race&lt;/h2&gt;
-&lt;p&gt;We’re going to do a simplified packet-switching system. We have packets of information that need to travel across our “network” – this classroom.&lt;/p&gt;
-
-&lt;p&gt;Seven of you will be requesting data from the internet. The rest of you will be routers. Your router name is your initials, in ASCII. Mine would be:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;42 53 4b&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You can use the Unicode Converter to find yours:&lt;/p&gt;
-
-&lt;iframe src=&quot;/AP-CSP/Code_Examples/Unicode&quot; width=&quot;100%&quot; height=&quot;200px&quot; style=&quot;border:0px&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;As we switch packets, be sure to write your router ID on the ~packet~ envelope.&lt;/p&gt;
-
-&lt;h2 id=&quot;packets&quot;&gt;Packets&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;TCP&lt;/code&gt; Transfer Control…guess!&lt;/p&gt;
-
-&lt;p&gt;I’ll let Vint and Lynn explain:&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AYdF7b3nMto&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Last time, we developed a protocol that included:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sender&lt;/li&gt;
-  &lt;li&gt;Receiver&lt;/li&gt;
-  &lt;li&gt;Message&lt;/li&gt;
-  &lt;li&gt;Success/failure&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assess&quot;&gt;Assess!&lt;/h2&gt;
-&lt;p&gt;Explain how &lt;code class=&quot;highlighter-rouge&quot;&gt;IP/TCP&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DNS&lt;/code&gt; are an example of &lt;strong&gt;abstraction&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;AP Practice questions in &lt;strong&gt;Classroom&lt;/strong&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Nov 2016 16:08:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/16/packets.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/16/packets.html</guid>
         
         
         <category>Unit 2 – The internet</category>
