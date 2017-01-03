@@ -2,7 +2,7 @@
 layout: "post"
 title: "➿ Nested Loops"
 date: "2016-12-09 10:19"
-category: "Unit 3 – loops"
+category: "Unit 3 – Building Apps"
 ---
 
 ## 🎯 Learning Target
