@@ -5,7 +5,9 @@ date: "2017-01-03 10:52"
 category: "Unit 3 – Building Apps"
 ---
 
-> A programmer completes the user manual for a video game she has developed and realizes she has reversed the roles of goats and sheep throughout the text. Consider the programmer’s goal of changing all occurrences of “goats” to “sheep” and all occurrences of “sheep” to “goats.” The programmer will use the fact that the word “foxes” does not appear anywhere in the original text.
+© College Board 2017
+
+A programmer completes the user manual for a video game she has developed and realizes she has reversed the roles of goats and sheep throughout the text. Consider the programmer’s goal of changing all occurrences of “goats” to “sheep” and all occurrences of “sheep” to “goats.” The programmer will use the fact that the word “foxes” does not appear anywhere in the original text.
 
 Which of the following algorithms can be used to accomplish the programmer’s goal?
 
@@ -59,4 +61,4 @@ Which of the following statements describes a limitation of using a computer sim
 
 How does the question connect to the Enduring Understanding?
 
-For each Learning Target, find an example in your own code that demonstrates your mastery. You may use _any_ project from this year. 
+For each Learning Target, find an example in your own code that demonstrates your mastery. You may use _any_ project from this year.
