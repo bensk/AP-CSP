@@ -5,41 +5,204 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Dec 2016 16:59:53 -0500</pubDate>
-    <lastBuildDate>Wed, 21 Dec 2016 16:59:53 -0500</lastBuildDate>
+    <pubDate>Thu, 05 Jan 2017 22:02:53 -0500</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2017 22:02:53 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
-        <title>🎉🎊🎅🏿🕎Review</title>
-        <description>&lt;h1 id=&quot;section&quot;&gt;#&lt;/h1&gt;
+        <title>Creative Challenge</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can create a computational artifact for creative expression.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can collaborate to develop a program.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Open this page on your computer to find out your project from the Project Generator™.&lt;/p&gt;
+
+&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/Hk4vzKhBg&quot; style=&quot;border:none&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// For the curious:&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;windowWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;windowHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nouns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;monkey&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;rock&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Turtle&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Dubai&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;XBOX&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Mom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;chicken spot&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Park&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Phone&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;hamster &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Spain&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Johan&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;book&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;scientist&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Person&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Car &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Musician&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;noun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nouns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// select random word&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adjectives&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Stupid&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;pretty&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Fat&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;happy&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Lovely&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;amazing&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Smart&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Scary&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Huge&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Amazing&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;funny&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;astonishing&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Lazy&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;beautiful&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;pretty&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Horrible&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Beautiful&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Cloudy&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adjective&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;adjectives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;textSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Your project is...&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;textAlign&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;center&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;textStyle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;bold&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;textSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;48&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;adjective&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;windowWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;48&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;noun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;windowWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;96&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Thu, 22 Dec 2016 16:13:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/2016/12/22/review.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/2016/12/22/review.html</guid>
+        <pubDate>Fri, 06 Jan 2017 21:55:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2017/01/06/creative-challenge.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2017/01/06/creative-challenge.html</guid>
         
+        
+        <category>Unit 3 – Building Apps</category>
         
       </item>
     
       <item>
-        <title>MadLibs</title>
-        <description>&lt;ul&gt;
+        <title>Programming Questions</title>
+        <description>&lt;p&gt;© College Board 2017&lt;/p&gt;
+
+&lt;p&gt;A programmer completes the user manual for a video game she has developed and realizes she has reversed the roles of goats and sheep throughout the text. Consider the programmer’s goal of changing all occurrences of “goats” to “sheep” and all occurrences of “sheep” to “goats.” The programmer will use the fact that the word “foxes” does not appear anywhere in the original text.&lt;/p&gt;
+
+&lt;p&gt;Which of the following algorithms can be used to accomplish the programmer’s goal?&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Enduring Understanding&lt;/th&gt;
+      &lt;th&gt;Learning Target&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4.1 &lt;strong&gt;Algorithms&lt;/strong&gt; are precise sequences of instructions for processes that can be executed by a computer and are implemented using programming languages.&lt;/td&gt;
+      &lt;td&gt;I can develop an &lt;strong&gt;algorithm&lt;/strong&gt; for implementation in a &lt;strong&gt;program&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;ASCII is a character-encoding scheme that uses a numeric value to represent each character.For example, the uppercase letter “G” is represented by the decimal (base 10) value 71. A partial list of characters and their corresponding ASCII values are shown in the table below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/UJpK3qaGhxJuUnBJ4QejLJ7s5EwVPQ0zGnbfxszfsfkkxhWgmrtM4q4dPXawhoK7VCvlbzC8zA=w1262&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ASCII characters can also be represented by hexadecimal numbers. According to ASCII character encoding, which of the following letters is represented by the hexadecimal (base 16) number 56?&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Enduring Understanding&lt;/th&gt;
+      &lt;th&gt;Learning Target&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.1 A variety of &lt;strong&gt;abstractions&lt;/strong&gt; built upon binary sequences can be used to represent all digital data.&lt;/td&gt;
+      &lt;td&gt;I can describe the variety of &lt;strong&gt;abstractions&lt;/strong&gt; used to represent data.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The figure below shows a circuit composed of two logic gates. The output of the circuit is true.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/Kdu6u_Q9kVj7RvC00nMs5Lc3wAKKHop9SDs_BudoG__B3ntmT2jr5AUQlU1WTi0-wV2U9f1fow=w810&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Which of the following is a true statement about input A?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Input A must be true.&lt;/li&gt;
+  &lt;li&gt;Input A must be false.&lt;/li&gt;
+  &lt;li&gt;Input A can be either true or false.&lt;/li&gt;
+  &lt;li&gt;There is no possible value of input A that will cause the circuit to have the output true.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Enduring Understanding&lt;/th&gt;
+      &lt;th&gt;Learning Target&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.2. Multiple levels of &lt;strong&gt;abstraction&lt;/strong&gt; are used to write programs or to create other computational artifacts.&lt;/td&gt;
+      &lt;td&gt;I can identify multiple levels of abstractions being used when writing programs.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Which of the following statements describes a limitation of using a computer simulation to model a real-world object or system?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It is difficult to change input parameters or conditions when using computer simulations.&lt;/li&gt;
+  &lt;li&gt;Computer simulations can only be built after the real-world object or system has been created.&lt;/li&gt;
+  &lt;li&gt;Computer simulations usually make some simplifying assumptions about the real-world object or system being modeled.&lt;/li&gt;
+  &lt;li&gt;Computer simulations only run on very powerful computers that are not available to the general public.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Enduring Understanding&lt;/th&gt;
+      &lt;th&gt;Learning Target&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.3 Models and simulations use abstraction to generate new understanding and knowledge.&lt;/td&gt;
+      &lt;td&gt;I can use models and simulations to represent phenomena.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;document-the-questions&quot;&gt;Document the Questions&lt;/h2&gt;
+
+&lt;p&gt;How does the question connect to the Enduring Understanding?&lt;/p&gt;
+
+&lt;p&gt;For each Learning Target, find an example in your own code that demonstrates your mastery. You may use &lt;em&gt;any&lt;/em&gt; project from this year.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Jan 2017 10:52:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2017/01/03/programming-questions.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2017/01/03/programming-questions.html</guid>
+        
+        
+        <category>Unit 3 – Building Apps</category>
+        
+      </item>
+    
+      <item>
+        <title>😝 MadLibs</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can develop an abstraction when writing a program or creating other computational artifacts.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can use multiple levels of abstraction to write programs.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can identify multiple levels of abstractions that are used when writing programs.&lt;/li&gt;
+  &lt;li&gt;I can use a button to launch a user-defined function with multiple inputs in p5.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mad-libs-project&quot;&gt;Mad Libs Project&lt;/h2&gt;
+&lt;ul&gt;
   &lt;li&gt;At least 5 &lt;code class=&quot;highlighter-rouge&quot;&gt;inputs&lt;/code&gt; for parts of speech&lt;/li&gt;
   &lt;li&gt;MadLibs &lt;code class=&quot;highlighter-rouge&quot;&gt;button&lt;/code&gt; that launches a &lt;strong&gt;function&lt;/strong&gt; to create a new sentence.&lt;/li&gt;
   &lt;li&gt;Code comments show evidence of iteration.&lt;/li&gt;
   &lt;li&gt;Code comments reference previous approaches, and bugs.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/r1apMdu4e&quot; height=&quot;200px&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/r1apMdu4e&quot; height=&quot;200px&quot; width=&quot;100%&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&quot;push-yourself&quot;&gt;Push Yourself&lt;/h2&gt;
+&lt;h3 id=&quot;create-a-paragraph&quot;&gt;Create a paragraph&lt;/h3&gt;
+
+&lt;p&gt;This works &lt;strong&gt;JUST&lt;/strong&gt; like &lt;code class=&quot;highlighter-rouge&quot;&gt;createButton&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;paragraph&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;createP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;One day, I was walking to the &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; and I saw a &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;paragraph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;push-yourself&quot;&gt;📌 Push Yourself&lt;/h2&gt;
 &lt;p&gt;We haven’t explored it in this class, but each of your p5 projects has a &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; file just waiting for you to make it look good.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Dec 2016 16:13:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/22/madlibs.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/22/madlibs.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/22/madlibs.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/22/madlibs.html</guid>
         
         
-        <category>Unit 3 – loops</category>
+        <category>Unit 3 – Building Apps</category>
         
       </item>
     
@@ -125,11 +288,11 @@
 - Which of your variables should change to give a random location.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Dec 2016 10:53:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/19/button.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/19/button.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/19/button.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/19/button.html</guid>
         
         
-        <category>Unit 3 – loops</category>
+        <category>Unit 3 – Building Apps</category>
         
       </item>
     
@@ -197,11 +360,11 @@
 &lt;/table&gt;
 </description>
         <pubDate>Tue, 13 Dec 2016 10:57:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/13/slider.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/13/slider.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/13/slider.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/13/slider.html</guid>
         
         
-        <category>Unit 3 – loops</category>
+        <category>Unit 3 – Building Apps</category>
         
       </item>
     
@@ -248,11 +411,11 @@
 &lt;p&gt;Create a sketch using &lt;code class=&quot;highlighter-rouge&quot;&gt;input&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;slider&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loops.&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Dec 2016 15:52:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/11/inputs.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/11/inputs.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/11/inputs.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/11/inputs.html</guid>
         
         
-        <category>Unit 3 – loops</category>
+        <category>Unit 3 – Building Apps</category>
         
       </item>
     
@@ -325,11 +488,11 @@
 &lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/NestedLoops.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Dec 2016 10:19:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/09/nested-loops.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/09/nested-loops.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/09/nested-loops.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/09/nested-loops.html</guid>
         
         
-        <category>Unit 3 – loops</category>
+        <category>Unit 3 – Building Apps</category>
         
       </item>
     
@@ -385,11 +548,11 @@ function draw() {
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 06 Dec 2016 11:28:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/06/loops.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20loops/2016/12/06/loops.html</guid>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/06/loops.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/06/loops.html</guid>
         
         
-        <category>Unit 3 – loops</category>
+        <category>Unit 3 – Building Apps</category>
         
       </item>
     
@@ -490,78 +653,6 @@ You will be provided with 8 hours of class time to develop, complete, and submit
         <pubDate>Tue, 22 Nov 2016 11:28:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/22/explore-task.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/22/explore-task.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>📛 DNS</title>
-        <description>&lt;h2 id=&quot;ap-learning-targets&quot;&gt;🎯 AP Learning Targets&lt;/h2&gt;
-&lt;p&gt;I can explain how…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The domain name system (DNS) translates domain names to IP addresses.&lt;/li&gt;
-  &lt;li&gt;Hierarchy in the DNS helps that system scale.&lt;/li&gt;
-  &lt;li&gt;The domain name system (DNS) was not designed to be completely secure.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;build-our-own-dns&quot;&gt;Build our own DNS&lt;/h2&gt;
-
-&lt;p&gt;For the next 3 minutes, you will attempt to complete an accurate list matching &lt;del&gt;domain&lt;/del&gt; names with IP addresses.&lt;/p&gt;
-
-&lt;p&gt;You may only talk to one person at a time.&lt;/p&gt;
-
-&lt;h2 id=&quot;discuss&quot;&gt;Discuss&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Why did I keep taking away your IP addresses?&lt;/li&gt;
-  &lt;li&gt;What might be a better system for collecting IP addresses?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dns-domain-name-serice&quot;&gt;DNS (Domain Name Serice)&lt;/h2&gt;
-&lt;p&gt;The service that translates URLs to IP addresses.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Especially in the world of mobile devices it is very common for a device to lose an IP address and need to re-acquire one - entering a tunnel, flying on a plane, even moving from one WiFi hotspot to the next.&lt;/p&gt;
-
-  &lt;p&gt;It is true that at this point in time it’s less likely that a web site with a registered domain name (like Code.org, google.com, or facebook.com) would rapidly change IP addresses, but the great thing about DNS is that even if they did, that change would be transparent to the public and you won’t have to worry about it. Even so huge operations like Facebook, Twitter, etc. actually serve their sites on many hundreds (or thousands) of computers, all with different IP addresses - DNS helps manage that too, so you can just type Microsoft.com and it direct you to the right place.&lt;/p&gt;
-
-  &lt;p&gt;As an analogy, think about a time when a friend or family member changed their phone number. That affects everyone who needs to know that number and causes some annoying problems. If we had a system like DNS for phone numbers, you’d never have to concern yourself with anything but remembering the person’s name. Of course, every person on earth would have to have a unique name for this to work, so it’s a bit impractical.&lt;/p&gt;
-
-  &lt;p&gt;– code.org&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;assessment&quot;&gt;Assessment&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Questions:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1⃣ A single central register of IP addresses and names (i.e. a DNS-style system) is an efficient means of translating human-readable names to IP addresses. Which of the following is NOT solved by DNS?&lt;/p&gt;
-
-&lt;p&gt;a) It’s inefficient to have everyone on the Internet maintain their own list of IP addresses.&lt;/p&gt;
-
-&lt;p&gt;b) There are too few IP addresses to meet the current demand.&lt;/p&gt;
-
-&lt;p&gt;c) When someone new joins the Internet, they need to inform everyone of their IP address.&lt;/p&gt;
-
-&lt;p&gt;d) When an IP address changes, it is impossible to locate a computer until the owner announces the change.&lt;/p&gt;
-
-&lt;p&gt;2⃣ Why do computers need to periodically check the DNS for websites you have already visited?&lt;/p&gt;
-
-&lt;p&gt;3⃣ Why don’t we need to know the IP addresses for our favorite sites?&lt;/p&gt;
-
-&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.information-age.com/growing-threat-ddos-attacks-dns-123459033/&quot;&gt;“The growing threat of DDoS attacks on DNS”&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.pcworld.com/article/2889392/like-google-in-vietnam-lenovo-tripped-up-by-a-dns-attack.html&quot;&gt;Lenovo, Google websites hijacked by DNS attacks&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://thehackernews.com/2014/06/dns-flood-ddos-attack-hit-video-gaming.html&quot;&gt;DNS Flood DDoS Attack Hit Video Gaming Industry with 90 Million Requests per Second&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.wired.com/2016/10/internet-outage-ddos-dns-dyn/&quot;&gt;What We Know About Friday’s Massive East Coast Internet Outage&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 21 Nov 2016 20:58:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/dns.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/21/dns.html</guid>
         
         
         <category>Unit 2 – The internet</category>
