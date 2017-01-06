@@ -11,8 +11,8 @@ category: "Unit 3 – Building Apps"
 
 Open this page on your computer to find out your project from the Project Generator™.
 
-<p data-height="171" data-theme-id="22595" data-slug-hash="JEdEWj" data-default-tab="result" data-user="bsk" data-embed-version="2" data-pen-title="Project Generator" class="codepen">See the Pen <a href="http://codepen.io/bsk/pen/JEdEWj/">Project Generator</a> by S-K (<a href="http://codepen.io/bsk">@bsk</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<iframe height='171' scrolling='no' title='Project Generator' src='//codepen.io/bsk/embed/JEdEWj/?height=171&theme-id=22595&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/bsk/pen/JEdEWj/'>Project Generator</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 ```js
 // For the curious:
