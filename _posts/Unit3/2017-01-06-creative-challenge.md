@@ -30,3 +30,13 @@ function setup() {
     text(noun, windowWidth / 2, 96);
 }
 ```
+
+## Groups
+1. Genesis + Tijuan + Yomaris
+2. Mona + Terrell
+3. Vianelys + Michael D. + Michael C.
+4. Karen + Johan
+5. Ibby + Aileen
+6. Izzy + Grismely + Gregorio
+7. Aaron + James
+8. Jorge + Angie + Justin
