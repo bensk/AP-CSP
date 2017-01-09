@@ -1,0 +1,26 @@
+html,
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: 18px;
+    width: 200px;
+}
+
+button {
+    font-family: monospace;
+    color: #51B1F8;
+    font-size: 32px;
+    width: 200px;
+      border-radius: 5px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 32;
+    word-wrap: break-word;
+    line-height: 1.2;
+}
