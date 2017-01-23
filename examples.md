@@ -26,7 +26,7 @@ layout: page
 [HorizontalVertical](Code_Examples/HorizontalVertical)  
 [Ibby Klickagate](Code_Examples/IbbyClickagate)   
 [InternetSimulator](Code_Examples/InternetSimulator)    
-[🎹 Keyboard](Code_Examples/Keyboard)
+[🎹 Keyboard](Code_Examples/Keyboard)    
 [left_right](Code_Examples/left_right)    
 [LoopGrowth](Code_Examples/LoopGrowth)    
 [Lossy](Code_Examples/Lossy)    
