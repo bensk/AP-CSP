@@ -5,9 +5,35 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jan 2017 22:07:03 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2017 22:07:03 -0500</lastBuildDate>
+    <pubDate>Mon, 30 Jan 2017 14:50:26 -0500</pubDate>
+    <lastBuildDate>Mon, 30 Jan 2017 14:50:26 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>📊 Representation</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can describe the variety of abstractions used to represent data.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can analyze how data representation, storage, security, and transmission of data involve computational manipulation of information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;What is “representation”?
+How are you represented?&lt;/p&gt;
+
+&lt;h2 id=&quot;levels-of-abstraction&quot;&gt;🐮 Levels of Abstraction&lt;/h2&gt;
+
+&lt;h2 id=&quot;when-women-stopped-coding&quot;&gt;🎧 “When Women Stopped Coding”&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2017/01/womenMajors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2017 14:40:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/01/representation.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/01/representation.html</guid>
+        
+        
+        <category>Unit 4 – Representation</category>
+        
+      </item>
     
       <item>
         <title>Creative Challenge</title>
@@ -19,7 +45,8 @@
 
 &lt;p&gt;Open this page on your computer to find out your project from the Project Generator™.&lt;/p&gt;
 
-&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/Hk4vzKhBg&quot; style=&quot;border:none&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+&lt;iframe height=&quot;171&quot; scrolling=&quot;no&quot; title=&quot;Project Generator&quot; src=&quot;//codepen.io/bsk/embed/JEdEWj/?height=171&amp;amp;theme-id=22595&amp;amp;default-tab=result&amp;amp;embed-version=2&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%;&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/bsk/pen/JEdEWj/&quot;&gt;Project Generator&lt;/a&gt; by S-K (&lt;a href=&quot;http://codepen.io/bsk&quot;&gt;@bsk&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
 
 &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// For the curious:&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -614,57 +641,6 @@ You will be provided with 8 hours of class time to develop, complete, and submit
         <pubDate>Mon, 28 Nov 2016 11:28:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/28/explore-task.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/28/explore-task.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
-        
-      </item>
-    
-      <item>
-        <title>🔎 Explore Task: Artifact</title>
-        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can create a computational artifact using computing tools and techniques to solve a problem.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can create a computational artifact for creative expression.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;In Classroom, go to the &lt;strong&gt;AP CSP Student Packet&lt;/strong&gt; in the “about” section of our class.&lt;/p&gt;
-
-&lt;h2 id=&quot;explore-performance-task&quot;&gt;Explore Performance Task&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Computing innovations impact our lives in ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a computing innovation of your choice. Your close examination of this computing innovation will deepen your understanding of computer science principles.
-Please note that once this performance task has been assigned as an assessment (rather than as practice), you are expected to complete the task with minimal assistance from anyone. For more clarification see the Guidelines for Completing the Through-Course Assessment section.
-You will be provided with 8 hours of class time to develop, complete, and submit the following:
-1. A computational artifact
-2. Written responses&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;computational-whatnow&quot;&gt;Computational Whatnow?&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Your creation could solve a problem, show creative expression, or provide the viewer with new insight or knowledge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;effective-artifacts-include&quot;&gt;Effective artifacts include:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Visual, graphical, and/or audio content to help a reader understand the purpose of a computing innovation; and&lt;/li&gt;
-  &lt;li&gt;The use of communications media, such as animations, comic strips, &lt;strong&gt;infographics&lt;/strong&gt;, and/or public service announcements, to illustrate the purpose of a computing innovation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;practice-explore-task&quot;&gt;Practice Explore Task&lt;/h3&gt;
-&lt;p&gt;We are going to finish our internet unit by doing a practice Explore Task. I will be giving you four hours (instead of 8) and limiting your innovations to those relating to the internet.&lt;/p&gt;
-
-&lt;p&gt;For today, we’re going to try out &lt;em&gt;one&lt;/em&gt; of the effective artifact suggestions: the &lt;strong&gt;&lt;a href=&quot;https://magic.piktochart.com/templates&quot;&gt;infographic&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;You will be creating an infographic to depict the layers of abstraction that make the internet possible, and explaining how we simulated each in class.&lt;/p&gt;
-
-&lt;p&gt;An ugly, incomplete version would include this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U2L11-ProtocolStack-wDNS-up-and-down.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Nov 2016 11:28:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/22/explore-task.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/22/explore-task.html</guid>
         
         
         <category>Unit 2 – The internet</category>
