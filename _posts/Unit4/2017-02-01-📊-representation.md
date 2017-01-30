@@ -17,4 +17,7 @@ How are you represented?
 
 
 ## 🎧 “When Women Stopped Coding”
+
+<iframe src="https://www.npr.org/player/embed/356944145/357036571" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
+
 ![]({{site.baseurl}}/images/womenMajors.png)
