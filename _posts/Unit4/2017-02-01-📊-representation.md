@@ -17,4 +17,4 @@ How are you represented?
 
 
 ## 🎧 “When Women Stopped Coding”
-![](/images/2017/01/womenMajors.png)
+![](/images/womenMajors.png)
