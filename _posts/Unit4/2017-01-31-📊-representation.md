@@ -21,13 +21,13 @@ What does this mean?
 
 ## How can representation tell a story?
 
-<iframe src='http://polygraph.cool/films/embed.html' frameborder='0'></iframe>
+<iframe src='http://polygraph.cool/films/embed.html' frameborder='0' width = "800" height = "900"></iframe>
 
 [You Draw It: What Got Better or Worse During Obama’s Presidency](https://www.nytimes.com/interactive/2017/01/15/us/politics/you-draw-obama-legacy.html?login=email&rref=collection/byline/larry-buchanan&action=click&contentCollection=undefined&region=stream&module=stream_unit&version=latest&contentPlacement=4&pgtype=collection)
 
 ![](http://payload204.cargocollective.com/1/1/56745/6386378/vennn_1370.jpg)
 
-![](http://timleong.com/Infographics-1/Superheroes-and-Primary-Colors)
+![](http://payload196.cargocollective.com/1/1/56745/6221236/primarycolors_2500_c.jpg)
 
 
 ## 🎧 “When Women Stopped Coding”

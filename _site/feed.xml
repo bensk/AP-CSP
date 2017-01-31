@@ -5,8 +5,8 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Jan 2017 14:58:27 -0500</pubDate>
-    <lastBuildDate>Mon, 30 Jan 2017 14:58:27 -0500</lastBuildDate>
+    <pubDate>Mon, 30 Jan 2017 23:15:52 -0500</pubDate>
+    <lastBuildDate>Mon, 30 Jan 2017 23:15:52 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -23,15 +23,34 @@ How are you represented?&lt;/p&gt;
 
 &lt;h2 id=&quot;levels-of-abstraction&quot;&gt;🐮 Levels of Abstraction&lt;/h2&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Everything you see on a computer is an abstraction.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What does this mean?&lt;/p&gt;
+
+&lt;h2 id=&quot;how-can-representation-tell-a-story&quot;&gt;How can representation tell a story?&lt;/h2&gt;
+
+&lt;iframe src=&quot;http://polygraph.cool/films/embed.html&quot; frameborder=&quot;0&quot; width=&quot;800&quot; height=&quot;900&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2017/01/15/us/politics/you-draw-obama-legacy.html?login=email&amp;amp;rref=collection/byline/larry-buchanan&amp;amp;action=click&amp;amp;contentCollection=undefined&amp;amp;region=stream&amp;amp;module=stream_unit&amp;amp;version=latest&amp;amp;contentPlacement=4&amp;amp;pgtype=collection&quot;&gt;You Draw It: What Got Better or Worse During Obama’s Presidency&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://payload204.cargocollective.com/1/1/56745/6386378/vennn_1370.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://payload196.cargocollective.com/1/1/56745/6221236/primarycolors_2500_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;when-women-stopped-coding&quot;&gt;🎧 “When Women Stopped Coding”&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/AP-CSP/images/womenMajors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;How is this graph an &lt;strong&gt;abstraction&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;What do you think these data show?&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.npr.org/player/embed/356944145/357036571&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;img src=&quot;/AP-CSP/images/womenMajors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Feb 2017 14:40:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/01/representation.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/01/representation.html</guid>
+        <pubDate>Tue, 31 Jan 2017 14:40:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/01/31/representation.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/01/31/representation.html</guid>
         
         
         <category>Unit 4 – Representation</category>
