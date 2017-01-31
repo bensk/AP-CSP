@@ -40,3 +40,6 @@ How is this graph an **abstraction**?
 What do you think these data show?
 
 <iframe src="https://www.npr.org/player/embed/356944145/357036571" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
+
+What is "representation?"
+What does it mean to be "underrepresented?"
