@@ -15,9 +15,20 @@ How are you represented?
 
 ## 🐮 Levels of Abstraction
 
+> Everything you see on a computer is an abstraction.
+
 What does this mean?
 
-> Everything you see on a computer is an abstraction.
+## How can representation tell a story?
+
+<iframe src='http://polygraph.cool/films/embed.html' frameborder='0'></iframe>
+
+[You Draw It: What Got Better or Worse During Obama’s Presidency](https://www.nytimes.com/interactive/2017/01/15/us/politics/you-draw-obama-legacy.html?login=email&rref=collection/byline/larry-buchanan&action=click&contentCollection=undefined&region=stream&module=stream_unit&version=latest&contentPlacement=4&pgtype=collection)
+
+![](http://payload204.cargocollective.com/1/1/56745/6386378/vennn_1370.jpg)
+
+![](http://timleong.com/Infographics-1/Superheroes-and-Primary-Colors)
+
 
 ## 🎧 “When Women Stopped Coding”
 ![]({{site.baseurl}}/images/womenMajors.png)
