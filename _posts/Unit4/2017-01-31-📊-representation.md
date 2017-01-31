@@ -16,10 +16,14 @@ How are you represented?
 ## 🐮 Levels of Abstraction
 
 What does this mean?
+
 > Everything you see on a computer is an abstraction.
 
 ## 🎧 “When Women Stopped Coding”
+![]({{site.baseurl}}/images/womenMajors.png)
+
+How is this graph an **abstraction**?
+
+What do you think these data show?
 
 <iframe src="https://www.npr.org/player/embed/356944145/357036571" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
-
-![]({{site.baseurl}}/images/womenMajors.png)
