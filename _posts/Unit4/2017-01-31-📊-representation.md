@@ -29,6 +29,8 @@ What does this mean?
 
 ![](http://payload196.cargocollective.com/1/1/56745/6221236/primarycolors_2500_c.jpg)
 
+> How accurately can human experience and perception be captured or reflected in digital information?
+
 
 ## 🎧 “When Women Stopped Coding”
 ![]({{site.baseurl}}/images/womenMajors.png)
