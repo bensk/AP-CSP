@@ -25,6 +25,8 @@ What does this mean?
 
 [You Draw It: What Got Better or Worse During Obama’s Presidency](https://www.nytimes.com/interactive/2017/01/15/us/politics/you-draw-obama-legacy.html?login=email&rref=collection/byline/larry-buchanan&action=click&contentCollection=undefined&region=stream&module=stream_unit&version=latest&contentPlacement=4&pgtype=collection)
 
+[Immigrants From Banned Nations: Educated, Mostly Citizens and Found in Every State](https://www.nytimes.com/interactive/2017/01/30/us/politics/trump-immigration-ban-demographics.html?smid=pl-share)
+
 ![](http://payload204.cargocollective.com/1/1/56745/6386378/vennn_1370.jpg)
 
 ![](http://payload196.cargocollective.com/1/1/56745/6221236/primarycolors_2500_c.jpg)
