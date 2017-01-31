@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "📊 Representation"
-date: "2017-02-01 14:40"
+date: "2017-01-31 14:40"
 category: "Unit 4 – Representation"
 ---
 
@@ -15,6 +15,8 @@ How are you represented?
 
 ## 🐮 Levels of Abstraction
 
+What does this mean?
+> Everything you see on a computer is an abstraction.
 
 ## 🎧 “When Women Stopped Coding”
 
