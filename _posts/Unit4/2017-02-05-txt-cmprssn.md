@@ -26,7 +26,7 @@ Compression: represent data with fewer bits. Why might that be useful? Think abo
 
 ## Decode Text
 
-<iframe width='800' height='450' src='http://cache.vevo.com/assets/html/embed.html?video=USZM20900206' frameborder='0' allowfullscreen></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/253237587&amp;color=7f1ae5&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 > I wish I was a little bit taller    
 > I wish I was a baller    
