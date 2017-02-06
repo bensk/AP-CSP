@@ -5,9 +5,195 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Jan 2017 23:15:52 -0500</pubDate>
-    <lastBuildDate>Mon, 30 Jan 2017 23:15:52 -0500</lastBuildDate>
+    <pubDate>Mon, 06 Feb 2017 11:34:43 -0500</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2017 11:34:43 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>🗜 txt cmprssn</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can analyze how data representation, storage, security, and transmission of data involve computational manipulation of information.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can use computers to process information, find patterns, and test hypotheses about digitally processed information to gain insight and knowledge.&lt;/p&gt;
+
+&lt;p&gt;I can develop a strategy (heuristic algorithm) for compressing text.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do now&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SMH. LOL.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Why do we use abbreviations in texts?&lt;/p&gt;
+
+&lt;h2 id=&quot;text-compression&quot;&gt;🗜Text Compression&lt;/h2&gt;
+
+&lt;p&gt;We “compress” txt 2 save time. Computers do it too, to save &lt;strong&gt;time&lt;/strong&gt; and &lt;strong&gt;space&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Compression: represent data with fewer bits. Why might that be useful? Think about the &lt;a href=&quot;http://bsk.education/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/03/bytes-file-sizes.html&quot;&gt;Bytes &amp;amp; File Sizes&lt;/a&gt; research that you did.&lt;/p&gt;
+
+&lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;http://videos.code.org/2015/csp/textcompression_blacc.mp4
+&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;h2 id=&quot;decode-text&quot;&gt;Decode Text&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/253237587&amp;amp;color=7f1ae5&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I wish I was a little bit taller  &lt;br /&gt;
+I wish I was a baller  &lt;br /&gt;
+I wish I had a girl who looked good, I would call her  &lt;br /&gt;
+I wish I had a rabbit in a hat with a bat  &lt;br /&gt;
+And a six four Impala&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Symbol&lt;/th&gt;
+      &lt;th&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;☀&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;I_&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;☂&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wish_&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;☃&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;aller_&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;☄&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;was_a_&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;★&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;had_a_&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;☆&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_a_&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;☀☂☀☄little_bit_t☃☀☂☀☄b☃☀☂☀★girl_who_looked_good,&lt;em&gt;☀would_call_her&lt;/em&gt;☀☂☀★rabbit_in☆hat_with☆bat_And☆six_four_Impala&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Original text size:&lt;/strong&gt; 172 bytes  &lt;br /&gt;
+&lt;strong&gt;Compressed text size:&lt;/strong&gt; 111 bytes&lt;/p&gt;
+
+&lt;p&gt;So we saved 61 bytes, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WRONG&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We also need to let our recipient &lt;em&gt;decode&lt;/em&gt; our message.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dictionary size:&lt;/strong&gt; 34 bytes &lt;br /&gt;
+&lt;strong&gt;Total:&lt;/strong&gt; 145 bytes  &lt;br /&gt;
+&lt;strong&gt;Compression:&lt;/strong&gt;  27 bytes, or 15.75% !!&lt;/p&gt;
+
+&lt;h2 id=&quot;txt-cmprssn&quot;&gt;🗜 txt cmprssn&lt;/h2&gt;
+
+&lt;p&gt;Choose a text from English class and try to &lt;code class=&quot;highlighter-rouge&quot;&gt;compress&lt;/code&gt; it.&lt;/p&gt;
+
+&lt;p&gt;Your goal is to get the &lt;strong&gt;highest&lt;/strong&gt; compression rate. Keep note of your strategy.&lt;/p&gt;
+
+&lt;p&gt;What’s the best compression &lt;em&gt;scheme&lt;/em&gt;?&lt;/p&gt;
+
+&lt;h2 id=&quot;heuristic&quot;&gt;Heuristic&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a problem solving approach (algorithm) to find a satisfactory solution where finding an optimal or exact solution is impractical or impossible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What kind of scenarios is our heuristic good for?&lt;/p&gt;
+
+&lt;p&gt;You could very easily create a “compressed” file that’s &lt;strong&gt;BIGGER&lt;/strong&gt; than the original!&lt;/p&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;What did all groups’ processes for compression have in common?&lt;/li&gt;
+  &lt;li&gt;Will following this process always lead to the same compression?&lt;/li&gt;
+  &lt;li&gt;If you send the compressed poem, would your friend will be able to read it? Why is the dictionary important?&lt;/li&gt;
+  &lt;li&gt;Why do you want to compress anything? What’s the point?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Case Study&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A simple message has been compressed below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U1L13-compressed-message.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What was the original message?&lt;/p&gt;
+
+&lt;p&gt;What was the compression rate?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Feb 2017 22:53:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/06/txt-cmprssn.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/06/txt-cmprssn.html</guid>
+        
+        
+        <category>Unit 4 – Representation</category>
+        
+      </item>
+    
+      <item>
+        <title>🗂 Bytes &amp; File Sizes</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can explain how binary sequences are used to represent digital data.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-big-is-this-file&quot;&gt;How big is this file?&lt;/h2&gt;
+
+&lt;p&gt;I have a text file, &lt;code class=&quot;highlighter-rouge&quot;&gt;howbig.txt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;It contains the text &lt;code class=&quot;highlighter-rouge&quot;&gt;How big is this file?&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So…how big is it?&lt;/p&gt;
+
+&lt;iframe src=&quot;/AP-CSP/Code_Examples/Unicode&quot; width=&quot;100%&quot; height=&quot;400px&quot; style=&quot;border:0px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Each ASCII character is 1 &lt;em&gt;byte&lt;/em&gt; of data.&lt;/p&gt;
+
+&lt;p&gt;So, what if I write &lt;code class=&quot;highlighter-rouge&quot;&gt;How big is this file?&lt;/code&gt; in, say, Microsoft Word.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;File&lt;/th&gt;
+      &lt;th&gt;Size&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;howbig.txt&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;21 bytes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;howbig.docx&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;37000 bytes&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Almost 2000x bigger!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Feb 2017 13:08:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/03/bytes-file-sizes.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/03/bytes-file-sizes.html</guid>
+        
+        
+        <category>Unit 4 – Representation</category>
+        
+      </item>
     
       <item>
         <title>📊 Representation</title>
@@ -35,9 +221,15 @@ How are you represented?&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2017/01/15/us/politics/you-draw-obama-legacy.html?login=email&amp;amp;rref=collection/byline/larry-buchanan&amp;amp;action=click&amp;amp;contentCollection=undefined&amp;amp;region=stream&amp;amp;module=stream_unit&amp;amp;version=latest&amp;amp;contentPlacement=4&amp;amp;pgtype=collection&quot;&gt;You Draw It: What Got Better or Worse During Obama’s Presidency&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2017/01/30/us/politics/trump-immigration-ban-demographics.html?smid=pl-share&quot;&gt;Immigrants From Banned Nations: Educated, Mostly Citizens and Found in Every State&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://payload204.cargocollective.com/1/1/56745/6386378/vennn_1370.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://payload196.cargocollective.com/1/1/56745/6221236/primarycolors_2500_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How accurately can human experience and perception be captured or reflected in digital information?&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;when-women-stopped-coding&quot;&gt;🎧 “When Women Stopped Coding”&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/AP-CSP/images/womenMajors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -47,6 +239,9 @@ How are you represented?&lt;/p&gt;
 &lt;p&gt;What do you think these data show?&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.npr.org/player/embed/356944145/357036571&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;What is “representation?”
+What does it mean to be “underrepresented?”&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 14:40:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/01/31/representation.html</link>
@@ -554,118 +749,6 @@ How are you represented?&lt;/p&gt;
         
         
         <category>Unit 3 – Building Apps</category>
-        
-      </item>
-    
-      <item>
-        <title>🔁 Loops</title>
-        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; Iteration is the repetition of part of an algorithm until a condition is met or for a specified number of times.&lt;/p&gt;
-
-&lt;h2 id=&quot;do-now-in-p5&quot;&gt;Do Now (in p5)&lt;/h2&gt;
-&lt;p&gt;In p5, draw as many circles as you can in the next 3 minutes.&lt;/p&gt;
-
-&lt;iframe src=&quot;http://alpha.editor.p5js.org/embed/ByWSpbQQe&quot; width=&quot;100%&quot; height=&quot;300px;&quot; style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;loopy&quot;&gt;Loopy&lt;/h2&gt;
-&lt;p&gt;Drawing a bunch of circles is terrible. Let’s not do that.&lt;/p&gt;
-
-&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;300&quot; data-preview-height=&quot;&quot;&gt;
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
-
-function draw() {
-  x = 50;
-  while(x&lt;windowWidth){
-    ellipse(x,50,50,50);
-    x = x + 50;
-  }
-}
-&lt;/script&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;function draw()&lt;/code&gt; is a loop. What if we wanted to write our own?&lt;/p&gt;
-
-&lt;h3 id=&quot;lets-go-to-nyu&quot;&gt;Let’s go to NYU:&lt;/h3&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cnRD9o6odjk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;while-loops&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loops&lt;/h2&gt;
-
-&lt;p&gt;Work like a &lt;strong&gt;conditional&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;something&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// do this code&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// do this code&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;something&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// run this code over and over again&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 06 Dec 2016 11:28:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/06/loops.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/06/loops.html</guid>
-        
-        
-        <category>Unit 3 – Building Apps</category>
-        
-      </item>
-    
-      <item>
-        <title>🔎 Explore Task: Innovation</title>
-        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I can research how computing innovations influence and are influenced by the economic, social, and cultural contexts in which they are designed and used.&lt;/li&gt;
-  &lt;li&gt;I can explain how computing enables innovation in nearly every field.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;In Classroom, open the AP Explore Submission. What do you think is the difference (for the AP) between a &lt;strong&gt;“Computational Artifact”&lt;/strong&gt; and a &lt;strong&gt;“Computing Innovation”&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;explore-performance-task&quot;&gt;Explore Performance Task&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Computing innovations impact our lives in ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a computing innovation of your choice. Your close examination of this computing innovation will deepen your understanding of computer science principles.
-Please note that once this performance task has been assigned as an assessment (rather than as practice), you are expected to complete the task with minimal assistance from anyone. For more clarification see the Guidelines for Completing the Through-Course Assessment section.
-You will be provided with 8 hours of class time to develop, complete, and submit the following:
-1. A computational artifact
-2. Written responses&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;computational-whatnow&quot;&gt;Computational Whatnow?&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Your creation could solve a problem, show creative expression, or provide the viewer with new insight or knowledge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;effective-artifacts-include&quot;&gt;Effective artifacts include:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Visual, graphical, and/or audio content to help a reader understand the purpose of a computing innovation; and&lt;/li&gt;
-  &lt;li&gt;The use of communications media, such as animations, comic strips, &lt;strong&gt;infographics&lt;/strong&gt;, and/or public service announcements, to illustrate the purpose of a computing innovation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;practice-explore-task&quot;&gt;Practice Explore Task&lt;/h3&gt;
-&lt;p&gt;We are going to finish our internet unit by doing a practice Explore Task. I will be giving you four hours (instead of 8) and limiting your innovations to those relating to the internet.&lt;/p&gt;
-
-&lt;p&gt;For today, we’re going to try out &lt;em&gt;one&lt;/em&gt; of the effective artifact suggestions: the &lt;strong&gt;&lt;a href=&quot;https://magic.piktochart.com/templates&quot;&gt;infographic&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;You will be creating an infographic to depict the layers of abstraction that make the internet possible, and explaining how we simulated each in class.&lt;/p&gt;
-
-&lt;p&gt;An ugly, incomplete version would include this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U2L11-ProtocolStack-wDNS-up-and-down.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 28 Nov 2016 11:28:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/28/explore-task.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%202%20%E2%80%93%20the%20internet/2016/11/28/explore-task.html</guid>
-        
-        
-        <category>Unit 2 – The internet</category>
         
       </item>
     

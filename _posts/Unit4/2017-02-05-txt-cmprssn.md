@@ -24,6 +24,12 @@ We "compress" txt 2 save time. Computers do it too, to save **time** and **space
 
 Compression: represent data with fewer bits. Why might that be useful? Think about the [Bytes & File Sizes](http://bsk.education/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/03/bytes-file-sizes.html) research that you did.
 
+<video width="100%"  controls>
+  <source src="http://videos.code.org/2015/csp/textcompression_blacc.mp4
+" type="video/mp4">
+</video>
+
+
 ## Decode Text
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/253237587&amp;color=7f1ae5&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
