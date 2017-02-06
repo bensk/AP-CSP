@@ -25,3 +25,10 @@ We "compress" txt 2 save time. Computers do it too, to save **time** and **space
 Compression: represent data with fewer bits. Why might that be useful? Think about the [Bytes & File Sizes](http://bsk.education/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/03/bytes-file-sizes.html) research that you did.
 
 ## Decode Text
+> ☀☃☂☀was☂a☂little☂bit☂taller☂☀☃☂☀was☂a☂baller☂☀☃☂☀had☂a☂girl☂who☂looked☂good,☂☀would☂call☂her☂☀☃☂☀had☂a☂rabbit☂in☂a☂hat☂with☂a☂bat☂And☂a☂six☂four☂Impala
+
+| Symbol  |  Value |
+|---|---|
+| ☀  |  I_ |
+| ☂  | wish  |
+| ☃ | aller |
