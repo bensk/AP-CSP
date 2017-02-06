@@ -18,7 +18,7 @@ I can develop a strategy (heuristic algorithm) for compressing text.
 
 Why do we use abbreviations in texts?
 
-## 🗜 Compression
+## 🗜Text Compression
 
 We "compress" txt 2 save time. Computers do it too, to save **time** and **space**.
 
@@ -46,7 +46,46 @@ Compression: represent data with fewer bits. Why might that be useful? Think abo
 > ☀☂☀☄little_bit_t☃☀☂☀☄b☃☀☂☀★girl_who_looked_good,_☀would_call_her_☀☂☀★rabbit_in☆hat_with☆bat_And☆six_four_Impala
 
 **Original text size:** 172 bytes    
-**Compressed text size:** 111 bytes    
+**Compressed text size:** 111 bytes
+
+So we saved 61 bytes, right?    
+
+**WRONG**
+
+We also need to let our recipient _decode_ our message.
+
 **Dictionary size:** 34 bytes   
 **Total:** 145 bytes    
-**Compression:** 15.75% !!
+**Compression:**  27 bytes, or 15.75% !!
+
+## 🗜 txt cmprssn
+
+Choose a text from English class and try to `compress` it.
+
+Your goal is to get the **highest** compression rate. Keep note of your strategy.
+
+What's the best compression _scheme_?
+
+## Heuristic
+
+>  a problem solving approach (algorithm) to find a satisfactory solution where finding an optimal or exact solution is impractical or impossible.
+
+What kind of scenarios is our heuristic good for?
+
+You could very easily create a "compressed" file that's **BIGGER** than the original!
+
+## Questions
+- What did all groups’ processes for compression have in common?
+- Will following this process always lead to the same compression?
+- If you send the compressed poem, would your friend will be able to read it? Why is the dictionary important?
+- Why do you want to compress anything? What’s the point?
+
+**Case Study**
+
+A simple message has been compressed below:
+
+![](https://code.org/curriculum/docs/csp/U1L13-compressed-message.png)
+
+What was the original message?
+
+What was the compression rate?
