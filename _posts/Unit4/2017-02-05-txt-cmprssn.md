@@ -26,8 +26,13 @@ Compression: represent data with fewer bits. Why might that be useful? Think abo
 
 ## Decode Text
 
-> ☀☂☀☄little_bit_t☃☀☂☀☄b☃☀☂☀★girl_who_looked_good,_☀would_call_her_☀☂☀★rabbit_in☆hat_with☆bat_And☆six_four_Impala
+<iframe width='800' height='450' src='http://cache.vevo.com/assets/html/embed.html?video=USZM20900206' frameborder='0' allowfullscreen></iframe>
 
+> I wish I was a little bit taller
+> I wish I was a baller
+> I wish I had a girl who looked good, I would call her
+> I wish I had a rabbit in a hat with a bat
+> And a six four Impala
 
 | Symbol | Value    |
 |--------|----------|
@@ -37,3 +42,11 @@ Compression: represent data with fewer bits. Why might that be useful? Think abo
 | ☄      | `was_a_` |
 | ★      | `had_a_` |
 | ☆      | `_a_`    |
+
+> ☀☂☀☄little_bit_t☃☀☂☀☄b☃☀☂☀★girl_who_looked_good,_☀would_call_her_☀☂☀★rabbit_in☆hat_with☆bat_And☆six_four_Impala
+
+**Original text size:** 172 bytes    
+**Compressed text size:** 111 bytes    
+**Dictionary size:** 34 bytes   
+**Total:** 145 bytes    
+**Compression:** 15.75% !!
