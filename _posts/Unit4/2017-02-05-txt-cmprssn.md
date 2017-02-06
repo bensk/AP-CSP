@@ -28,11 +28,11 @@ Compression: represent data with fewer bits. Why might that be useful? Think abo
 
 <iframe width='800' height='450' src='http://cache.vevo.com/assets/html/embed.html?video=USZM20900206' frameborder='0' allowfullscreen></iframe>
 
-> I wish I was a little bit taller
-> I wish I was a baller
-> I wish I had a girl who looked good, I would call her
-> I wish I had a rabbit in a hat with a bat
-> And a six four Impala
+> I wish I was a little bit taller    
+> I wish I was a baller    
+> I wish I had a girl who looked good, I would call her    
+> I wish I had a rabbit in a hat with a bat    
+> And a six four Impala    
 
 | Symbol | Value    |
 |--------|----------|
