@@ -6,7 +6,7 @@ category: "Unit 4 – Representation"
 ---
 
 ## 🎯 Learning Targets
-I can explain how binary sequences are used to represent digital data.
+`AP` I can explain how binary sequences are used to represent digital data.
 
 ## How big is this file?
 
