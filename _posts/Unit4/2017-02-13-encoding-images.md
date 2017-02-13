@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Encoding Images"
+title: "🖼 Encoding Images"
 date: "2017-02-13 16:19"
 category: "Unit 4 – Representation"
 ---
