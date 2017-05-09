@@ -5,9 +5,108 @@
     <description></description>
     <link>http://bsk.education/AP-CSP/AP-CSP/</link>
     <atom:link href="http://bsk.education/AP-CSP/AP-CSP/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Feb 2017 11:34:43 -0500</pubDate>
-    <lastBuildDate>Mon, 06 Feb 2017 11:34:43 -0500</lastBuildDate>
+    <pubDate>Tue, 09 May 2017 11:06:11 -0400</pubDate>
+    <lastBuildDate>Tue, 09 May 2017 11:06:11 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Day 1</title>
+        <description>&lt;p data-height=&quot;509&quot; data-theme-id=&quot;2944&quot; data-slug-hash=&quot;ybpVBP&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;bsk&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;Day 1: May 8&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/bsk/pen/ybpVBP/&quot;&gt;Day 1: May 8&lt;/a&gt; by S-K (&lt;a href=&quot;http://codepen.io/bsk&quot;&gt;@bsk&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I wanted to get better at rotating things…&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 May 2017 16:19:00 -0400</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/%E2%9A%A1%EF%B8%8F%20days%20of%20making/2017/05/08/day1.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/%E2%9A%A1%EF%B8%8F%20days%20of%20making/2017/05/08/day1.html</guid>
+        
+        
+        <category>⚡️ Days of Making</category>
+        
+      </item>
+    
+      <item>
+        <title>🖼 Encoding Images</title>
+        <description>&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can apply a creative development process when creating computational artifacts.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can describe the variety of abstractions used to represent data.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can explain how binary sequences are used to represent digital data.&lt;/p&gt;
+
+&lt;h2 id=&quot;meta&quot;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;Last week, we saw how a binary sequence could be used to encode a black and white image. In order to &lt;em&gt;decode&lt;/em&gt; that message, we saw that we needed &lt;strong&gt;metadata&lt;/strong&gt;. Why?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;metadata - data about other data. In a digital image file, metadata describes the size of the image, number of colors, or resolution.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Depending on your encoding scheme, you used a certain number of bits to encode the height and width of your canvas, and then more bits to actually draw the image.&lt;/p&gt;
+
+&lt;p&gt;How could we go about drawing colorful picture?&lt;/p&gt;
+
+&lt;h2 id=&quot;colorful-images&quot;&gt;🖼 Colorful Images&lt;/h2&gt;
+&lt;p&gt;We saw&lt;a href=&quot;http://bsk.education/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/03/bytes-file-sizes.html&quot;&gt; last week that digital images are BIG files&lt;/a&gt;. Why? Well, we know we need &lt;strong&gt;pixels&lt;/strong&gt; to display images, but how do pixels work?&lt;/p&gt;
+
+&lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;http://videos.code.org/2015/csp/concept_rgb.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RBG goes from 0-255, for a total of 256 values of intensity.&lt;/li&gt;
+  &lt;li&gt;Like monochromatic pictures, we need to decide how many bits-per-pixel in order to decode images.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, pixels are an abstraction of RGB, which is itself an abstraction of binary.&lt;/p&gt;
+
+&lt;h2 id=&quot;rgb&quot;&gt;🌈 RGB&lt;/h2&gt;
+
+&lt;p&gt;Let’s look at all the possible 3-bit colors:&lt;/p&gt;
+
+&lt;p&gt;This code:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0000 0100
+0000 0010
+0000 0011
+000 111 100 010
+001 110
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Produces this picture:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://code.org/curriculum/docs/csp/U2L04-3bitTask.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first two liens are &lt;strong&gt;metadata&lt;/strong&gt; saying the picture is 4 pixels by 2 pixels. Then, six of the pixels are turned on. There are two more possible colors. What are they?&lt;/p&gt;
+
+&lt;p&gt;What happens if we shift to 4-bit colors, or 5-bit colors? Why?&lt;/p&gt;
+
+&lt;p&gt;Now, try 6-bit colors. How many different colors can you make?&lt;/p&gt;
+
+&lt;p&gt;How could we write these colors with a &lt;em&gt;shorter&lt;/em&gt; amount of bits?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hex!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;icon&quot;&gt;👤 Icon&lt;/h2&gt;
+&lt;p&gt;You are going to design your own icon using either 16x16 or 32x32 pixels. You should use at least 12 bits per pixel.&lt;/p&gt;
+
+&lt;p&gt;Like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/AP-CSP/images/bsk32px.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Is converting from binary (base 2) to hexadecimal (base 16) a form of &lt;a href=&quot;http://bsk.education/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/06/txt-cmprssn.html&quot;&gt;data compression&lt;/a&gt;?
+Why or why not?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Feb 2017 16:19:00 -0500</pubDate>
+        <link>http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/13/encoding-images.html</link>
+        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%204%20%E2%80%93%20representation/2017/02/13/encoding-images.html</guid>
+        
+        
+        <category>Unit 4 – Representation</category>
+        
+      </item>
     
       <item>
         <title>🗜 txt cmprssn</title>
@@ -618,134 +717,6 @@ What does it mean to be “underrepresented?”&lt;/p&gt;
         <pubDate>Tue, 13 Dec 2016 10:57:00 -0500</pubDate>
         <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/13/slider.html</link>
         <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/13/slider.html</guid>
-        
-        
-        <category>Unit 3 – Building Apps</category>
-        
-      </item>
-    
-      <item>
-        <title>🔣 Inputs</title>
-        <description>&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;Click &lt;a href=&quot;https://repl.it/classroom/invite/BnWVQ0m&quot;&gt;this link to join repl&lt;/a&gt;. You should see a Do Now.&lt;/p&gt;
-
-&lt;p&gt;Create a &lt;strong&gt;row&lt;/strong&gt; of &lt;strong&gt;emoji&lt;/strong&gt; using a &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loop.&lt;/p&gt;
-
-&lt;p&gt;If you get that to work, try to fill your screen with emoji:&lt;/p&gt;
-
-&lt;iframe src=&quot;/AP-CSP/Code_Examples/Emojiplier&quot; width=&quot;100%&quot; height=&quot;400px&quot; style=&quot;border:none&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;createinput&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;createInput()&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;In our &lt;code class=&quot;highlighter-rouge&quot;&gt;setup()&lt;/code&gt; function, we can create HTML elements, including input fields and sliders:&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;createInput&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;✨&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// variable name = createInput(&quot;default value&quot;)&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;windowHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;createslider&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;createSlider()&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;slider&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;createSlider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// variable name = createSlider(min, max, starting value)&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;slider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;windowHeight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Once we have inputs, we want to pass those values into our &lt;code class=&quot;highlighter-rouge&quot;&gt;draw()&lt;/code&gt; loop:&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;emoji&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;slider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If I’m using the same variables in &lt;code class=&quot;highlighter-rouge&quot;&gt;setup()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;draw()&lt;/code&gt;, where should I be &lt;strong&gt;declaring&lt;/strong&gt; those variables?&lt;/p&gt;
-
-&lt;h2 id=&quot;create&quot;&gt;Create&lt;/h2&gt;
-
-&lt;p&gt;Create a sketch using &lt;code class=&quot;highlighter-rouge&quot;&gt;input&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;slider&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loops.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 11 Dec 2016 15:52:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/11/inputs.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/11/inputs.html</guid>
-        
-        
-        <category>Unit 3 – Building Apps</category>
-        
-      </item>
-    
-      <item>
-        <title>➿ Nested Loops</title>
-        <description>&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
-&lt;p&gt;I can use nested loops to solve programming problems.&lt;/p&gt;
-
-&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (in Google Classroom)&lt;/h2&gt;
-&lt;p&gt;Create this (or as close as you can) using &lt;strong&gt;ONE&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; and a &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loop.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/AP-CSP/images/whileloop.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s &lt;a href=&quot;https://youtu.be/cnRD9o6odjk?t=7m50s&quot;&gt;go back to NYU&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;for-loops&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loops&lt;/h2&gt;
-
-&lt;p&gt;How many ellipses will draw?&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;windowWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;windowHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;strokeWeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-  &lt;span class=&quot;c1&quot;&gt;// nested loop:&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;nx&quot;&gt;ellipse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;How about now?&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;windowWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;windowHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;strokeWeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-  &lt;span class=&quot;c1&quot;&gt;// nested loop:&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;ellipse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;nested-loops&quot;&gt;Nested Loops&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;A loop in a loop.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;In other words…&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/NestedLoops.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Dec 2016 10:19:00 -0500</pubDate>
-        <link>http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/09/nested-loops.html</link>
-        <guid isPermaLink="true">http://bsk.education/AP-CSP/AP-CSP/unit%203%20%E2%80%93%20building%20apps/2016/12/09/nested-loops.html</guid>
         
         
         <category>Unit 3 – Building Apps</category>
